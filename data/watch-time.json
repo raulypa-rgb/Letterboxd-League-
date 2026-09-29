@@ -1,40 +1,40 @@
 {
-  "updated": "2026-09-29T05:39:52.242Z",
+  "updated": "2026-09-29T05:50:07.076Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-09-29T05:39:06.811Z"
+      "lastFetched": "2026-09-29T05:50:00.159Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-09-29T05:39:07.749Z"
+      "lastFetched": "2026-09-29T05:50:01.042Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-09-29T05:39:08.668Z"
+      "lastFetched": "2026-09-29T05:50:01.926Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-09-29T05:39:09.592Z"
+      "lastFetched": "2026-09-29T05:50:02.818Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-09-29T05:39:10.519Z"
+      "lastFetched": "2026-09-29T05:50:03.720Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-09-29T05:39:11.472Z"
+      "lastFetched": "2026-09-29T05:50:04.660Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-09-29T05:39:12.560Z"
+      "lastFetched": "2026-09-29T05:50:05.683Z"
     }
   ],
   "entries": [
@@ -51,6 +51,20 @@
       "link": "https://letterboxd.com/mr_n00dl3s/film/13-going-on-30-3/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/um/45/8m/or/t0c3qxcKSaO4iBYVAzIeyPbC8I1-0-600-0-900-crop.jpg?v=72ab2e2ec7",
       "runtime": 98
+    },
+    {
+      "id": "letterboxd-review-1515913604",
+      "user": "raulypa",
+      "date": "2026-09-28",
+      "title": "Wicked: For Good",
+      "year": 2025,
+      "slug": "wicked-for-good",
+      "tmdb": "967941",
+      "rewatch": true,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/wicked-for-good/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/1/1/4/8/871148-wicked-for-good-0-600-0-900-crop.jpg?v=f1330d6f91",
+      "runtime": 137
     },
     {
       "id": "letterboxd-review-1515051591",
