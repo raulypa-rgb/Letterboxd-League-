@@ -169,7 +169,8 @@ const seasonForDate = d => { const mo = d ? +d.slice(5, 7) : 0; return mo && mo 
 
 function demoLeague() {
   const studios = [
-    ['Marquee Pictures', 'Sam'], ['Blue Hour Studios', 'Jordan'], ['Red Carpet Co.', 'Alex'], ['Greenlight Films', 'Priya'],
+    ['Marquee Pictures', 'Sam'], ['Blue Hour Studios', 'Jordan'], ['Red Carpet Co.', 'Alex'],
+    ['Greenlight Films', 'Priya'], ['Silver Screen Studios', 'Morgan'], ['Night Owl Pictures', 'Casey'],
   ].map(([name, owner], i) => ({ id: 's' + (i + 1), name, owner, color: COLORS[i] }));
   let n = 0;
   const films = list => list.map(([title, release, gross, budget]) => ({ id: 'm' + (++n), title, release, gross, budget }));
@@ -180,23 +181,33 @@ function demoLeague() {
     ['Alien: Romulus', '2024-08-16', 105.3, 80], ['IF', '2024-05-17', 110.3, 110], ['The Garfield Movie', '2024-05-24', 92.3, 60],
     ['The Fall Guy', '2024-05-03', 92.9, 130], ['Longlegs', '2024-07-12', 74.3, 10], ['Horizon: An American Saga – Chapter 1', '2024-06-28', 29.3, 100],
     ['Trap', '2024-08-02', 42.0, 30], ['Fly Me to the Moon', '2024-07-12', 20.6, 100], ['Borderlands', '2024-08-09', 15.1, 115],
-  ]); // m1–m18
+    ['The Watchers', '2024-06-07', 15.5, 30],
+  ]);
   const winterFilms = films([
     ['Dune: Part Two', '2024-03-01', 282.1, 190], ['Kung Fu Panda 4', '2024-03-08', 193.6, 85],
     ['Godzilla x Kong: The New Empire', '2024-03-29', 196.3, 135], ['Madame Web', '2024-02-14', 43.8, 80],
-  ]); // m19–m22
+    ['Mean Girls', '2024-01-12', 72.4, 36], ['Bob Marley: One Love', '2024-02-14', 96.9, 70],
+  ]);
   const fallFilms = films([
     ['Beetlejuice Beetlejuice', '2024-09-06', 294.1, 100], ['Joker: Folie à Deux', '2024-10-04', 58.3, 190],
     ['Venom: The Last Dance', '2024-10-25', 139.7, 120], ['Wicked', '2024-11-22', 473.2, 150],
     ['Moana 2', '2024-11-27', 460.0, 150], ['Gladiator II', '2024-11-22', 172.4, 250],
-  ]); // m23–m28
-  const order = ['s1', 's2', 's3', 's4'];
-  const summer = { status: 'live', rounds: 4, order, movies: summerFilms, picks: [] };
-  for (let i = 1; i <= 16; i++) summer.picks.push({ movieId: 'm' + i, studioId: snakeStudio(order, i - 1) });
-  // Hit round: Wicked, Dune: Part Two, Moana 2, Beetlejuice Beetlejuice. Bomb round (snaked back): Joker 2, Madame Web, Gladiator II, Borderlands.
+    ['The Wild Robot', '2024-09-27', 143.9, 78], ['Smile 2', '2024-10-18', 69.0, 28],
+  ]);
+  const all = [...summerFilms, ...winterFilms, ...fallFilms];
+  const idOf = t => all.find(m => m.title === t).id;
+  const order = studios.map(s => s.id);
+  // Summer: 3 rounds, snake order
+  const summer = { status: 'live', rounds: 3, order, movies: summerFilms, picks: [] };
+  ['Inside Out 2', 'Deadpool & Wolverine', 'Despicable Me 4', 'Twisters', 'Bad Boys: Ride or Die', 'Kingdom of the Planet of the Apes',
+   'It Ends with Us', 'A Quiet Place: Day One', 'Alien: Romulus', 'IF', 'The Garfield Movie', 'Longlegs',
+   'The Fall Guy', 'Furiosa: A Mad Max Saga', 'Trap', 'Horizon: An American Saga – Chapter 1', 'Fly Me to the Moon', 'The Watchers',
+  ].forEach((t, i) => summer.picks.push({ movieId: idOf(t), studioId: snakeStudio(order, i) }));
+  // Hit round, then the bomb round snakes back
   const yearDraft = { status: 'live', order, picks: [] };
-  [26, 19, 27, 23, 24, 22, 28, 18].forEach((id, i) =>
-    yearDraft.picks.push({ movieId: 'm' + id, studioId: snakeStudio(order, i), type: i < 4 ? 'hit' : 'bomb' }));
+  ['Wicked', 'Dune: Part Two', 'Moana 2', 'Beetlejuice Beetlejuice', 'Kung Fu Panda 4', 'The Wild Robot',
+   'Joker: Folie à Deux', 'Madame Web', 'Gladiator II', 'Borderlands', 'Venom: The Last Dance', 'Godzilla x Kong: The New Empire',
+  ].forEach((t, i) => yearDraft.picks.push({ movieId: idOf(t), studioId: snakeStudio(order, i), type: i < order.length ? 'hit' : 'bomb' }));
   return {
     demo: true, name: 'Demo League', year: 2024, basis: 'Domestic', tmdbKey: '', studios, yearDraft,
     seasons: { winter: { ...blankSeason(), movies: winterFilms }, summer, fall: { ...blankSeason(), movies: fallFilms } },
@@ -487,7 +498,7 @@ function viewLeague() {
         ${['Domestic', 'Worldwide'].map(b => `<option ${league.basis === b ? 'selected' : ''}>${b}</option>`).join('')}</select></div>
     </div>
     <div class="field"><label class="label" for="lg-tmdb">TMDB API key (optional)</label><input id="lg-tmdb" data-league="tmdbKey" value="${esc(league.tmdbKey)}" placeholder="v3 API key from themoviedb.org"></div>
-    <div class="row"><button class="btn accent" data-act="new-league">Start a new league</button><span class="small muted">Clears every studio, slate and draft.</span></div>
+    <div class="row"><button class="btn accent" data-act="new-league">Start a new league</button><span class="small muted">Clears every slate and draft and sets up 6 studios to rename.</span></div>
   </section>
   <section class="panel"><h2>Share the league</h2>
     <p class="small" style="margin:0">The league lives in this browser. To give other players the current standings, copy the league code and send it to them. They paste it below and choose Load league.</p>
@@ -513,7 +524,8 @@ function viewLeague() {
 /* ---------- Actions ---------- */
 function newLeague() {
   league = { demo: false, name: 'My Box Office League', year: new Date().getFullYear(), basis: 'Domestic', tmdbKey: '',
-    studios: [], yearDraft: blankYear(), seasons: { winter: blankSeason(), summer: blankSeason(), fall: blankSeason() } };
+    studios: Array.from({ length: 6 }, (_, i) => ({ id: uid(), name: `Studio ${i + 1}`, owner: `Player ${i + 1}`, color: COLORS[i] })),
+    yearDraft: blankYear(), seasons: { winter: blankSeason(), summer: blankSeason(), fall: blankSeason() } };
   ui.draftMode = null;
   const m = new Date().getMonth();
   ui.season = m < 4 ? 'winter' : m < 8 ? 'summer' : 'fall';
@@ -601,7 +613,7 @@ document.addEventListener('click', e => {
       league.studios = league.studios.filter(x => x.id !== id); break;
     }
     case 'new-league': if (!confirmed('new', b, 'Click again to clear everything')) return;
-      newLeague(); toast('New league started. Add your studios.'); break;
+      newLeague(); toast('New league started with 6 studios. Rename them on the League tab.'); break;
     case 'copy': {
       const ta = document.getElementById('export');
       navigator.clipboard.writeText(ta.value).then(() => toast('League code copied.'), () => { ta.select(); toast('Press Ctrl+C / ⌘C to copy the selected code.'); });
