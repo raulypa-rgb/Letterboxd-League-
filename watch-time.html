@@ -8,35 +8,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Same marquee + trade-sheet look as the Box Office League page. */
+/* Same marquee + trade-sheet look as the Box Office League page, in a deep screening-room dark. */
 :root {
-  --bg: #eceef3;
-  --surface: #ffffff;
-  --ink: #161a2c;
-  --muted: #5d6479;
-  --line: #d5d9e3;
-  --accent: #d9950f;
+  --bg: #0a0c14;
+  --surface: #131725;
+  --ink: #e8eaf3;
+  --muted: #979eb5;
+  --line: #262b40;
+  --accent: #f0b43a;
   --accent-ink: #1b1400;
-  --marquee: #1c2140;
-  --marquee-ink: #fff6dd;
-  --bad: #c2393f;
-  --chip: #e3e6ef;
+  --marquee: #04050b;
+  --marquee-ink: #fff3d1;
+  --bad: #ef6b70;
+  --chip: #1f2438;
   --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
   --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0e1120; --surface: #171b2d; --ink: #e8eaf3; --muted: #9aa1b8; --line: #2a3048;
-    --accent: #f0b43a; --accent-ink: #1b1400; --marquee: #070914; --marquee-ink: #fff3d1;
-    --bad: #ef6b70; --chip: #242a42; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0e1120; --surface: #171b2d; --ink: #e8eaf3; --muted: #9aa1b8; --line: #2a3048;
-  --accent: #f0b43a; --accent-ink: #1b1400; --marquee: #070914; --marquee-ink: #fff3d1;
-  --bad: #ef6b70; --chip: #242a42; color-scheme: dark;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
@@ -50,7 +38,7 @@ h2 { font-size: 1.9rem; font-weight: 800; text-transform: uppercase; line-height
 .small { font-size: .85rem; }
 .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
 
-.marquee { margin: 16px auto 0; max-width: 1080px; width: 100%; background: var(--marquee); color: var(--marquee-ink);
+.marquee { border: 1px solid var(--line); margin: 16px auto 0; max-width: 1080px; width: 100%; background: var(--marquee); color: var(--marquee-ink);
   border-radius: 6px; padding: 22px 24px 18px; position: relative; }
 .marquee::before, .marquee::after { content: ""; position: absolute; left: 12px; right: 12px; height: 8px;
   background: radial-gradient(circle, var(--accent) 2.6px, transparent 3.2px) 0 0 / 18px 8px repeat-x; }
@@ -76,6 +64,7 @@ nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: 
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
 .tile .v { font-family: var(--font-display); font-weight: 900; font-size: 2.2rem; line-height: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tile .v.name { font-size: 1.7rem; line-height: 1.25; }
 .tile .s { font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 button, input, select { font: inherit; color: inherit; }
@@ -95,6 +84,8 @@ td.member { min-width: 170px; }
 tr:last-child td { border-bottom: 0; }
 .rank { font-family: var(--font-display); font-weight: 900; font-size: 1.6rem; width: 2.2rem; line-height: 1; }
 .rank.first { color: var(--accent); }
+.show-sm { display: none; }
+td.best { color: var(--accent); font-weight: 500; }
 .who { font-weight: 600; }
 .bar { height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; margin-top: 6px; }
 .bar i { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
@@ -105,9 +96,7 @@ tr:last-child td { border-bottom: 0; }
 /* Year heatmap: one hue, stronger fill = more hours. */
 .heat td.cell { text-align: center; font-family: var(--font-mono); font-size: .8rem; padding: 3px; border-bottom: 0; }
 .heat td.cell span { display: block; border-radius: 4px; padding: 7px 2px; min-width: 42px; color: var(--ink); }
-.heat td.cell span.s2, .heat td.cell span.s3, .heat td.cell span.s4 { color: var(--accent-ink); font-weight: 500; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .heat td.cell span.s2 { color: var(--ink); } }
-:root[data-theme="dark"] .heat td.cell span.s2 { color: var(--ink); }
+.heat td.cell span.s3, .heat td.cell span.s4 { color: var(--accent-ink); font-weight: 500; }
 .heat td.cell span.zero { color: var(--muted); background: var(--bg); }
 .heat th.sel { color: var(--ink); }
 .legend { display: flex; align-items: center; gap: 6px; font-size: .78rem; color: var(--muted); }
@@ -124,14 +113,14 @@ tr:last-child td { border-bottom: 0; }
 .empty { padding: 22px; text-align: center; color: var(--muted); border: 1.5px dashed var(--line); border-radius: 6px; }
 ol.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 8px; }
 code { font-family: var(--font-mono); font-size: .85em; background: var(--chip); padding: 1px 5px; border-radius: 3px; }
-@media (max-width: 560px) { .hide-sm { display: none; } td.member { min-width: 110px; } td { padding: 8px 6px; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } }
+@media (max-width: 560px) { .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
 </style>
 </head>
 <body>
 <header class="marquee" id="marquee"></header>
 <main class="wrap" style="margin-top:16px">
   <nav class="tabs" role="tablist" id="tabs"></nav>
-  <div id="view" class="wrap"></div>
+  <div id="view" class="wrap" style="width:100%"></div>
 </main>
 <script>
 (() => {
@@ -171,6 +160,7 @@ function monthStats(key) {
     r.films++; if (e.rewatch) r.rewatches++;
     if (e.runtime) { r.min += e.runtime; if (!r.longest || e.runtime > r.longest.runtime) r.longest = e; } else r.missing++;
   }
+  for (const r of rows) r.avg = r.films > r.missing ? r.min / (r.films - r.missing) : 0;
   return rows.sort((a, b) => b.min - a.min || b.films - a.films || a.m.name.localeCompare(b.m.name));
 }
 
@@ -199,25 +189,30 @@ function viewMonth() {
   const leader = rows[0] && rows[0].min ? rows[0] : null;
   const longest = rows.map(r => r.longest).filter(Boolean).sort((a, b) => b.runtime - a.runtime)[0];
   const prev = monthStats(shiftMonth(ui.month, -1));
+  const timed = rows.reduce((s, r) => s + r.films - r.missing, 0);
+  const longAvg = rows.filter(r => r.avg).sort((a, b) => b.avg - a.avg)[0];
   const tiles = `<div class="tiles">
     <div class="tile"><span class="label">League total</span><span class="v num">${hrs(total)}<small style="font-size:.5em">h</small></span><span class="s">${films} film${films === 1 ? '' : 's'} logged</span></div>
-    <div class="tile"><span class="label">Leader</span><span class="v">${leader ? esc(leader.m.name) : '—'}</span><span class="s">${leader ? hm(leader.min) : 'Nobody has logged a film yet'}</span></div>
+    <div class="tile"><span class="label">Leader</span><span class="v name">${leader ? esc(leader.m.name) : '—'}</span><span class="s">${leader ? hm(leader.min) : 'Nobody has logged a film yet'}</span></div>
+    <div class="tile"><span class="label">Avg film runtime</span><span class="v num">${timed ? hm(total / timed) : '—'}</span><span class="s">${longAvg ? `Longest avg: ${esc(longAvg.m.name)} · ${hm(longAvg.avg)}` : 'No films yet'}</span></div>
     <div class="tile"><span class="label">Average per member</span><span class="v num">${hrs(rows.length ? total / rows.length : 0)}<small style="font-size:.5em">h</small></span><span class="s">${rows.length} member${rows.length === 1 ? '' : 's'}</span></div>
     <div class="tile"><span class="label">Longest sit</span><span class="v num">${longest ? hm(longest.runtime) : '—'}</span><span class="s">${longest ? `${esc(longest.title)} · ${esc(nameOf(longest.user))}` : 'No films yet'}</span></div>
   </div>`;
   if (!rows.length) return tiles + `<div class="empty">No members yet.</div>`;
   const table = `<section class="panel"><div class="head"><h2>${monthName(ui.month, true)}</h2><span class="muted small">Ranked by total runtime of films logged in the diary this month. Rewatches count.</span></div>
     <div class="tscroll"><table>
-    <thead><tr><th></th><th>Member</th><th class="r">Films</th><th class="r hide-sm">Rewatches</th><th class="r hide-sm">vs last month</th><th class="r">Watch time</th></tr></thead>
+    <thead><tr><th></th><th>Member</th><th class="r hide-sm">Films</th><th class="r hide-sm">Rewatches</th><th class="r" title="Average runtime of the films they logged">Avg<span class="hide-sm"> runtime</span></th><th class="r hide-sm">vs last month</th><th class="r"><span class="hide-sm">Watch </span>time</th></tr></thead>
     <tbody>${rows.map((r, i) => {
       const p = prev.find(x => x.m.username === r.m.username), d = r.min - (p ? p.min : 0);
       return `<tr>
       <td><span class="rank ${i === 0 && r.min ? 'first' : ''}">${i + 1}</span></td>
       <td class="member"><button class="linkbtn who" data-act="who" data-u="${esc(r.m.username)}">${esc(r.m.name)}</button>
         ${r.missing ? `<span class="chip warn" title="Films without a runtime aren't counted yet">${r.missing} missing runtime</span>` : ''}
+        <div class="muted small show-sm">${r.films} film${r.films === 1 ? '' : 's'}</div>
         <div class="bar" title="${esc(r.m.name)}: ${hm(r.min)}"><i style="width:${(r.min / max * 100).toFixed(1)}%"></i></div></td>
-      <td class="r num">${r.films}</td>
+      <td class="r num hide-sm">${r.films}</td>
       <td class="r num hide-sm">${r.rewatches}</td>
+      <td class="r num ${longAvg && r === longAvg ? 'best' : ''}">${r.avg ? hm(r.avg) : '—'}</td>
       <td class="r num hide-sm muted">${d === 0 ? '—' : (d > 0 ? '+' : '−') + hm(Math.abs(d))}</td>
       <td class="r num"><strong>${hm(r.min)}</strong></td></tr>`;
     }).join('')}</tbody></table></div></section>`;
@@ -240,15 +235,16 @@ function viewYear() {
     ? `<span class="s${idx(v)}" style="background:color-mix(in srgb, var(--accent) ${step(v)}%, var(--surface))" title="${esc(g.m.name)} · ${monthName(k, true)}: ${hm(v)}">${hrs(v)}</span>`
     : `<span class="zero" title="${esc(g.m.name)} · ${monthName(k, true)}: nothing logged">·</span>`;
   const films = u => data.entries.filter(e => e.user === u && e.date.startsWith(year)).length;
+  const avgRt = u => { const es = data.entries.filter(e => e.user === u && e.date.startsWith(year) && e.runtime); return es.length ? hm(es.reduce((s, e) => s + e.runtime, 0) / es.length) : '—'; };
   const wins = name => winners.filter(w => w.includes(name)).length;
   const top = Math.max(1, ...grid.map(g => g.total));
   const standings = `<section class="panel"><div class="head"><h2>${year} standings</h2><span class="muted small">Total runtime logged so far this year.</span></div>
     ${grid.length ? `<div class="tscroll"><table>
-    <thead><tr><th></th><th>Member</th><th class="r">Films</th><th class="r hide-sm">Months won</th><th class="r hide-sm">Avg / month</th><th class="r">Watch time</th></tr></thead>
+    <thead><tr><th></th><th>Member</th><th class="r">Films</th><th class="r hide-sm">Months won</th><th class="r hide-sm">Avg runtime</th><th class="r hide-sm">Avg / month</th><th class="r">Watch time</th></tr></thead>
     <tbody>${grid.map((g, i) => { const active = keys.filter(k => k <= nowKey()).length || 1;
       return `<tr><td><span class="rank ${i === 0 && g.total ? 'first' : ''}">${i + 1}</span></td>
       <td class="member"><span class="who">${esc(g.m.name)}</span><div class="bar" title="${esc(g.m.name)}: ${hm(g.total)}"><i style="width:${(g.total / top * 100).toFixed(1)}%"></i></div></td>
-      <td class="r num">${films(g.m.username)}</td><td class="r num hide-sm">${wins(g.m.name)}</td>
+      <td class="r num">${films(g.m.username)}</td><td class="r num hide-sm">${wins(g.m.name)}</td><td class="r num hide-sm">${avgRt(g.m.username)}</td>
       <td class="r num hide-sm muted">${hm(g.total / active)}</td><td class="r num"><strong>${hm(g.total)}</strong></td></tr>`; }).join('')}</tbody></table></div>` : '<div class="empty">No members yet.</div>'}
   </section>`;
   return standings + `<section class="panel"><div class="head"><h2>${year} by month</h2>
