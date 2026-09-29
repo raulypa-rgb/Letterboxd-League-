@@ -20,6 +20,8 @@
   --marquee: #04050b;
   --marquee-ink: #fff3d1;
   --bad: #ef6b70;
+  --bar: #00e054;
+  --bar-deep: #00a83f;
   --chip: #1f2438;
   --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
   --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -88,7 +90,7 @@ tr:last-child td { border-bottom: 0; }
 td.best { color: var(--accent); font-weight: 500; }
 .who { font-weight: 600; }
 .bar { height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; margin-top: 6px; }
-.bar i { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+.bar i { display: block; height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--bar-deep), var(--bar)); box-shadow: 0 0 8px color-mix(in srgb, var(--bar) 35%, transparent); }
 .chip { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); white-space: nowrap; }
 .chip.warn { background: color-mix(in srgb, var(--bad) 16%, transparent); color: var(--bad); }
 .linkbtn { background: none; border: 0; padding: 0; cursor: pointer; text-align: left; font-weight: 600; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
