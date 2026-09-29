@@ -3,9 +3,13 @@
 A fantasy box office game. Each player runs an imaginary studio, drafts real wide-release movies, and scores the profit those movies make at the real box office.
 
 - The year is split into three seasons: **Winter** (Jan–Apr), **Summer** (May–Aug), **Fall** (Sep–Dec).
+- Before the first season, each studio makes two year-long picks from any film on the calendar:
+  - **Hit pick** (your first pick of the year): its profit counts toward your year total.
+  - **Bomb pick**: its profit or loss is added to every *other* studio's total. Pick the film you expect to flop.
+  Hit and bomb picks are off the board for the season drafts.
 - Right before each season, the league builds a slate of that season's wide releases and runs a **snake draft**.
 - Enter each film's production budget, then its domestic (or worldwide) gross as it comes in. Profit = gross − budget.
-- Leaderboards rank studios by the combined profit of their films. The most profitable studio wins each season; the highest combined profit across all three seasons wins the year.
+- Leaderboards rank studios by the combined profit of their films. The most profitable studio wins each season; the year winner has the highest total of all three seasons, their hit pick, and their rivals' bomb picks.
 
 ## Running it
 
