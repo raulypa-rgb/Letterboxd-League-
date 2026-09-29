@@ -1,0 +1,6 @@
+{
+  "_readme": "Letterboxd usernames to track (the part after letterboxd.com/). name is optional and is what the site shows.",
+  "members": [
+    { "username": "your-letterboxd-username", "name": "You" }
+  ]
+}

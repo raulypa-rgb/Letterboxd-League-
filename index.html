@@ -308,7 +308,7 @@ function render() {
 
 function renderMarquee() {
   document.getElementById('marquee').innerHTML = `<div class="marquee-row">
-    <div><div class="eyebrow">Fantasy box office · ${esc(league.year)} · Profit on ${esc(league.basis.toLowerCase())} gross</div><h1>${esc(league.name)}</h1></div>
+    <div><div class="eyebrow">Fantasy box office · ${esc(league.year)} · Profit on ${esc(league.basis.toLowerCase())} gross · <a href="watch-time.html" style="color:inherit">Watch time</a></div><h1>${esc(league.name)}</h1></div>
     <div class="seasons">${SEASONS.map(s => `<button data-act="season" data-k="${s.key}" aria-pressed="${ui.season === s.key}">${s.name}<span>${s.months}</span></button>`).join('')}</div>
   </div>`;
 }
