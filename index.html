@@ -109,7 +109,8 @@ tr:last-child td { border-bottom: 0; }
 .chip { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); white-space: nowrap; }
 .chip.live { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
 .chip.clock { background: var(--accent); color: var(--accent-ink); }
-.gross-input { width: 7.5rem; text-align: right; font-family: var(--font-mono); }
+.pos { color: var(--good); } .neg { color: var(--bad); }
+.gross-input { width: 6.5rem; text-align: right; font-family: var(--font-mono); }
 
 /* Draft */
 .clock { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 14px 16px; border-radius: 6px; background: var(--marquee); color: var(--marquee-ink); }
@@ -147,9 +148,12 @@ const COLORS = ['#d9950f', '#3b6fd8', '#c2393f', '#1f8a53', '#8a4fd1', '#12a0a8'
 const STORE = 'box-office-league-v1';
 const uid = () => Math.random().toString(36).slice(2, 10);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const money = m => '$' + (Number(m) || 0).toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + 'M';
+const money = m => ((Number(m) || 0) < 0 ? '−$' : '$') + Math.abs(Number(m) || 0).toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + 'M';
 const today = () => new Date().toISOString().slice(0, 10);
 const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'TBA';
+
+const profitOf = m => (Number(m.gross) || 0) - (Number(m.budget) || 0);
+const signed = v => `<span class="${v < 0 ? 'neg' : v > 0 ? 'pos' : ''}">${money(v)}</span>`;
 
 function blankSeason() { return { status: 'setup', rounds: 4, order: [], picks: [], movies: [] }; }
 
@@ -158,13 +162,13 @@ function demoLeague() {
     ['Marquee Pictures', 'Sam'], ['Blue Hour Studios', 'Jordan'], ['Red Carpet Co.', 'Alex'], ['Greenlight Films', 'Priya'],
   ].map(([name, owner], i) => ({ id: 's' + (i + 1), name, owner, color: COLORS[i] }));
   const films = [
-    ['Inside Out 2', '2024-06-14', 653.0], ['Deadpool & Wolverine', '2024-07-26', 636.7], ['Despicable Me 4', '2024-07-03', 361.0],
-    ['Twisters', '2024-07-19', 267.8], ['Bad Boys: Ride or Die', '2024-06-07', 193.6], ['Kingdom of the Planet of the Apes', '2024-05-10', 171.1],
-    ['A Quiet Place: Day One', '2024-06-28', 138.9], ['It Ends with Us', '2024-08-09', 148.5], ['Furiosa: A Mad Max Saga', '2024-05-24', 67.5],
-    ['Alien: Romulus', '2024-08-16', 105.3], ['IF', '2024-05-17', 110.3], ['The Garfield Movie', '2024-05-24', 92.3],
-    ['The Fall Guy', '2024-05-03', 92.9], ['Longlegs', '2024-07-12', 74.3], ['Horizon: An American Saga – Chapter 1', '2024-06-28', 29.3],
-    ['Trap', '2024-08-02', 42.0], ['Fly Me to the Moon', '2024-07-12', 20.6], ['Borderlands', '2024-08-09', 15.1],
-  ].map(([title, release, gross], i) => ({ id: 'm' + (i + 1), title, release, gross }));
+    ['Inside Out 2', '2024-06-14', 653.0, 200], ['Deadpool & Wolverine', '2024-07-26', 636.7, 200], ['Despicable Me 4', '2024-07-03', 361.0, 100],
+    ['Twisters', '2024-07-19', 267.8, 155], ['Bad Boys: Ride or Die', '2024-06-07', 193.6, 100], ['Kingdom of the Planet of the Apes', '2024-05-10', 171.1, 160],
+    ['A Quiet Place: Day One', '2024-06-28', 138.9, 67], ['It Ends with Us', '2024-08-09', 148.5, 25], ['Furiosa: A Mad Max Saga', '2024-05-24', 67.5, 168],
+    ['Alien: Romulus', '2024-08-16', 105.3, 80], ['IF', '2024-05-17', 110.3, 110], ['The Garfield Movie', '2024-05-24', 92.3, 60],
+    ['The Fall Guy', '2024-05-03', 92.9, 130], ['Longlegs', '2024-07-12', 74.3, 10], ['Horizon: An American Saga – Chapter 1', '2024-06-28', 29.3, 100],
+    ['Trap', '2024-08-02', 42.0, 30], ['Fly Me to the Moon', '2024-07-12', 20.6, 100], ['Borderlands', '2024-08-09', 15.1, 115],
+  ].map(([title, release, gross, budget], i) => ({ id: 'm' + (i + 1), title, release, gross, budget }));
   const order = ['s1', 's2', 's3', 's4'];
   const pickTitles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // movie ids in snake order
   const summer = { status: 'live', rounds: 4, order, movies: films, picks: [] };
@@ -183,7 +187,7 @@ function snakeStudio(order, i) {
 let league, ui = { season: 'summer', view: 'standings', q: '' };
 function load() {
   try { const raw = localStorage.getItem(STORE); if (raw) { const d = JSON.parse(raw); league = d.league; ui = { ...ui, ...d.ui, q: '' }; } } catch (e) {}
-  if (!league || !league.seasons) league = demoLeague();
+  if (!league || !league.seasons || league.demo) league = demoLeague();
 }
 function save() { try { localStorage.setItem(STORE, JSON.stringify({ league, ui: { season: ui.season, view: ui.view } })); } catch (e) {} }
 
@@ -213,9 +217,10 @@ function seasonScores(season) {
   return league.studios.map(st => {
     const films = season.picks.filter(p => p.studioId === st.id).map(p => movieById(season, p.movieId)).filter(Boolean);
     const gross = films.reduce((a, m) => a + (Number(m.gross) || 0), 0);
-    const best = films.slice().sort((a, b) => (b.gross || 0) - (a.gross || 0))[0];
-    return { st, films, gross, best };
-  }).sort((a, b) => b.gross - a.gross);
+    const budget = films.reduce((a, m) => a + (Number(m.budget) || 0), 0);
+    const best = films.slice().sort((a, b) => profitOf(b) - profitOf(a))[0];
+    return { st, films, gross, budget, profit: gross - budget, best };
+  }).sort((a, b) => b.profit - a.profit);
 }
 
 /* ---------- Render ---------- */
@@ -224,14 +229,14 @@ function render() {
   document.getElementById('tabs').innerHTML = VIEWS.map(([k, n]) =>
     `<button role="tab" data-act="view" data-k="${k}" aria-selected="${ui.view === k}">${n}</button>`).join('');
   const v = document.getElementById('view');
-  const demo = league.demo ? `<div class="banner" style="margin-bottom:20px"><span><strong>This is a demo league</strong> using Summer 2024 releases and approximate domestic grosses.</span>
+  const demo = league.demo ? `<div class="banner" style="margin-bottom:20px"><span><strong>This is a demo league</strong> using Summer 2024 releases and approximate domestic grosses and reported production budgets.</span>
     <button class="btn accent sm" data-act="view" data-k="league">Start your own league</button></div>` : '';
   v.innerHTML = demo + ({ standings: viewStandings, draft: viewDraft, slate: viewSlate, league: viewLeague })[ui.view]();
 }
 
 function renderMarquee() {
   document.getElementById('marquee').innerHTML = `<div class="marquee-row">
-    <div><div class="eyebrow">Fantasy box office · ${esc(league.year)} · ${esc(league.basis)} gross</div><h1>${esc(league.name)}</h1></div>
+    <div><div class="eyebrow">Fantasy box office · ${esc(league.year)} · Profit on ${esc(league.basis.toLowerCase())} gross</div><h1>${esc(league.name)}</h1></div>
     <div class="seasons">${SEASONS.map(s => `<button data-act="season" data-k="${s.key}" aria-pressed="${ui.season === s.key}">${s.name}<span>${s.months}</span></button>`).join('')}</div>
   </div>`;
 }
@@ -244,39 +249,41 @@ function statusChip(s) {
 
 function viewStandings() {
   const s = S(), meta = seasonMeta(ui.season), rows = seasonScores(s);
-  const max = Math.max(1, ...rows.map(r => r.gross));
+  const max = Math.max(1, ...rows.map(r => Math.abs(r.profit)));
   const seasonTable = s.picks.length ? `<div class="tscroll"><table>
-    <thead><tr><th></th><th>Studio</th><th class="r">Films</th><th class="hide-sm">Top film</th><th class="r">${esc(league.basis)} gross</th></tr></thead>
+    <thead><tr><th></th><th>Studio</th><th class="r">Films</th><th class="hide-sm">Top earner</th><th class="r hide-sm">Gross</th><th class="r hide-sm">Budget</th><th class="r">Profit</th></tr></thead>
     <tbody>${rows.map((r, i) => `<tr>
-      <td><span class="rank ${i === 0 && r.gross > 0 ? 'first' : ''}">${i + 1}</span></td>
+      <td><span class="rank ${i === 0 && r.profit > 0 ? 'first' : ''}">${i + 1}</span></td>
       <td style="min-width:170px"><span class="dot" style="background:${r.st.color}"></span><span class="studio-name">${esc(r.st.name)}</span>
-        <div class="muted small">${esc(r.st.owner)}</div><div class="bar"><i style="width:${(r.gross / max * 100).toFixed(1)}%;background:${r.st.color}"></i></div></td>
+        <div class="muted small">${esc(r.st.owner)}</div><div class="bar"><i style="width:${(Math.max(0, r.profit) / max * 100).toFixed(1)}%;background:${r.st.color}"></i></div></td>
       <td class="r num">${r.films.length}</td>
-      <td class="hide-sm small">${r.best ? esc(r.best.title) + ' <span class="muted num">' + money(r.best.gross) + '</span>' : '<span class="muted">—</span>'}</td>
-      <td class="r num" style="font-weight:600">${money(r.gross)}</td></tr>`).join('')}</tbody></table></div>`
+      <td class="hide-sm small">${r.best ? esc(r.best.title) + ' <span class="num">' + signed(profitOf(r.best)) + '</span>' : '<span class="muted">—</span>'}</td>
+      <td class="r num small hide-sm">${money(r.gross)}</td><td class="r num small hide-sm">${money(r.budget)}</td>
+      <td class="r num" style="font-weight:600">${signed(r.profit)}</td></tr>`).join('')}</tbody></table></div>
+    <p class="muted small" style="margin:0">Profit = ${esc(league.basis.toLowerCase())} box office gross − production budget, added up across a studio's films. Flops count against you.</p>`
     : `<div class="empty">No films drafted for ${meta.name} yet. Build the slate, then run the draft.<br><br>
        <button class="btn accent sm" data-act="view" data-k="${s.movies.length ? 'draft' : 'slate'}">${s.movies.length ? 'Go to the draft' : 'Build the slate'}</button></div>`;
 
   // Year-long totals
   const year = league.studios.map(st => {
-    const per = SEASONS.map(m => seasonScores(league.seasons[m.key]).find(r => r.st.id === st.id).gross);
-    return { st, per, total: per.reduce((a, b) => a + b, 0) };
+    const per = SEASONS.map(m => seasonScores(league.seasons[m.key]).find(r => r.st.id === st.id));
+    return { st, per: per.map(x => x.films.length ? x.profit : null), total: per.reduce((a, b) => a + b.profit, 0) };
   }).sort((a, b) => b.total - a.total);
-  const champs = SEASONS.map(m => { const sc = seasonScores(league.seasons[m.key]); return sc[0] && sc[0].gross > 0 ? sc[0].st.id : null; });
+  const champs = SEASONS.map(m => { const sc = seasonScores(league.seasons[m.key]); return sc[0] && sc[0].films.length && sc[0].profit > 0 ? sc[0].st.id : null; });
 
-  return `<div class="grid2">
+  return `<div style="display:grid;gap:20px">
     <section class="panel"><div class="head"><h2>${meta.name} ${esc(league.year)}</h2>${statusChip(s)}</div>${seasonTable}</section>
     <section class="panel"><div class="head"><h2>Year to date</h2><span class="label">All three seasons</span></div>
       <div class="tscroll"><table><thead><tr><th>Studio</th>${SEASONS.map(m => `<th class="r">${m.name}</th>`).join('')}<th class="r">Total</th></tr></thead>
       <tbody>${year.map(r => `<tr><td><span class="dot" style="background:${r.st.color}"></span><span class="studio-name">${esc(r.st.name)}</span>
         ${champs.filter(c => c === r.st.id).length ? `<span class="chip" title="Season titles won">${'★'.repeat(champs.filter(c => c === r.st.id).length)}</span>` : ''}</td>
-        ${r.per.map(g => `<td class="r num small">${g ? money(g) : '—'}</td>`).join('')}<td class="r num" style="font-weight:600">${money(r.total)}</td></tr>`).join('')}</tbody></table></div>
-      <p class="muted small" style="margin:0">★ marks a season title. The studio with the most combined gross across Winter, Summer and Fall wins the year.</p>
+        ${r.per.map(g => `<td class="r num small">${g === null ? '—' : signed(g)}</td>`).join('')}<td class="r num" style="font-weight:600">${signed(r.total)}</td></tr>`).join('')}</tbody></table></div>
+      <p class="muted small" style="margin:0">★ marks a season title. The studio with the most combined profit across Winter, Summer and Fall wins the year.</p>
     </section>
   </div>
   ${s.picks.length ? `<section class="panel" style="margin-top:20px"><h3>Studio slates</h3><div class="grid2">${rows.map(r => `<div style="min-width:0">
       <div class="label" style="color:${r.st.color}">${esc(r.st.name)}</div>
-      <table><tbody>${r.films.map(m => `<tr><td>${esc(m.title)}<div class="muted small">${fmtDate(m.release)}${m.release > today() ? ' · upcoming' : ''}</div></td><td class="r num small">${m.gross ? money(m.gross) : '—'}</td></tr>`).join('') || '<tr><td class="muted">No films</td></tr>'}</tbody></table></div>`).join('')}</div></section>` : ''}`;
+      <table><tbody>${r.films.map(m => `<tr><td>${esc(m.title)}<div class="muted small">${fmtDate(m.release)}${m.release > today() ? ' · upcoming' : ''}</div></td><td class="r num small">${m.gross ? signed(profitOf(m)) : '—'}<div class="muted small" style="white-space:nowrap">${money(m.gross)} − ${money(m.budget)}</div></td></tr>`).join('') || '<tr><td class="muted">No films</td></tr>'}</tbody></table></div>`).join('')}</div></section>` : ''}`;
 }
 
 function viewDraft() {
@@ -300,7 +307,7 @@ function viewDraft() {
   const avail = s.movies.filter(m => !s.picks.some(p => p.movieId === m.id) && m.title.toLowerCase().includes(q))
     .sort((a, b) => (a.release || '9').localeCompare(b.release || '9'));
   const clock = done
-    ? `<div class="clock"><strong>Draft complete</strong><span>${total} films drafted. Update grosses on the Slate tab as they come in.</span></div>`
+    ? `<div class="clock"><strong>Draft complete</strong><span>${total} films drafted. Update grosses on the Slate tab as they come in to track each studio's profit.</span></div>`
     : `<div class="clock"><span class="label" style="color:inherit;opacity:.7">On the clock · Round ${Math.floor(i / n) + 1}, pick ${i + 1} of ${total}</span>
        <strong style="color:${onClock.color}">${esc(onClock.name)}</strong><span>${esc(onClock.owner)}</span></div>`;
   const board = `<div class="tscroll"><div class="board" style="grid-template-columns:repeat(${n}, minmax(120px,1fr))">
@@ -314,7 +321,7 @@ function viewDraft() {
     <div class="grid2">
       <section class="panel"><div class="head"><h3>Available films</h3><span class="muted small num">${avail.length} left</span></div>
         <input id="q" type="search" placeholder="Search the slate" value="${esc(ui.q)}" aria-label="Search available films">
-        <div class="avail">${avail.map(m => `<div class="avail-item"><div style="min-width:0"><div class="t">${esc(m.title)}</div><div class="muted small">${fmtDate(m.release)}</div></div>
+        <div class="avail">${avail.map(m => `<div class="avail-item"><div style="min-width:0"><div class="t">${esc(m.title)}</div><div class="muted small">${fmtDate(m.release)}${m.budget ? ' · ' + money(m.budget) + ' budget' : ''}</div></div>
           <button class="btn sm accent" data-act="pick" data-id="${m.id}" ${done ? 'disabled' : ''}>Draft</button></div>`).join('') || '<div class="empty">No films match.</div>'}</div>
       </section>
       <section class="panel"><div class="head"><h3>Draft board</h3><div class="row">
@@ -332,22 +339,25 @@ function viewSlate() {
     <form id="add-movie" class="row">
       <div class="field" style="flex:3 1 220px"><label class="label" for="m-title">Film title</label><input id="m-title" required placeholder="e.g. a wide release opening this season"></div>
       <div class="field"><label class="label" for="m-date">Release date</label><input id="m-date" type="date" min="${league.year}-${meta.start}" max="${league.year}-${meta.end}"></div>
+      <div class="field"><label class="label" for="m-budget">Budget ($M)</label><input id="m-budget" type="number" step="0.1" min="0" inputmode="decimal" placeholder="e.g. 150"></div>
       <button class="btn">Add film</button>
     </form>
     <details><summary class="small" style="cursor:pointer">Import from TMDB</summary>
       <div style="display:grid;gap:10px;margin-top:10px">
-        <p class="small muted" style="margin:0">With a free TMDB API key (League tab), you can pull the season's theatrical releases (${range}) and fill in revenue. TMDB revenue is worldwide and often lags, so a league scoring domestic gross should keep entering numbers by hand from a box office tracker. Imports only work when the site is self-hosted, not inside a sandboxed preview.</p>
+        <p class="small muted" style="margin:0">With a free TMDB API key (League tab), you can pull the season's theatrical releases (${range}) and fill in budgets and revenue. TMDB revenue is worldwide and often lags, so a league scoring domestic gross should keep entering numbers by hand from a box office tracker. Imports only work when the site is self-hosted, not inside a sandboxed preview.</p>
         <div class="row"><button class="btn sm ghost" data-act="tmdb-import" ${league.tmdbKey ? '' : 'disabled'}>Import releases</button>
-        <button class="btn sm ghost" data-act="tmdb-refresh" ${league.tmdbKey ? '' : 'disabled'}>Refresh revenue</button></div>
+        <button class="btn sm ghost" data-act="tmdb-refresh" ${league.tmdbKey ? '' : 'disabled'}>Refresh budgets &amp; revenue</button></div>
       </div></details>
   </section>
-  <section class="panel"><div class="head"><h3>Films &amp; ${esc(league.basis.toLowerCase())} gross</h3><span class="muted small">Gross in millions of dollars. Changes save as you type.</span></div>
-    ${movies.length ? `<div class="tscroll"><table><thead><tr><th>Release</th><th>Film</th><th>Studio</th><th class="r">Gross ($M)</th><th></th></tr></thead><tbody>
+  <section class="panel"><div class="head"><h3>Films &amp; profit</h3><span class="muted small">Amounts in millions of dollars. Profit = ${esc(league.basis.toLowerCase())} gross − budget. Changes save as you type.</span></div>
+    ${movies.length ? `<div class="tscroll"><table><thead><tr><th>Release</th><th>Film</th><th>Studio</th><th class="r">Budget</th><th class="r">Gross</th><th class="r">Profit</th><th></th></tr></thead><tbody>
     ${movies.map(m => { const o = ownerOf(s, m.id); return `<tr>
       <td class="num small" style="white-space:nowrap">${fmtDate(m.release)}</td>
       <td style="min-width:160px">${esc(m.title)}${m.release && m.release > today() ? ' <span class="chip">Upcoming</span>' : ''}</td>
       <td class="small" style="white-space:nowrap">${o ? `<span class="dot" style="background:${o.color}"></span>${esc(o.name)}` : '<span class="muted">Undrafted</span>'}</td>
+      <td class="r"><input class="gross-input" type="number" step="0.1" min="0" inputmode="decimal" data-budget="${m.id}" id="b-${m.id}" value="${m.budget || ''}" placeholder="0.0" aria-label="Budget for ${esc(m.title)}"></td>
       <td class="r"><input class="gross-input" type="number" step="0.1" min="0" inputmode="decimal" data-gross="${m.id}" id="g-${m.id}" value="${m.gross || ''}" placeholder="0.0" aria-label="Gross for ${esc(m.title)}"></td>
+      <td class="r num small" id="p-${m.id}">${m.gross || m.budget ? signed(profitOf(m)) : '—'}</td>
       <td class="r"><button class="btn sm ghost" data-act="del-movie" data-id="${m.id}" aria-label="Remove ${esc(m.title)}">Remove</button></td></tr>`; }).join('')}
     </tbody></table></div>` : `<div class="empty">No films on the ${meta.name} slate yet. Add the wide releases scheduled for ${meta.months} above.</div>`}
   </section></div>`;
@@ -391,8 +401,9 @@ function viewLeague() {
     <ol style="margin:0;padding-left:1.2em;display:grid;gap:6px;max-width:65ch">
       <li>Everyone runs a studio. The year splits into three seasons: Winter (Jan–Apr), Summer (May–Aug) and Fall (Sep–Dec).</li>
       <li>Right before each season, build that season's slate of wide releases and hold a snake draft.</li>
-      <li>As the films open, enter each one's ${esc(league.basis.toLowerCase())} gross. A studio's score is the total gross of its films.</li>
-      <li>The top studio wins the season. The highest combined total across all three seasons wins the year.</li>
+      <li>Enter each film's production budget, then its ${esc(league.basis.toLowerCase())} box office gross as it comes in. A film's profit is gross minus budget.</li>
+      <li>The leaderboard ranks studios by the combined profit of their films. A big hit helps; an expensive flop drags your studio down.</li>
+      <li>The most profitable studio wins the season. The highest combined profit across all three seasons wins the year.</li>
     </ol>
   </section></div>`;
 }
@@ -421,7 +432,7 @@ async function tmdbImport() {
         'release_date.gte': `${league.year}-${meta.start}`, 'release_date.lte': `${league.year}-${meta.end}`, with_original_language: 'en' });
       for (const r of d.results) {
         if (s.movies.some(m => m.tmdbId === r.id || m.title.toLowerCase() === r.title.toLowerCase())) continue;
-        s.movies.push({ id: uid(), title: r.title, release: r.release_date, gross: 0, tmdbId: r.id }); added++;
+        s.movies.push({ id: uid(), title: r.title, release: r.release_date, gross: 0, budget: 0, tmdbId: r.id }); added++;
       }
       if (page >= d.total_pages) break;
     }
@@ -435,9 +446,10 @@ async function tmdbRefresh() {
   try {
     for (const m of s.movies.filter(m => m.tmdbId)) {
       const d = await tmdb('/movie/' + m.tmdbId);
+      if (d.budget > 0) m.budget = Math.round(d.budget / 1e5) / 10;
       if (d.revenue > 0) { m.gross = Math.round(d.revenue / 1e5) / 10; n++; }
     }
-    toast(`Updated revenue for ${n} films.`);
+    toast(`Updated budgets and revenue for ${n} films.`);
   } catch (e) { toast('Refresh failed. Check the API key, or self-host the page so it can reach TMDB.'); }
   save(); render();
 }
@@ -500,7 +512,7 @@ document.addEventListener('submit', e => {
   e.preventDefault();
   if (e.target.id === 'add-movie') {
     const t = document.getElementById('m-title').value.trim(); if (!t) return;
-    S().movies.push({ id: uid(), title: t, release: document.getElementById('m-date').value, gross: 0 });
+    S().movies.push({ id: uid(), title: t, release: document.getElementById('m-date').value, gross: 0, budget: Math.max(0, parseFloat(document.getElementById('m-budget').value) || 0) });
     toast('Added ' + t + '.');
   } else if (e.target.id === 'add-studio') {
     const name = document.getElementById('st-name').value.trim(); if (!name) return;
@@ -513,8 +525,10 @@ document.addEventListener('submit', e => {
 
 document.addEventListener('input', e => {
   const t = e.target;
-  if (t.dataset.gross) {
-    const m = movieById(S(), t.dataset.gross); if (m) { m.gross = Math.max(0, parseFloat(t.value) || 0); save(); }
+  if (t.dataset.gross || t.dataset.budget) {
+    const id = t.dataset.gross || t.dataset.budget, m = movieById(S(), id);
+    if (m) { m[t.dataset.gross ? 'gross' : 'budget'] = Math.max(0, parseFloat(t.value) || 0); save();
+      const cell = document.getElementById('p-' + id); if (cell) cell.innerHTML = signed(profitOf(m)); }
   } else if (t.dataset.studio) {
     const st = studio(t.dataset.studio); if (st) { st[t.dataset.f] = t.value; save(); renderMarquee(); }
   } else if (t.dataset.league) {
@@ -525,7 +539,7 @@ document.addEventListener('input', e => {
   }
 });
 // Re-render after a gross edit settles so standings and totals refresh
-document.addEventListener('change', e => { if (e.target.dataset.gross || e.target.dataset.league === 'basis') render(); });
+document.addEventListener('change', e => { if (e.target.dataset.gross || e.target.dataset.budget || e.target.dataset.league === 'basis') render(); });
 
 load(); render();
 })();
