@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Box Office League</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: marquee header over a trade-sheet body; tabbed views, tables for the numbers. */
+:root {
+  --bg: #eceef3;
+  --surface: #ffffff;
+  --ink: #161a2c;
+  --muted: #5d6479;
+  --line: #d5d9e3;
+  --accent: #d9950f;
+  --accent-ink: #1b1400;
+  --marquee: #1c2140;
+  --marquee-ink: #fff6dd;
+  --good: #1f8a53;
+  --bad: #c2393f;
+  --chip: #e3e6ef;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1120; --surface: #171b2d; --ink: #e8eaf3; --muted: #9aa1b8; --line: #2a3048;
+    --accent: #f0b43a; --accent-ink: #1b1400; --marquee: #070914; --marquee-ink: #fff3d1;
+    --good: #4cc587; --bad: #ef6b70; --chip: #242a42; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1120; --surface: #171b2d; --ink: #e8eaf3; --muted: #9aa1b8; --line: #2a3048;
+  --accent: #f0b43a; --accent-ink: #1b1400; --marquee: #070914; --marquee-ink: #fff3d1;
+  --good: #4cc587; --bad: #ef6b70; --chip: #242a42; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--font-body); padding: 0 16px 48px; }
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 20px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: .01em; }
+h2 { font-size: 1.9rem; font-weight: 800; text-transform: uppercase; line-height: 1; }
+h3 { font-size: 1.25rem; font-weight: 800; text-transform: uppercase; }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.small { font-size: .85rem; }
+.label { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; }
+
+/* Marquee */
+.marquee { margin: 16px auto 0; max-width: 1080px; width: 100%; background: var(--marquee); color: var(--marquee-ink);
+  border-radius: 6px; padding: 22px 24px 18px; position: relative; }
+.marquee::before, .marquee::after { content: ""; position: absolute; left: 12px; right: 12px; height: 8px;
+  background: radial-gradient(circle, var(--accent) 2.6px, transparent 3.2px) 0 0 / 18px 8px repeat-x; }
+.marquee::before { top: 6px; } .marquee::after { bottom: 6px; }
+.marquee-row { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.marquee .eyebrow { font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; opacity: .7; font-weight: 600; }
+.marquee h1 { font-size: clamp(2.2rem, 7vw, 3.8rem); font-weight: 900; text-transform: uppercase; line-height: .95; }
+.seasons { display: flex; gap: 6px; flex-wrap: wrap; }
+.seasons button { font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .04em;
+  background: transparent; color: var(--marquee-ink); border: 1.5px solid color-mix(in srgb, var(--marquee-ink) 35%, transparent);
+  padding: 6px 12px 5px; border-radius: 4px; cursor: pointer; line-height: 1.1; text-align: left; }
+.seasons button span { display: block; font-family: var(--font-body); font-weight: 500; font-size: .68rem; letter-spacing: .06em; opacity: .75; }
+.seasons button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+/* Tabs */
+nav.tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--line); overflow-x: auto; }
+nav.tabs button { background: none; border: 0; padding: 10px 14px; font: 600 .95rem var(--font-body); color: var(--muted); cursor: pointer;
+  border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.banner { background: var(--chip); border-radius: 6px; padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; align-items: start; }
+.head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+
+/* Controls */
+button, input, select, textarea { font: inherit; color: inherit; }
+.btn { background: var(--ink); color: var(--surface); border: 0; border-radius: 4px; padding: 8px 14px; font-weight: 600; cursor: pointer; }
+.btn.accent { background: var(--accent); color: var(--accent-ink); }
+.btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
+.btn.danger { background: transparent; color: var(--bad); border: 1.5px solid currentColor; }
+.btn.sm { padding: 4px 10px; font-size: .85rem; }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+input, select, textarea { background: var(--bg); border: 1.5px solid var(--line); border-radius: 4px; padding: 7px 10px; min-width: 0; }
+textarea { width: 100%; font-family: var(--font-mono); font-size: .8rem; }
+.field { display: grid; gap: 4px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.row > .field { flex: 1 1 140px; }
+
+/* Tables */
+.tscroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+th { text-align: left; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1.5px solid var(--line); white-space: nowrap; }
+td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td.r, th.r { text-align: right; }
+tr:last-child td { border-bottom: 0; }
+.rank { font-family: var(--font-display); font-weight: 900; font-size: 1.6rem; width: 2.2rem; line-height: 1; }
+.rank.first { color: var(--accent); }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; }
+.studio-name { font-weight: 600; }
+.bar { height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; margin-top: 6px; }
+.bar i { display: block; height: 100%; border-radius: 3px; }
+.chip { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); white-space: nowrap; }
+.chip.live { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
+.chip.clock { background: var(--accent); color: var(--accent-ink); }
+.gross-input { width: 7.5rem; text-align: right; font-family: var(--font-mono); }
+
+/* Draft */
+.clock { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 14px 16px; border-radius: 6px; background: var(--marquee); color: var(--marquee-ink); }
+.clock strong { font-family: var(--font-display); font-size: 1.8rem; font-weight: 900; text-transform: uppercase; line-height: 1; }
+.board { display: grid; gap: 6px; }
+.board-cell { background: var(--bg); border-radius: 4px; padding: 6px 8px; font-size: .8rem; min-height: 44px; border-left: 4px solid var(--line); }
+.board-cell.next { outline: 2px dashed var(--accent); }
+.board-cell .pk { font-family: var(--font-mono); font-size: .68rem; color: var(--muted); }
+.avail { display: grid; gap: 6px; max-height: 520px; overflow-y: auto; }
+.avail-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; }
+.avail-item .t { font-weight: 600; }
+.empty { padding: 22px; text-align: center; color: var(--muted); border: 1.5px dashed var(--line); border-radius: 6px; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--surface);
+  padding: 10px 16px; border-radius: 6px; font-weight: 600; z-index: 10; max-width: calc(100% - 32px); }
+@media (prefers-reduced-motion: no-preference) { .toast { animation: rise .2s ease-out; } @keyframes rise { from { transform: translate(-50%, 8px); opacity: 0; } } }
+@media (max-width: 560px) { .hide-sm { display: none; } .panel { padding: 14px; } }
+</style>
+</head>
+<body>
+<header class="marquee" id="marquee"></header>
+<main class="wrap" style="margin-top:16px">
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <div id="view"></div>
+</main>
+<div class="toast" id="toast" hidden></div>
+<script>
+(() => {
+const SEASONS = [
+  { key: 'winter', name: 'Winter', months: 'Jan – Apr', start: '01-01', end: '04-30' },
+  { key: 'summer', name: 'Summer', months: 'May – Aug', start: '05-01', end: '08-31' },
+  { key: 'fall',   name: 'Fall',   months: 'Sep – Dec', start: '09-01', end: '12-31' },
+];
+const VIEWS = [['standings', 'Standings'], ['draft', 'Draft'], ['slate', 'Slate & Grosses'], ['league', 'League']];
+const COLORS = ['#d9950f', '#3b6fd8', '#c2393f', '#1f8a53', '#8a4fd1', '#12a0a8', '#d8579a', '#6b7a2a', '#e06a1f', '#5a6378'];
+const STORE = 'box-office-league-v1';
+const uid = () => Math.random().toString(36).slice(2, 10);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const money = m => '$' + (Number(m) || 0).toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + 'M';
+const today = () => new Date().toISOString().slice(0, 10);
+const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'TBA';
+
+function blankSeason() { return { status: 'setup', rounds: 4, order: [], picks: [], movies: [] }; }
+
+function demoLeague() {
+  const studios = [
+    ['Marquee Pictures', 'Sam'], ['Blue Hour Studios', 'Jordan'], ['Red Carpet Co.', 'Alex'], ['Greenlight Films', 'Priya'],
+  ].map(([name, owner], i) => ({ id: 's' + (i + 1), name, owner, color: COLORS[i] }));
+  const films = [
+    ['Inside Out 2', '2024-06-14', 653.0], ['Deadpool & Wolverine', '2024-07-26', 636.7], ['Despicable Me 4', '2024-07-03', 361.0],
+    ['Twisters', '2024-07-19', 267.8], ['Bad Boys: Ride or Die', '2024-06-07', 193.6], ['Kingdom of the Planet of the Apes', '2024-05-10', 171.1],
+    ['A Quiet Place: Day One', '2024-06-28', 138.9], ['It Ends with Us', '2024-08-09', 148.5], ['Furiosa: A Mad Max Saga', '2024-05-24', 67.5],
+    ['Alien: Romulus', '2024-08-16', 105.3], ['IF', '2024-05-17', 110.3], ['The Garfield Movie', '2024-05-24', 92.3],
+    ['The Fall Guy', '2024-05-03', 92.9], ['Longlegs', '2024-07-12', 74.3], ['Horizon: An American Saga – Chapter 1', '2024-06-28', 29.3],
+    ['Trap', '2024-08-02', 42.0], ['Fly Me to the Moon', '2024-07-12', 20.6], ['Borderlands', '2024-08-09', 15.1],
+  ].map(([title, release, gross], i) => ({ id: 'm' + (i + 1), title, release, gross }));
+  const order = ['s1', 's2', 's3', 's4'];
+  const pickTitles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]; // movie ids in snake order
+  const summer = { status: 'live', rounds: 4, order, movies: films, picks: [] };
+  pickTitles.forEach((n, i) => summer.picks.push({ movieId: 'm' + n, studioId: snakeStudio(order, i) }));
+  return {
+    demo: true, name: 'Demo League', year: 2024, basis: 'Domestic', tmdbKey: '',
+    studios, seasons: { winter: blankSeason(), summer, fall: blankSeason() },
+  };
+}
+
+function snakeStudio(order, i) {
+  const n = order.length, r = Math.floor(i / n), p = i % n;
+  return r % 2 === 0 ? order[p] : order[n - 1 - p];
+}
+
+let league, ui = { season: 'summer', view: 'standings', q: '' };
+function load() {
+  try { const raw = localStorage.getItem(STORE); if (raw) { const d = JSON.parse(raw); league = d.league; ui = { ...ui, ...d.ui, q: '' }; } } catch (e) {}
+  if (!league || !league.seasons) league = demoLeague();
+}
+function save() { try { localStorage.setItem(STORE, JSON.stringify({ league, ui: { season: ui.season, view: ui.view } })); } catch (e) {} }
+
+let toastTimer;
+function toast(msg) {
+  const t = document.getElementById('toast'); t.textContent = msg; t.hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 2600);
+}
+
+// Two-step confirm (the viewer blocks confirm() dialogs)
+const armed = new Set();
+function confirmed(key, btn, label) {
+  if (armed.has(key)) { armed.delete(key); return true; }
+  armed.add(key); btn.textContent = label || 'Click again to confirm';
+  setTimeout(() => { if (armed.delete(key)) render(); }, 3500);
+  return false;
+}
+
+const S = () => league.seasons[ui.season];
+const seasonMeta = k => SEASONS.find(s => s.key === k);
+const studio = id => league.studios.find(s => s.id === id);
+const movieById = (season, id) => season.movies.find(m => m.id === id);
+const ownerOf = (season, movieId) => { const p = season.picks.find(p => p.movieId === movieId); return p ? studio(p.studioId) : null; };
+const totalPicks = s => Math.min(s.rounds * s.order.length, s.movies.length);
+
+function seasonScores(season) {
+  return league.studios.map(st => {
+    const films = season.picks.filter(p => p.studioId === st.id).map(p => movieById(season, p.movieId)).filter(Boolean);
+    const gross = films.reduce((a, m) => a + (Number(m.gross) || 0), 0);
+    const best = films.slice().sort((a, b) => (b.gross || 0) - (a.gross || 0))[0];
+    return { st, films, gross, best };
+  }).sort((a, b) => b.gross - a.gross);
+}
+
+/* ---------- Render ---------- */
+function render() {
+  renderMarquee();
+  document.getElementById('tabs').innerHTML = VIEWS.map(([k, n]) =>
+    `<button role="tab" data-act="view" data-k="${k}" aria-selected="${ui.view === k}">${n}</button>`).join('');
+  const v = document.getElementById('view');
+  const demo = league.demo ? `<div class="banner" style="margin-bottom:20px"><span><strong>This is a demo league</strong> using Summer 2024 releases and approximate domestic grosses.</span>
+    <button class="btn accent sm" data-act="view" data-k="league">Start your own league</button></div>` : '';
+  v.innerHTML = demo + ({ standings: viewStandings, draft: viewDraft, slate: viewSlate, league: viewLeague })[ui.view]();
+}
+
+function renderMarquee() {
+  document.getElementById('marquee').innerHTML = `<div class="marquee-row">
+    <div><div class="eyebrow">Fantasy box office · ${esc(league.year)} · ${esc(league.basis)} gross</div><h1>${esc(league.name)}</h1></div>
+    <div class="seasons">${SEASONS.map(s => `<button data-act="season" data-k="${s.key}" aria-pressed="${ui.season === s.key}">${s.name}<span>${s.months}</span></button>`).join('')}</div>
+  </div>`;
+}
+
+function statusChip(s) {
+  if (s.status === 'live') return '<span class="chip live">Season live</span>';
+  if (s.status === 'drafting') return '<span class="chip clock">Draft in progress</span>';
+  return '<span class="chip">Pre-draft</span>';
+}
+
+function viewStandings() {
+  const s = S(), meta = seasonMeta(ui.season), rows = seasonScores(s);
+  const max = Math.max(1, ...rows.map(r => r.gross));
+  const seasonTable = s.picks.length ? `<div class="tscroll"><table>
+    <thead><tr><th></th><th>Studio</th><th class="r">Films</th><th class="hide-sm">Top film</th><th class="r">${esc(league.basis)} gross</th></tr></thead>
+    <tbody>${rows.map((r, i) => `<tr>
+      <td><span class="rank ${i === 0 && r.gross > 0 ? 'first' : ''}">${i + 1}</span></td>
+      <td style="min-width:170px"><span class="dot" style="background:${r.st.color}"></span><span class="studio-name">${esc(r.st.name)}</span>
+        <div class="muted small">${esc(r.st.owner)}</div><div class="bar"><i style="width:${(r.gross / max * 100).toFixed(1)}%;background:${r.st.color}"></i></div></td>
+      <td class="r num">${r.films.length}</td>
+      <td class="hide-sm small">${r.best ? esc(r.best.title) + ' <span class="muted num">' + money(r.best.gross) + '</span>' : '<span class="muted">—</span>'}</td>
+      <td class="r num" style="font-weight:600">${money(r.gross)}</td></tr>`).join('')}</tbody></table></div>`
+    : `<div class="empty">No films drafted for ${meta.name} yet. Build the slate, then run the draft.<br><br>
+       <button class="btn accent sm" data-act="view" data-k="${s.movies.length ? 'draft' : 'slate'}">${s.movies.length ? 'Go to the draft' : 'Build the slate'}</button></div>`;
+
+  // Year-long totals
+  const year = league.studios.map(st => {
+    const per = SEASONS.map(m => seasonScores(league.seasons[m.key]).find(r => r.st.id === st.id).gross);
+    return { st, per, total: per.reduce((a, b) => a + b, 0) };
+  }).sort((a, b) => b.total - a.total);
+  const champs = SEASONS.map(m => { const sc = seasonScores(league.seasons[m.key]); return sc[0] && sc[0].gross > 0 ? sc[0].st.id : null; });
+
+  return `<div class="grid2">
+    <section class="panel"><div class="head"><h2>${meta.name} ${esc(league.year)}</h2>${statusChip(s)}</div>${seasonTable}</section>
+    <section class="panel"><div class="head"><h2>Year to date</h2><span class="label">All three seasons</span></div>
+      <div class="tscroll"><table><thead><tr><th>Studio</th>${SEASONS.map(m => `<th class="r">${m.name}</th>`).join('')}<th class="r">Total</th></tr></thead>
+      <tbody>${year.map(r => `<tr><td><span class="dot" style="background:${r.st.color}"></span><span class="studio-name">${esc(r.st.name)}</span>
+        ${champs.filter(c => c === r.st.id).length ? `<span class="chip" title="Season titles won">${'★'.repeat(champs.filter(c => c === r.st.id).length)}</span>` : ''}</td>
+        ${r.per.map(g => `<td class="r num small">${g ? money(g) : '—'}</td>`).join('')}<td class="r num" style="font-weight:600">${money(r.total)}</td></tr>`).join('')}</tbody></table></div>
+      <p class="muted small" style="margin:0">★ marks a season title. The studio with the most combined gross across Winter, Summer and Fall wins the year.</p>
+    </section>
+  </div>
+  ${s.picks.length ? `<section class="panel" style="margin-top:20px"><h3>Studio slates</h3><div class="grid2">${rows.map(r => `<div style="min-width:0">
+      <div class="label" style="color:${r.st.color}">${esc(r.st.name)}</div>
+      <table><tbody>${r.films.map(m => `<tr><td>${esc(m.title)}<div class="muted small">${fmtDate(m.release)}${m.release > today() ? ' · upcoming' : ''}</div></td><td class="r num small">${m.gross ? money(m.gross) : '—'}</td></tr>`).join('') || '<tr><td class="muted">No films</td></tr>'}</tbody></table></div>`).join('')}</div></section>` : ''}`;
+}
+
+function viewDraft() {
+  const s = S(), meta = seasonMeta(ui.season), n = league.studios.length;
+  if (n < 2) return `<section class="panel"><div class="empty">Add at least two studios on the League tab before drafting.</div></section>`;
+  if (s.status === 'setup') {
+    const possible = Math.floor(s.movies.length / n);
+    return `<section class="panel"><div class="head"><h2>${meta.name} draft</h2>${statusChip(s)}</div>
+      <p style="margin:0;max-width:65ch">Right before the ${meta.name.toLowerCase()} season, each studio takes turns drafting wide releases scheduled for ${meta.months}. The order snakes: whoever picks last in one round picks first in the next.</p>
+      <div class="row">
+        <div class="field"><label class="label" for="rounds">Films per studio</label><input id="rounds" type="number" min="1" max="30" value="${s.rounds}"></div>
+        <div class="field"><span class="label">Films on the slate</span><div class="num" style="padding:8px 0">${s.movies.length} <span class="muted small">(enough for ${possible} per studio)</span></div></div>
+        <button class="btn accent" data-act="start-draft" ${s.movies.length < n ? 'disabled' : ''}>Randomize order &amp; start draft</button>
+      </div>
+      ${s.movies.length < n ? `<div class="empty">Add at least ${n} films to the ${meta.name} slate first. <button class="btn sm ghost" data-act="view" data-k="slate">Open the slate</button></div>` : ''}
+    </section>`;
+  }
+  const total = totalPicks(s), i = s.picks.length, done = i >= total;
+  const onClock = done ? null : studio(snakeStudio(s.order, i));
+  const q = ui.q.toLowerCase();
+  const avail = s.movies.filter(m => !s.picks.some(p => p.movieId === m.id) && m.title.toLowerCase().includes(q))
+    .sort((a, b) => (a.release || '9').localeCompare(b.release || '9'));
+  const clock = done
+    ? `<div class="clock"><strong>Draft complete</strong><span>${total} films drafted. Update grosses on the Slate tab as they come in.</span></div>`
+    : `<div class="clock"><span class="label" style="color:inherit;opacity:.7">On the clock · Round ${Math.floor(i / n) + 1}, pick ${i + 1} of ${total}</span>
+       <strong style="color:${onClock.color}">${esc(onClock.name)}</strong><span>${esc(onClock.owner)}</span></div>`;
+  const board = `<div class="tscroll"><div class="board" style="grid-template-columns:repeat(${n}, minmax(120px,1fr))">
+    ${s.order.map(id => { const st = studio(id); return `<div class="label" style="color:${st.color}">${esc(st.name)}</div>`; }).join('')}
+    ${Array.from({ length: s.rounds }, (_, r) => s.order.map((id, c) => {
+      const idx = r * n + (r % 2 === 0 ? c : n - 1 - c);
+      const p = s.picks[idx], m = p && movieById(s, p.movieId);
+      return `<div class="board-cell ${idx === i && !done ? 'next' : ''}" style="border-left-color:${studio(id).color}"><div class="pk">${r + 1}.${(r % 2 === 0 ? c : n - 1 - c) + 1}</div>${m ? esc(m.title) : ''}</div>`;
+    }).join('')).join('')}</div></div>`;
+  return `<div style="display:grid;gap:20px">${clock}
+    <div class="grid2">
+      <section class="panel"><div class="head"><h3>Available films</h3><span class="muted small num">${avail.length} left</span></div>
+        <input id="q" type="search" placeholder="Search the slate" value="${esc(ui.q)}" aria-label="Search available films">
+        <div class="avail">${avail.map(m => `<div class="avail-item"><div style="min-width:0"><div class="t">${esc(m.title)}</div><div class="muted small">${fmtDate(m.release)}</div></div>
+          <button class="btn sm accent" data-act="pick" data-id="${m.id}" ${done ? 'disabled' : ''}>Draft</button></div>`).join('') || '<div class="empty">No films match.</div>'}</div>
+      </section>
+      <section class="panel"><div class="head"><h3>Draft board</h3><div class="row">
+        <button class="btn sm ghost" data-act="undo" ${i ? '' : 'disabled'}>Undo last pick</button>
+        <button class="btn sm danger" data-act="reset-draft">Reset draft</button></div></div>${board}</section>
+    </div></div>`;
+}
+
+function viewSlate() {
+  const s = S(), meta = seasonMeta(ui.season);
+  const movies = s.movies.slice().sort((a, b) => (a.release || '9').localeCompare(b.release || '9'));
+  const range = `${league.year}-${meta.start} to ${league.year}-${meta.end}`;
+  return `<div style="display:grid;gap:20px">
+  <section class="panel"><div class="head"><h2>${meta.name} slate</h2><span class="muted small">Wide releases, ${meta.months} ${esc(league.year)}</span></div>
+    <form id="add-movie" class="row">
+      <div class="field" style="flex:3 1 220px"><label class="label" for="m-title">Film title</label><input id="m-title" required placeholder="e.g. a wide release opening this season"></div>
+      <div class="field"><label class="label" for="m-date">Release date</label><input id="m-date" type="date" min="${league.year}-${meta.start}" max="${league.year}-${meta.end}"></div>
+      <button class="btn">Add film</button>
+    </form>
+    <details><summary class="small" style="cursor:pointer">Import from TMDB</summary>
+      <div style="display:grid;gap:10px;margin-top:10px">
+        <p class="small muted" style="margin:0">With a free TMDB API key (League tab), you can pull the season's theatrical releases (${range}) and fill in revenue. TMDB revenue is worldwide and often lags, so a league scoring domestic gross should keep entering numbers by hand from a box office tracker. Imports only work when the site is self-hosted, not inside a sandboxed preview.</p>
+        <div class="row"><button class="btn sm ghost" data-act="tmdb-import" ${league.tmdbKey ? '' : 'disabled'}>Import releases</button>
+        <button class="btn sm ghost" data-act="tmdb-refresh" ${league.tmdbKey ? '' : 'disabled'}>Refresh revenue</button></div>
+      </div></details>
+  </section>
+  <section class="panel"><div class="head"><h3>Films &amp; ${esc(league.basis.toLowerCase())} gross</h3><span class="muted small">Gross in millions of dollars. Changes save as you type.</span></div>
+    ${movies.length ? `<div class="tscroll"><table><thead><tr><th>Release</th><th>Film</th><th>Studio</th><th class="r">Gross ($M)</th><th></th></tr></thead><tbody>
+    ${movies.map(m => { const o = ownerOf(s, m.id); return `<tr>
+      <td class="num small" style="white-space:nowrap">${fmtDate(m.release)}</td>
+      <td style="min-width:160px">${esc(m.title)}${m.release && m.release > today() ? ' <span class="chip">Upcoming</span>' : ''}</td>
+      <td class="small" style="white-space:nowrap">${o ? `<span class="dot" style="background:${o.color}"></span>${esc(o.name)}` : '<span class="muted">Undrafted</span>'}</td>
+      <td class="r"><input class="gross-input" type="number" step="0.1" min="0" inputmode="decimal" data-gross="${m.id}" id="g-${m.id}" value="${m.gross || ''}" placeholder="0.0" aria-label="Gross for ${esc(m.title)}"></td>
+      <td class="r"><button class="btn sm ghost" data-act="del-movie" data-id="${m.id}" aria-label="Remove ${esc(m.title)}">Remove</button></td></tr>`; }).join('')}
+    </tbody></table></div>` : `<div class="empty">No films on the ${meta.name} slate yet. Add the wide releases scheduled for ${meta.months} above.</div>`}
+  </section></div>`;
+}
+
+function viewLeague() {
+  const exportText = JSON.stringify(league);
+  return `<div class="grid2">
+  <section class="panel"><h2>Studios</h2>
+    <div class="tscroll"><table><thead><tr><th>Studio</th><th>Studio head</th><th></th></tr></thead><tbody>
+    ${league.studios.map(st => `<tr><td><span class="dot" style="background:${st.color}"></span><input id="sn-${st.id}" data-studio="${st.id}" data-f="name" value="${esc(st.name)}" aria-label="Studio name" style="width:calc(100% - 20px)"></td>
+      <td><input id="so-${st.id}" data-studio="${st.id}" data-f="owner" value="${esc(st.owner)}" aria-label="Studio head" style="width:100%"></td>
+      <td class="r"><button class="btn sm ghost" data-act="del-studio" data-id="${st.id}">Remove</button></td></tr>`).join('')}
+    </tbody></table></div>
+    <form id="add-studio" class="row">
+      <div class="field"><label class="label" for="st-name">New studio</label><input id="st-name" required placeholder="Studio name"></div>
+      <div class="field"><label class="label" for="st-owner">Studio head</label><input id="st-owner" placeholder="Player name"></div>
+      <button class="btn">Add studio</button>
+    </form>
+    <p class="small muted" style="margin:0">Studios can't be removed once they've drafted a film in any season.</p>
+  </section>
+  <section class="panel"><h2>Settings</h2>
+    <div class="row">
+      <div class="field" style="flex:2 1 200px"><label class="label" for="lg-name">League name</label><input id="lg-name" data-league="name" value="${esc(league.name)}"></div>
+      <div class="field"><label class="label" for="lg-year">Year</label><input id="lg-year" data-league="year" type="number" value="${esc(league.year)}"></div>
+      <div class="field"><label class="label" for="lg-basis">Scoring</label><select id="lg-basis" data-league="basis">
+        ${['Domestic', 'Worldwide'].map(b => `<option ${league.basis === b ? 'selected' : ''}>${b}</option>`).join('')}</select></div>
+    </div>
+    <div class="field"><label class="label" for="lg-tmdb">TMDB API key (optional)</label><input id="lg-tmdb" data-league="tmdbKey" value="${esc(league.tmdbKey)}" placeholder="v3 API key from themoviedb.org"></div>
+    <div class="row"><button class="btn accent" data-act="new-league">Start a new league</button><span class="small muted">Clears every studio, slate and draft.</span></div>
+  </section>
+  <section class="panel"><h2>Share the league</h2>
+    <p class="small" style="margin:0">The league lives in this browser. To give other players the current standings, copy the league code and send it to them. They paste it below and choose Load league.</p>
+    <textarea id="export" rows="4" readonly>${esc(exportText)}</textarea>
+    <div class="row"><button class="btn sm" data-act="copy">Copy league code</button></div>
+    <label class="label" for="import">Paste a league code</label>
+    <textarea id="import" rows="4" placeholder="Paste league code here"></textarea>
+    <div class="row"><button class="btn sm ghost" data-act="import">Load league</button></div>
+  </section>
+  <section class="panel"><h2>How it works</h2>
+    <ol style="margin:0;padding-left:1.2em;display:grid;gap:6px;max-width:65ch">
+      <li>Everyone runs a studio. The year splits into three seasons: Winter (Jan–Apr), Summer (May–Aug) and Fall (Sep–Dec).</li>
+      <li>Right before each season, build that season's slate of wide releases and hold a snake draft.</li>
+      <li>As the films open, enter each one's ${esc(league.basis.toLowerCase())} gross. A studio's score is the total gross of its films.</li>
+      <li>The top studio wins the season. The highest combined total across all three seasons wins the year.</li>
+    </ol>
+  </section></div>`;
+}
+
+/* ---------- Actions ---------- */
+function newLeague() {
+  league = { demo: false, name: 'My Box Office League', year: new Date().getFullYear(), basis: 'Domestic', tmdbKey: '',
+    studios: [], seasons: { winter: blankSeason(), summer: blankSeason(), fall: blankSeason() } };
+  const m = new Date().getMonth();
+  ui.season = m < 4 ? 'winter' : m < 8 ? 'summer' : 'fall';
+}
+
+async function tmdb(path, params = {}) {
+  const u = new URL('https://api.themoviedb.org/3' + path);
+  u.searchParams.set('api_key', league.tmdbKey);
+  Object.entries(params).forEach(([k, v]) => u.searchParams.set(k, v));
+  const r = await fetch(u); if (!r.ok) throw new Error('TMDB returned ' + r.status);
+  return r.json();
+}
+
+async function tmdbImport() {
+  const s = S(), meta = seasonMeta(ui.season); let added = 0;
+  try {
+    for (let page = 1; page <= 3; page++) {
+      const d = await tmdb('/discover/movie', { region: 'US', with_release_type: '3', sort_by: 'popularity.desc', page,
+        'release_date.gte': `${league.year}-${meta.start}`, 'release_date.lte': `${league.year}-${meta.end}`, with_original_language: 'en' });
+      for (const r of d.results) {
+        if (s.movies.some(m => m.tmdbId === r.id || m.title.toLowerCase() === r.title.toLowerCase())) continue;
+        s.movies.push({ id: uid(), title: r.title, release: r.release_date, gross: 0, tmdbId: r.id }); added++;
+      }
+      if (page >= d.total_pages) break;
+    }
+    toast(`Imported ${added} films. Remove any that aren't opening wide.`);
+  } catch (e) { toast('Import failed. Check the API key, or self-host the page so it can reach TMDB.'); }
+  save(); render();
+}
+
+async function tmdbRefresh() {
+  const s = S(); let n = 0;
+  try {
+    for (const m of s.movies.filter(m => m.tmdbId)) {
+      const d = await tmdb('/movie/' + m.tmdbId);
+      if (d.revenue > 0) { m.gross = Math.round(d.revenue / 1e5) / 10; n++; }
+    }
+    toast(`Updated revenue for ${n} films.`);
+  } catch (e) { toast('Refresh failed. Check the API key, or self-host the page so it can reach TMDB.'); }
+  save(); render();
+}
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const act = b.dataset.act, s = S();
+  switch (act) {
+    case 'view': ui.view = b.dataset.k; break;
+    case 'season': ui.season = b.dataset.k; ui.q = ''; break;
+    case 'start-draft': {
+      const r = parseInt(document.getElementById('rounds').value, 10);
+      s.rounds = Math.max(1, Math.min(30, r || 4));
+      s.order = league.studios.map(x => x.id).sort(() => Math.random() - .5);
+      s.picks = []; s.status = 'drafting'; toast('Draft order set. ' + studio(s.order[0]).name + ' picks first.'); break;
+    }
+    case 'pick': {
+      const i = s.picks.length; if (i >= totalPicks(s)) return;
+      s.picks.push({ movieId: b.dataset.id, studioId: snakeStudio(s.order, i) });
+      if (s.picks.length >= totalPicks(s)) { s.status = 'live'; toast('Draft complete. The season is live.'); }
+      break;
+    }
+    case 'undo': s.picks.pop(); s.status = 'drafting'; break;
+    case 'reset-draft': if (!confirmed('reset', b, 'Click again to erase all picks')) return;
+      s.picks = []; s.order = []; s.status = 'setup'; toast('Draft reset.'); break;
+    case 'del-movie': {
+      if (ownerOf(s, b.dataset.id) && !confirmed('dm' + b.dataset.id, b, 'Drafted. Remove?')) return;
+      const idx = s.picks.findIndex(p => p.movieId === b.dataset.id);
+      if (idx >= 0) { toast('Removed a drafted film. Later picks keep their studios.'); s.picks.splice(idx, 1); }
+      s.movies = s.movies.filter(m => m.id !== b.dataset.id); break;
+    }
+    case 'del-studio': {
+      const id = b.dataset.id;
+      if (Object.values(league.seasons).some(x => x.picks.some(p => p.studioId === id) || x.order.includes(id))) { toast("That studio is in a draft, so it can't be removed."); return; }
+      league.studios = league.studios.filter(x => x.id !== id); break;
+    }
+    case 'new-league': if (!confirmed('new', b, 'Click again to clear everything')) return;
+      newLeague(); toast('New league started. Add your studios.'); break;
+    case 'copy': {
+      const ta = document.getElementById('export');
+      navigator.clipboard.writeText(ta.value).then(() => toast('League code copied.'), () => { ta.select(); toast('Press Ctrl+C / ⌘C to copy the selected code.'); });
+      return;
+    }
+    case 'import': {
+      try {
+        const d = JSON.parse(document.getElementById('import').value);
+        if (!d.studios || !d.seasons) throw 0;
+        league = d; toast('League loaded.'); ui.view = 'standings';
+      } catch (err) { toast("That code isn't a valid league. Copy the whole code and try again."); return; }
+      break;
+    }
+    case 'tmdb-import': tmdbImport(); return;
+    case 'tmdb-refresh': tmdbRefresh(); return;
+    default: return;
+  }
+  save(); render();
+});
+
+document.addEventListener('submit', e => {
+  e.preventDefault();
+  if (e.target.id === 'add-movie') {
+    const t = document.getElementById('m-title').value.trim(); if (!t) return;
+    S().movies.push({ id: uid(), title: t, release: document.getElementById('m-date').value, gross: 0 });
+    toast('Added ' + t + '.');
+  } else if (e.target.id === 'add-studio') {
+    const name = document.getElementById('st-name').value.trim(); if (!name) return;
+    const used = league.studios.map(s => s.color);
+    league.studios.push({ id: uid(), name, owner: document.getElementById('st-owner').value.trim(), color: COLORS.find(c => !used.includes(c)) || COLORS[league.studios.length % COLORS.length] });
+    toast('Added ' + name + '.');
+  } else return;
+  league.demo = false; save(); render();
+});
+
+document.addEventListener('input', e => {
+  const t = e.target;
+  if (t.dataset.gross) {
+    const m = movieById(S(), t.dataset.gross); if (m) { m.gross = Math.max(0, parseFloat(t.value) || 0); save(); }
+  } else if (t.dataset.studio) {
+    const st = studio(t.dataset.studio); if (st) { st[t.dataset.f] = t.value; save(); renderMarquee(); }
+  } else if (t.dataset.league) {
+    const k = t.dataset.league; league[k] = k === 'year' ? (parseInt(t.value, 10) || league.year) : t.value; save(); renderMarquee();
+  } else if (t.id === 'q') {
+    ui.q = t.value; const pos = t.selectionStart; render();
+    const q = document.getElementById('q'); q.focus(); q.setSelectionRange(pos, pos);
+  }
+});
+// Re-render after a gross edit settles so standings and totals refresh
+document.addEventListener('change', e => { if (e.target.dataset.gross || e.target.dataset.league === 'basis') render(); });
+
+load(); render();
+})();
+</script>
+</body>
+</html>
