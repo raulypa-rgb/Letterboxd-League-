@@ -21,3 +21,25 @@ It's a single static file. Open `index.html` in a browser, or host it with GitHu
 League data is saved in the browser's local storage. Use **League → Share the league** to copy a league code other players can load.
 
 Optional: add a free [TMDB](https://www.themoviedb.org/) API key on the League tab to import a season's releases and pull budgets and revenue (TMDB revenue is worldwide and can lag).
+
+# Watch Time
+
+`watch-time.html` tracks how much time each member of a Letterboxd league spends watching films. The site links to it from the Box Office League header.
+
+- **Month**: leaderboard ranked by the total runtime of films each member logged that month, with film and rewatch counts and the change from last month.
+- **Year**: year-to-date standings, a month-by-month heatmap of hours, and each month's winner.
+- **Diary**: every logged film for the month, filterable by member.
+
+Watch time for a month is the sum of runtimes of the films a member logged in their Letterboxd diary with a watched date in that month. Rewatches count. Films logged without a date don't.
+
+## Setting it up
+
+1. Put everyone's Letterboxd username in `data/members.json`. `name` is optional. Diaries must be public.
+   ```json
+   { "members": [ { "username": "dave", "name": "Dave" }, { "username": "karsten" } ] }
+   ```
+2. Commit it. The **Update watch time** GitHub Action (`.github/workflows/watch-time.yml`) runs when that file changes, every 5 minutes, and on demand from the Actions tab. It reads each member's diary RSS feed, looks up runtimes, and commits `data/watch-time.json`.
+3. Optional: add a `TMDB_API_KEY` repository secret for faster, more reliable runtimes. Without it, runtimes are read from each film's Letterboxd page.
+4. Turn on GitHub Pages and open `watch-time.html`. Use **Show demo data** to preview the page before any viewings are logged.
+
+Letterboxd's RSS feed only holds each member's latest ~50 entries, so tracking starts from the first run. After that, every viewing the Action has seen is kept. To run it locally: `node scripts/fetch-watch-time.mjs` (Node 20+).
