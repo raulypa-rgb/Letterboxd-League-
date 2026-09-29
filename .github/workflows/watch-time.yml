@@ -2,7 +2,7 @@ name: Update watch time
 
 on:
   schedule:
-    - cron: '7,37 * * * *'   # every 30 minutes (GitHub may start scheduled runs a few minutes late)
+    - cron: '*/5 * * * *'   # every 5 minutes (GitHub often starts scheduled runs late at busy times)
   workflow_dispatch:
   push:
     paths:
