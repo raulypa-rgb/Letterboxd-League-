@@ -214,17 +214,39 @@ function demoLeague() {
   };
 }
 
+// Wide releases announced for 2027, with dates as reported in September 2026. Budgets fill in once reported.
+const SLATE_2027 = [
+  ['The Beekeeper 2', '2027-01-15'], ['Children of Blood and Bone', '2027-01-15'], ["Narnia: The Magician's Nephew", '2027-02-12'],
+  ['Godzilla x Kong: Supernova', '2027-03-12'], ['Sonic the Hedgehog 4', '2027-03-19'], ['The Resurrection of the Christ: Part One', '2027-03-26'],
+  ['The Legend of Zelda', '2027-04-30'],
+  ['The Resurrection of the Christ: Part Two', '2027-05-06'], ['Star Wars: Starfighter', '2027-05-28'], ['Spider-Man: Beyond the Spider-Verse', '2027-06-04'],
+  ['John Rambo', '2027-06-04'], ['How to Train Your Dragon 2', '2027-06-11'], ['Shrek 5', '2027-06-30'], ['Man of Tomorrow', '2027-07-09'],
+  ['A Minecraft Movie Squared', '2027-07-23'], ['A Quiet Place Part III', '2027-07-30'], ['The Bluey Movie', '2027-08-06'],
+  ['The Simpsons Movie 2', '2027-09-03'], ['The Conjuring: First Communion', '2027-09-10'], ['The Haunting of Hotel Transylvania', '2027-10-08'],
+  ['Frozen III', '2027-11-24'], ['Avengers: Secret Wars', '2027-12-17'], ['The Lord of the Rings: The Hunt for Gollum', '2027-12-17'],
+];
+
+function league2027() {
+  const seasons = { winter: blankSeason(), summer: blankSeason(), fall: blankSeason() };
+  SLATE_2027.forEach(([title, release]) => seasons[seasonForDate(release)].movies.push({ id: uid(), title, release, gross: 0, budget: 0 }));
+  return {
+    demo: false, preset: true, name: 'Box Office League 2027', year: 2027, basis: 'Domestic', tmdbKey: '',
+    studios: Array.from({ length: 6 }, (_, i) => ({ id: uid(), name: `Studio ${i + 1}`, owner: `Player ${i + 1}`, color: COLORS[i] })),
+    yearDraft: blankYear(), seasons,
+  };
+}
+
 function snakeStudio(order, i) {
   const n = order.length, r = Math.floor(i / n), p = i % n;
   return r % 2 === 0 ? order[p] : order[n - 1 - p];
 }
 
-let league, ui = { season: 'summer', view: 'standings', q: '' };
+let league, ui = { season: 'winter', view: 'draft', q: '' };
 function load() {
   try { const raw = localStorage.getItem(STORE); if (raw) { const d = JSON.parse(raw); league = d.league; ui = { ...ui, ...d.ui, q: '' }; } } catch (e) {}
-  if (!league || !league.seasons || league.demo) league = demoLeague();
+  if (!league || !league.seasons || (league.demo && !ui.keepDemo)) { league = league2027(); ui.season = 'winter'; ui.view = 'draft'; ui.draftMode = null; }
 }
-function save() { try { localStorage.setItem(STORE, JSON.stringify({ league, ui: { season: ui.season, view: ui.view } })); } catch (e) {} }
+function save() { try { localStorage.setItem(STORE, JSON.stringify({ league, ui: { season: ui.season, view: ui.view, keepDemo: !!league.demo } })); } catch (e) {} }
 
 let toastTimer;
 function toast(msg) {
@@ -278,7 +300,9 @@ function render() {
     `<button role="tab" data-act="view" data-k="${k}" aria-selected="${ui.view === k}">${n}</button>`).join('');
   const v = document.getElementById('view');
   const demo = league.demo ? `<div class="banner" style="margin-bottom:20px"><span><strong>This is a demo league</strong> using 2024 releases with approximate domestic grosses and reported production budgets.</span>
-    <button class="btn accent sm" data-act="view" data-k="league">Start your own league</button></div>` : '';
+    <button class="btn accent sm" data-act="view" data-k="league">Start your own league</button></div>`
+    : league.preset ? `<div class="banner" style="margin-bottom:20px"><span><strong>Your 2027 league is set up.</strong> The slates hold ${SLATE_2027.length} announced wide releases, with dates as of September 2026. Rename your 6 studios on the League tab, add any films that are missing, and fill in budgets as they're reported. Release dates move, so check them before each draft.</span>
+    <button class="btn ghost sm" data-act="dismiss-preset">Got it</button></div>` : '';
   v.innerHTML = demo + ({ standings: viewStandings, draft: viewDraft, slate: viewSlate, league: viewLeague })[ui.view]();
 }
 
@@ -498,7 +522,8 @@ function viewLeague() {
         ${['Domestic', 'Worldwide'].map(b => `<option ${league.basis === b ? 'selected' : ''}>${b}</option>`).join('')}</select></div>
     </div>
     <div class="field"><label class="label" for="lg-tmdb">TMDB API key (optional)</label><input id="lg-tmdb" data-league="tmdbKey" value="${esc(league.tmdbKey)}" placeholder="v3 API key from themoviedb.org"></div>
-    <div class="row"><button class="btn accent" data-act="new-league">Start a new league</button><span class="small muted">Clears every slate and draft and sets up 6 studios to rename.</span></div>
+    <div class="row"><button class="btn ghost" data-act="load-demo">View the 2024 demo</button><span class="small muted">A finished example season. Replaces this league.</span></div>
+    <div class="row"><button class="btn accent" data-act="new-league">Start a new league</button><span class="small muted">Clears everything and sets up 2027 with 6 studios and the announced slates.</span></div>
   </section>
   <section class="panel"><h2>Share the league</h2>
     <p class="small" style="margin:0">The league lives in this browser. To give other players the current standings, copy the league code and send it to them. They paste it below and choose Load league.</p>
@@ -523,12 +548,8 @@ function viewLeague() {
 
 /* ---------- Actions ---------- */
 function newLeague() {
-  league = { demo: false, name: 'My Box Office League', year: new Date().getFullYear(), basis: 'Domestic', tmdbKey: '',
-    studios: Array.from({ length: 6 }, (_, i) => ({ id: uid(), name: `Studio ${i + 1}`, owner: `Player ${i + 1}`, color: COLORS[i] })),
-    yearDraft: blankYear(), seasons: { winter: blankSeason(), summer: blankSeason(), fall: blankSeason() } };
-  ui.draftMode = null;
-  const m = new Date().getMonth();
-  ui.season = m < 4 ? 'winter' : m < 8 ? 'summer' : 'fall';
+  league = league2027();
+  ui.draftMode = null; ui.season = 'winter'; ui.view = 'draft';
 }
 
 async function tmdb(path, params = {}) {
@@ -612,8 +633,11 @@ document.addEventListener('click', e => {
       if ([...Object.values(league.seasons), Y()].some(x => x.picks.some(p => p.studioId === id) || x.order.includes(id))) { toast("That studio is in a draft, so it can't be removed."); return; }
       league.studios = league.studios.filter(x => x.id !== id); break;
     }
+    case 'load-demo': if (!confirmed('demo', b, 'Click again to replace this league')) return;
+      league = demoLeague(); ui.season = 'summer'; ui.view = 'standings'; ui.draftMode = null; break;
+    case 'dismiss-preset': league.preset = false; break;
     case 'new-league': if (!confirmed('new', b, 'Click again to clear everything')) return;
-      newLeague(); toast('New league started with 6 studios. Rename them on the League tab.'); break;
+      newLeague(); toast('New 2027 league started with 6 studios. Rename them on the League tab.'); break;
     case 'copy': {
       const ta = document.getElementById('export');
       navigator.clipboard.writeText(ta.value).then(() => toast('League code copied.'), () => { ta.select(); toast('Press Ctrl+C / ⌘C to copy the selected code.'); });

@@ -11,6 +11,10 @@ A fantasy box office game. Each player runs an imaginary studio, drafts real wid
 - Enter each film's production budget, then its domestic (or worldwide) gross as it comes in. Profit = gross − budget.
 - Leaderboards rank studios by the combined profit of their films. The most profitable studio wins each season; the year winner has the highest total of all three seasons, their hit pick, and their rivals' bomb picks.
 
+## 2027 season
+
+The site opens on a 2027 league with 6 studios to rename and slates pre-filled with 23 announced 2027 wide releases (dates as reported in September 2026). Release dates move, so check them and add missing films before each draft. Budgets are blank until reported. A finished 2024 demo league is available from the League tab.
+
 ## Running it
 
 It's a single static file. Open `index.html` in a browser, or host it with GitHub Pages.
