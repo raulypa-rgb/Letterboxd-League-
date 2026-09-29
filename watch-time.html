@@ -75,7 +75,7 @@ nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: 
 .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
-.tile .v { font-family: var(--font-display); font-weight: 900; font-size: 2.2rem; line-height: 1; }
+.tile .v { font-family: var(--font-display); font-weight: 900; font-size: 2.2rem; line-height: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .tile .s { font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 button, input, select { font: inherit; color: inherit; }
