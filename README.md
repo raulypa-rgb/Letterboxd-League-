@@ -38,7 +38,7 @@ Watch time for a month is the sum of runtimes of the films a member logged in th
    ```json
    { "members": [ { "username": "dave", "name": "Dave" }, { "username": "karsten" } ] }
    ```
-2. Commit it. The **Update watch time** GitHub Action (`.github/workflows/watch-time.yml`) runs when that file changes, every 6 hours, and on demand from the Actions tab. It reads each member's diary RSS feed, looks up runtimes, and commits `data/watch-time.json`.
+2. Commit it. The **Update watch time** GitHub Action (`.github/workflows/watch-time.yml`) runs when that file changes, every 30 minutes, and on demand from the Actions tab. It reads each member's diary RSS feed, looks up runtimes, and commits `data/watch-time.json`.
 3. Optional: add a `TMDB_API_KEY` repository secret for faster, more reliable runtimes. Without it, runtimes are read from each film's Letterboxd page.
 4. Turn on GitHub Pages and open `watch-time.html`. Use **Show demo data** to preview the page before any viewings are logged.
 

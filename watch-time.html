@@ -294,7 +294,7 @@ function viewSetup() {
   <section class="panel"><h2>How it works</h2>
     <ol class="steps">
       <li>List everyone's Letterboxd username in <code>data/members.json</code> and commit it. Diaries must be public.</li>
-      <li>The <strong>Update watch time</strong> GitHub Action reads each member's diary RSS feed every 6 hours, looks up each film's runtime, and saves the viewings to <code>data/watch-time.json</code>. Run it by hand from the repo's Actions tab any time.</li>
+      <li>The <strong>Update watch time</strong> GitHub Action reads each member's diary RSS feed every 30 minutes, looks up each film's runtime, and saves the viewings to <code>data/watch-time.json</code>. Run it by hand from the repo's Actions tab any time.</li>
       <li>Watch time for a month is the sum of runtimes of every film a member logged in their diary with a watched date in that month. Rewatches count; films logged without a date don't.</li>
       <li>Letterboxd's feed only holds each member's latest ~50 entries, so tracking starts from the first run and keeps every viewing it has seen since.</li>
       <li>Optional: add a <code>TMDB_API_KEY</code> repository secret for faster, more reliable runtimes. Without it, runtimes are read from each film's Letterboxd page.</li>
