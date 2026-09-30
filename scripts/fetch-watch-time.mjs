@@ -67,7 +67,8 @@ export function parseFeed(xml, username) {
       logged: Number.isNaN(pub) ? null : new Date(pub).toISOString(),
     });
   }
-  const name = tag(xml.split('<item>')[0], 'title').replace(/^Letterboxd - /, '');
+  const channel = xml.split('<item>')[0];
+  const name = tag(channel, 'title').replace(/^Letterboxd - /, '');
   return { name, entries, items: items.length };
 }
 

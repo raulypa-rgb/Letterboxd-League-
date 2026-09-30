@@ -1,40 +1,40 @@
 {
-  "updated": "2026-09-30T02:58:48.602Z",
+  "updated": "2026-09-30T03:08:08.519Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-09-30T02:58:41.860Z"
+      "lastFetched": "2026-09-30T03:07:08.017Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-09-30T02:58:42.742Z"
+      "lastFetched": "2026-09-30T03:07:17.929Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-09-30T02:58:43.627Z"
+      "lastFetched": "2026-09-30T03:07:27.833Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-09-30T02:58:44.501Z"
+      "lastFetched": "2026-09-30T03:07:37.733Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-09-30T02:58:45.378Z"
+      "lastFetched": "2026-09-30T03:07:47.657Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-09-30T02:58:46.276Z"
+      "lastFetched": "2026-09-30T03:07:57.623Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-09-30T02:58:47.334Z"
+      "lastFetched": "2026-09-30T03:08:07.708Z"
     }
   ],
   "entries": [
@@ -50,7 +50,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/how-to-lose-a-guy-in-10-days/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/t0/2v/iy/9c/aiB7u6xZ9RWeDTQ7c92J8AoiHj3-0-600-0-900-crop.jpg?v=422ef264f8",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-09-30T02:54:36.000Z"
     },
     {
       "id": "letterboxd-review-1515753842",
@@ -64,7 +65,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/13-going-on-30-3/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/um/45/8m/or/t0c3qxcKSaO4iBYVAzIeyPbC8I1-0-600-0-900-crop.jpg?v=72ab2e2ec7",
-      "runtime": 98
+      "runtime": 98,
+      "logged": "2026-09-29T02:42:26.000Z"
     },
     {
       "id": "letterboxd-review-1515913604",
@@ -78,7 +80,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/wicked-for-good/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/1/1/4/8/871148-wicked-for-good-0-600-0-900-crop.jpg?v=f1330d6f91",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-29T05:44:31.000Z"
     },
     {
       "id": "letterboxd-review-1515051591",
@@ -92,7 +95,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/talladega-nights-the-ballad-of-ricky-bobby/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/8/8/7/46887-talladega-nights-the-ballad-of-ricky-bobby-0-600-0-900-crop.jpg?v=8908d69604",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-09-28T16:43:53.000Z"
     },
     {
       "id": "letterboxd-review-1515050173",
@@ -106,7 +110,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/primetime-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-09-28T16:42:25.000Z"
     },
     {
       "id": "letterboxd-review-1515960882",
@@ -120,7 +125,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/space-jam/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/2r/nv/5b/ef/bJhVLribUKCrKv1h1WFqv4QmRWM-0-600-0-900-crop.jpg?v=9a1c4350c3",
-      "runtime": 87
+      "runtime": 87,
+      "logged": "2026-09-29T06:57:52.000Z"
     },
     {
       "id": "letterboxd-review-1514016227",
@@ -134,7 +140,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/mr_n00dl3s/film/dark-phoenix/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/4/7/3/8/5/247385-dark-phoenix-0-600-0-900-crop.jpg?v=bfbcfb3540",
-      "runtime": 114
+      "runtime": 114,
+      "logged": "2026-09-27T22:12:37.000Z"
     },
     {
       "id": "letterboxd-review-1514582530",
@@ -148,7 +155,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/romeo-juliet-1996/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/4/7/51647-romeo-juliet-0-600-0-900-crop.jpg?v=bbd8155493",
-      "runtime": 120
+      "runtime": 120,
+      "logged": "2026-09-28T05:31:41.000Z"
     },
     {
       "id": "letterboxd-review-1514305929",
@@ -162,7 +170,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/primetime-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-09-28T01:34:33.000Z"
     },
     {
       "id": "letterboxd-review-1511930371",
@@ -176,7 +185,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/forgotten-island-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/4/1/7/3/7/1341737-forgotten-island-2026-0-600-0-900-crop.jpg?v=a0d4d1bb5e",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-09-26T19:58:50.000Z"
     },
     {
       "id": "letterboxd-review-1512589007",
@@ -190,7 +200,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/primetime-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-09-27T03:04:09.000Z"
     },
     {
       "id": "letterboxd-review-1512162351",
@@ -204,7 +215,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/only-the-brave-2017/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/0/3/6/4/330364-only-the-brave-0-600-0-900-crop.jpg?v=57a981261d",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-09-26T22:04:16.000Z"
     },
     {
       "id": "letterboxd-review-1512223078",
@@ -218,7 +230,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/harry-potter-and-the-chamber-of-secrets/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/rj/yc/zl/ex/g8IQhqYYLERU0UxjVaySP46PFEZ-0-600-0-900-crop.jpg?v=d867145245",
-      "runtime": 161
+      "runtime": 161,
+      "logged": "2026-09-26T22:38:14.000Z"
     },
     {
       "id": "letterboxd-review-1511716949",
@@ -232,7 +245,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-odyssey-2026/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-09-26T17:32:17.000Z"
     },
     {
       "id": "letterboxd-review-1511103734",
@@ -246,7 +260,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/primetime-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-09-26T06:10:59.000Z"
     },
     {
       "id": "letterboxd-review-1511033885",
@@ -260,7 +275,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/pressure-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/8/9/7/2/1198972-pressure-2026-0-600-0-900-crop.jpg?v=38a01c694d",
-      "runtime": 101
+      "runtime": 101,
+      "logged": "2026-09-26T04:55:58.000Z"
     },
     {
       "id": "letterboxd-review-1508323878",
@@ -274,7 +290,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men-apocalypse/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/7/2/4/9/2/172492-x-men-apocalypse-0-600-0-900-crop.jpg?v=eecf0062df",
-      "runtime": 144
+      "runtime": 144,
+      "logged": "2026-09-24T02:34:50.000Z"
     },
     {
       "id": "letterboxd-review-1507588078",
@@ -288,7 +305,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/resident-evil-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-09-23T15:56:19.000Z"
     },
     {
       "id": "letterboxd-review-1507191176",
@@ -302,7 +320,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/wicked-2024/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/7/0/3/6/337036-wicked-2024-0-600-0-900-crop.jpg?v=c519c37ff7",
-      "runtime": 162
+      "runtime": 162,
+      "logged": "2026-09-23T05:28:40.000Z"
     },
     {
       "id": "letterboxd-review-1506667792",
@@ -316,7 +335,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/300/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/1/1/1/51111-300-0-600-0-900-crop.jpg?v=84df44bf2e",
-      "runtime": 117
+      "runtime": 117,
+      "logged": "2026-09-22T20:52:05.000Z"
     },
     {
       "id": "letterboxd-review-1505689013",
@@ -330,7 +350,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/under-the-same-moon/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/0/3/3/4/30334-under-the-same-moon-0-600-0-900-crop.jpg?v=30a050d228",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-09-22T00:21:12.000Z"
     },
     {
       "id": "letterboxd-review-1505843693",
@@ -344,7 +365,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men-days-of-future-past/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/9/5/0/7/99507-x-men-days-of-future-past-0-600-0-900-crop.jpg?v=98ca8351c1",
-      "runtime": 132
+      "runtime": 132,
+      "logged": "2026-09-22T02:56:20.000Z"
     },
     {
       "id": "letterboxd-review-1505934135",
@@ -358,7 +380,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/terminator-2-judgment-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/6/51776-terminator-2-judgment-day-0-600-0-900-crop.jpg?v=64f1721e62",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-22T04:32:24.000Z"
     },
     {
       "id": "letterboxd-review-1505142665",
@@ -372,7 +395,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/raulypa/film/justice-league-gods-and-monsters/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/0/0/4/6/250046-justice-league-gods-and-monsters-0-600-0-900-crop.jpg?v=ccdb2fd98a",
-      "runtime": 76
+      "runtime": 76,
+      "logged": "2026-09-21T16:36:24.000Z"
     },
     {
       "id": "letterboxd-review-1505949696",
@@ -386,7 +410,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/the-hunger-games-mockingjay-part-2/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/tq/6c/uw/7r/nN4cEJMHJHbJBsp3vvvhtNWLGqg-0-600-0-900-crop.jpg?v=2b65a152e1",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-22T04:52:25.000Z"
     },
     {
       "id": "letterboxd-review-1505377019",
@@ -400,7 +425,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/the-hunger-games-mockingjay-part-1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/1/9/9/1/101991-the-hunger-games-mockingjay-part-1-0-600-0-900-crop.jpg?v=2909b52c8c",
-      "runtime": 123
+      "runtime": 123,
+      "logged": "2026-09-21T20:07:58.000Z"
     },
     {
       "id": "letterboxd-review-1505765054",
@@ -414,7 +440,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/resident-evil-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-09-22T01:40:51.000Z"
     },
     {
       "id": "letterboxd-review-1504485062",
@@ -428,7 +455,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/gone-girl/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/9/8/5/7/149857-gone-girl-0-600-0-900-crop.jpg?v=dfe3c8018b",
-      "runtime": 149
+      "runtime": 149,
+      "logged": "2026-09-21T01:29:12.000Z"
     },
     {
       "id": "letterboxd-review-1504185627",
@@ -442,7 +470,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-wolverine/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/2/6/3/8/62638-the-wolverine-0-600-0-900-crop.jpg?v=f232f1b127",
-      "runtime": 126
+      "runtime": 126,
+      "logged": "2026-09-20T21:51:26.000Z"
     },
     {
       "id": "letterboxd-review-1504556314",
@@ -456,7 +485,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/dragon-ball-z-resurrection-f/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/3/0/8/8/0/230880-dragon-ball-z-resurrection-f--0-600-0-900-crop.jpg?v=f1cad704c6",
-      "runtime": 93
+      "runtime": 93,
+      "logged": "2026-09-21T02:22:14.000Z"
     },
     {
       "id": "letterboxd-review-1502537050",
@@ -470,7 +500,8 @@
       "rating": null,
       "link": "https://letterboxd.com/da_rayray/film/house/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/7f/z3/ho/6j/6vblWscFAbIm9V5CwHC7IImgAq9-0-600-0-900-crop.jpg?v=b505ff45b0",
-      "runtime": 88
+      "runtime": 88,
+      "logged": "2026-09-19T22:04:39.000Z"
     },
     {
       "id": "letterboxd-review-1503221159",
@@ -484,7 +515,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men-first-class/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/0/7/4/16074-x-men-first-class-0-600-0-900-crop.jpg?v=e9593bba93",
-      "runtime": 132
+      "runtime": 132,
+      "logged": "2026-09-20T08:12:52.000Z"
     },
     {
       "id": "letterboxd-review-1502465786",
@@ -498,7 +530,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/ghost-in-the-shell/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/2/7/0/47270-ghost-in-the-shell-0-600-0-900-crop.jpg?v=c837d80ee1",
-      "runtime": 83
+      "runtime": 83,
+      "logged": "2026-09-19T21:24:49.000Z"
     },
     {
       "id": "letterboxd-review-1502785642",
@@ -512,7 +545,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/harry-potter-and-the-philosophers-stone/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/5t/cj/6w/6e/harrypotter2-0-600-0-900-crop.jpg?v=0053b4ed93",
-      "runtime": 152
+      "runtime": 152,
+      "logged": "2026-09-20T01:10:28.000Z"
     },
     {
       "id": "letterboxd-review-1503122461",
@@ -526,7 +560,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/flipped/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/1/2/1/1/21211-flipped-0-600-0-900-crop.jpg?v=07943ed4b4",
-      "runtime": 89
+      "runtime": 89,
+      "logged": "2026-09-20T05:58:10.000Z"
     },
     {
       "id": "letterboxd-review-1501496051",
@@ -540,7 +575,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/resident-evil-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-09-19T05:08:05.000Z"
     },
     {
       "id": "letterboxd-review-1501544878",
@@ -554,7 +590,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/the-shawshank-redemption/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/7l/hn/46/uz/zGINvGjdlO6TJRu9wESQvWlOKVT-0-600-0-900-crop.jpg?v=8736d1c395",
-      "runtime": 142
+      "runtime": 142,
+      "logged": "2026-09-19T06:05:50.000Z"
     },
     {
       "id": "letterboxd-review-1500704654",
@@ -568,7 +605,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/raulypa/film/the-disaster-artist/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/0/7/2/9/8/307298-the-disaster-artist-0-600-0-900-crop.jpg?v=fdf94cff54",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-09-18T17:51:29.000Z"
     },
     {
       "id": "letterboxd-review-1500782753",
@@ -582,7 +620,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-longest-yard-2005/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/3/0/1/47301-the-longest-yard-0-600-0-900-crop.jpg?v=5e03c23543",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-09-18T19:08:28.000Z"
     },
     {
       "id": "letterboxd-review-1500154178",
@@ -596,7 +635,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/resident-evil-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-09-18T04:24:03.000Z"
     },
     {
       "id": "letterboxd-review-1500179811",
@@ -610,7 +650,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/the-emperors-new-groove/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/0/6/5/45065-the-emperors-new-groove-0-600-0-900-crop.jpg?v=98966ca9e2",
-      "runtime": 78
+      "runtime": 78,
+      "logged": "2026-09-18T04:57:32.000Z"
     },
     {
       "id": "letterboxd-review-1499702979",
@@ -624,7 +665,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/heretic-2024/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/2/5/3/3/1/1025331-heretic-2024-0-600-0-900-crop.jpg?v=c79c5c8121",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-09-17T20:28:22.000Z"
     },
     {
       "id": "letterboxd-review-1499047538",
@@ -638,7 +680,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men-origins-wolverine/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/4/4/50544-x-men-origins-wolverine-0-600-0-900-crop.jpg?v=2b7fb7e161",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-09-17T04:21:49.000Z"
     },
     {
       "id": "letterboxd-review-1499050709",
@@ -652,7 +695,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/cars/1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/de/kp/63/hd/dWg33ektXuHmxjSjEulwDPTWbC2-0-600-0-900-crop.jpg?v=df40f228cb",
-      "runtime": 117
+      "runtime": 117,
+      "logged": "2026-09-17T04:25:54.000Z"
     },
     {
       "id": "letterboxd-review-1498430270",
@@ -666,7 +710,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/superman-2025/3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-600-0-900-crop.jpg?v=54e41a55ff",
-      "runtime": 130
+      "runtime": 130,
+      "logged": "2026-09-16T17:42:46.000Z"
     },
     {
       "id": "letterboxd-review-1498046275",
@@ -680,7 +725,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/baseball-bugs/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/8/8/5/7/28857-baseball-bugs-0-600-0-900-crop.jpg?v=2dc9f934df",
-      "runtime": 7
+      "runtime": 7,
+      "logged": "2026-09-16T07:06:04.000Z"
     },
     {
       "id": "letterboxd-review-1498036803",
@@ -694,7 +740,8 @@
       "rating": 1,
       "link": "https://letterboxd.com/da_rayray/film/angels-egg/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/1/9/9/0/41990-angel-s-egg-0-600-0-900-crop.jpg?v=98f9bf2def",
-      "runtime": 71
+      "runtime": 71,
+      "logged": "2026-09-16T06:45:51.000Z"
     },
     {
       "id": "letterboxd-review-1497920596",
@@ -708,7 +755,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men-the-last-stand/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/7/1/3/27713-x-men-the-last-stand-0-600-0-900-crop.jpg?v=61ff7376df",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-09-16T03:48:25.000Z"
     },
     {
       "id": "letterboxd-review-1497966902",
@@ -722,7 +770,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/enemy-at-the-gates/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/2/9/9/51299-enemy-at-the-gates-0-600-0-900-crop.jpg?v=746124e031",
-      "runtime": 131
+      "runtime": 131,
+      "logged": "2026-09-16T04:50:40.000Z"
     },
     {
       "id": "letterboxd-review-1498055782",
@@ -736,7 +785,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/say-anything/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/8/6/50586-say-anything--0-600-0-900-crop.jpg?v=b31aee2928",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-09-16T07:27:24.000Z"
     },
     {
       "id": "letterboxd-review-1497924283",
@@ -750,7 +800,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/guardians-of-the-galaxy-vol-3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/9/7/1/1/379711-guardians-of-the-galaxy-volume-3-0-600-0-900-crop.jpg?v=bd023e472c",
-      "runtime": 150
+      "runtime": 150,
+      "logged": "2026-09-16T03:53:07.000Z"
     },
     {
       "id": "letterboxd-review-1496836709",
@@ -764,7 +815,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/fast-and-furry-ous/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/0/9/3/2/60932-fast-and-furry-ous-0-600-0-900-crop.jpg?v=b04e6b2187",
-      "runtime": 7
+      "runtime": 7,
+      "logged": "2026-09-15T04:18:56.000Z"
     },
     {
       "id": "letterboxd-review-1496842008",
@@ -778,7 +830,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/the-rock/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/8/1/0/46810-the-rock-0-600-0-900-crop.jpg?v=3801768f12",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-15T04:25:28.000Z"
     },
     {
       "id": "letterboxd-review-1496902912",
@@ -792,7 +845,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/coyote-vs-acme/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-09-15T05:59:04.000Z"
     },
     {
       "id": "letterboxd-review-1496959792",
@@ -806,7 +860,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/love-other-drugs/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/1/8/0/1/21801-love-other-drugs-0-600-0-900-crop.jpg?v=08511b998f",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-09-15T07:55:02.000Z"
     },
     {
       "id": "letterboxd-review-1494837386",
@@ -820,7 +875,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/coyote-vs-acme/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-09-13T18:37:51.000Z"
     },
     {
       "id": "letterboxd-review-1495685338",
@@ -834,7 +890,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/deadpool-wolverine/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/2/8/7/0/462870-deadpool-wolverine-0-600-0-900-crop.jpg?v=1aa778d2c6",
-      "runtime": 128
+      "runtime": 128,
+      "logged": "2026-09-14T05:13:10.000Z"
     },
     {
       "id": "letterboxd-review-1494022419",
@@ -848,7 +905,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x2/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/lt/cd/xz/vb/xmen2-poster-0-600-0-900-crop.jpg?v=141895ae80",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-09-13T04:20:17.000Z"
     },
     {
       "id": "letterboxd-review-1492664297",
@@ -862,7 +920,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/mr_n00dl3s/film/hope-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/4/6/6/3/954663-hope-2026-0-600-0-900-crop.jpg?v=102a8bfda2",
-      "runtime": 157
+      "runtime": 157,
+      "logged": "2026-09-12T07:29:14.000Z"
     },
     {
       "id": "letterboxd-review-1493480691",
@@ -876,7 +935,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/this-is-the-end/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/jc/9p/19/zx/oie_1512543TJ3vNUDP-0-600-0-900-crop.jpg?v=8b2686919f",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-09-12T21:23:27.000Z"
     },
     {
       "id": "letterboxd-review-1500783616",
@@ -890,7 +950,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/scottsak/film/mayday-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/2/5/2/0/3/1025203-mayday-2026-0-600-0-900-crop.jpg?v=d05a68f0b6",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-09-18T19:09:37.000Z"
     },
     {
       "id": "letterboxd-review-1493415723",
@@ -904,7 +965,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/hairspray-2007/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/9/8/3/49983-hairspray-0-600-0-900-crop.jpg?v=9a1698a437",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-09-12T20:45:32.000Z"
     },
     {
       "id": "letterboxd-review-1494066589",
@@ -918,7 +980,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/bedtime-stories/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/4/4/9/46449-bedtime-stories-0-600-0-900-crop.jpg?v=55e25b4b19",
-      "runtime": 99
+      "runtime": 99,
+      "logged": "2026-09-13T05:03:27.000Z"
     },
     {
       "id": "letterboxd-review-1492548629",
@@ -932,7 +995,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/the-other-guys/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/4/3/9/4/34394-the-other-guys-0-600-0-900-crop.jpg?v=5cc54e3d99",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-09-12T04:48:09.000Z"
     },
     {
       "id": "letterboxd-review-1491282802",
@@ -946,7 +1010,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/mr_n00dl3s/film/x-men/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/7/2/3/27723-x-men-0-600-0-900-crop.jpg?v=fce66dceb6",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-09-11T04:18:50.000Z"
     },
     {
       "id": "letterboxd-review-1500132356",
@@ -960,7 +1025,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/scottsak/film/eternity-2025-1/6/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/4/3/3/9/0/1143390-eternity-2025-1-0-600-0-900-crop.jpg?v=adc98f0553",
-      "runtime": 114
+      "runtime": 114,
+      "logged": "2026-09-18T03:58:38.000Z"
     },
     {
       "id": "letterboxd-review-1491379501",
@@ -974,7 +1040,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/creed-iii/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/0/1/6/2/4/601624-creed-iii-0-600-0-900-crop.jpg?v=0855f08594",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-09-11T06:58:23.000Z"
     },
     {
       "id": "letterboxd-review-1490139175",
@@ -988,7 +1055,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/da_rayray/film/hope-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/4/6/6/3/954663-hope-2026-0-600-0-900-crop.jpg?v=102a8bfda2",
-      "runtime": 157
+      "runtime": 157,
+      "logged": "2026-09-10T04:01:18.000Z"
     },
     {
       "id": "letterboxd-review-1490033408",
@@ -1002,7 +1070,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/it-happened-one-night/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/8/9/3/49893-it-happened-one-night-0-600-0-900-crop.jpg?v=295aec1a60",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-09-10T02:02:24.000Z"
     },
     {
       "id": "letterboxd-review-1490257815",
@@ -1016,7 +1085,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/creed-ii/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/1/1/4/3/9/411439-creed-ii-0-600-0-900-crop.jpg?v=24aeabbb89",
-      "runtime": 130
+      "runtime": 130,
+      "logged": "2026-09-10T07:29:51.000Z"
     },
     {
       "id": "letterboxd-review-1488990727",
@@ -1030,7 +1100,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/the-day-the-earth-blew-up-a-looney-tunes-movie/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/8/2/4/6/0/782460-the-day-the-earth-blew-up-a-looney-tunes-movie-0-600-0-900-crop.jpg?v=c26393ad7a",
-      "runtime": 91
+      "runtime": 91,
+      "logged": "2026-09-09T04:21:29.000Z"
     },
     {
       "id": "letterboxd-review-1488087716",
@@ -1044,7 +1115,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/silver-linings-playbook/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/9/1/5/1/69151-silver-linings-playbook-0-600-0-900-crop.jpg?v=dabe98e003",
-      "runtime": 122
+      "runtime": 122,
+      "logged": "2026-09-08T13:33:41.000Z"
     },
     {
       "id": "letterboxd-review-1487166696",
@@ -1058,7 +1130,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/the-hangover-part-iii/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/9/5/3/87953-the-hangover-part-iii-0-600-0-900-crop.jpg?v=f0e2a6655e",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-09-07T21:14:44.000Z"
     },
     {
       "id": "letterboxd-review-1487544568",
@@ -1072,7 +1145,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/the-hunger-games-catching-fire/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/0a/6m/bl/rt/esWEsDI83IYqUBGSN69hb4A1Vfu-0-600-0-900-crop.jpg?v=a9ecd05d8f",
-      "runtime": 146
+      "runtime": 146,
+      "logged": "2026-09-08T01:41:51.000Z"
     },
     {
       "id": "letterboxd-review-1485468890",
@@ -1086,7 +1160,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/kill-bill-vol-1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/sw/w2/ep/v4/9O50TVszkz0dcP5g6Ej33UhR7vw-0-600-0-900-crop.jpg?v=5a65f5202f",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-09-06T20:26:56.000Z"
     },
     {
       "id": "letterboxd-review-1484349102",
@@ -1100,7 +1175,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-color-of-money/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/9/3/0/44930-the-color-of-money-0-600-0-900-crop.jpg?v=e9d86f8587",
-      "runtime": 119
+      "runtime": 119,
+      "logged": "2026-09-06T02:48:20.000Z"
     },
     {
       "id": "letterboxd-review-1484510959",
@@ -1114,7 +1190,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/pulp-fiction/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/4/4/51444-pulp-fiction-0-600-0-900-crop.jpg?v=dee19a8077",
-      "runtime": 154
+      "runtime": 154,
+      "logged": "2026-09-06T05:04:15.000Z"
     },
     {
       "id": "letterboxd-review-1484058156",
@@ -1128,7 +1205,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/coyote-vs-acme/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-09-05T22:59:36.000Z"
     },
     {
       "id": "letterboxd-review-1484483169",
@@ -1142,7 +1220,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/creed/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/3/9/2/6/0/239260-creed-0-600-0-900-crop.jpg?v=3fa9f6f051",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-09-06T04:38:39.000Z"
     },
     {
       "id": "letterboxd-review-1482962956",
@@ -1156,7 +1235,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/akira/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/xk/25/lu/0m/mi2Axov7Hy20wieoGfrbqDWLjSr-0-600-0-900-crop.jpg?v=dd1e90619a",
-      "runtime": 124
+      "runtime": 124,
+      "logged": "2026-09-05T05:15:07.000Z"
     },
     {
       "id": "letterboxd-watch-1484683976",
@@ -1170,7 +1250,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/scottsak/film/top-gun-maverick/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/9/3/4/6/5/293465-top-gun-maverick-0-600-0-900-crop.jpg?v=9f8af0f61b",
-      "runtime": 131
+      "runtime": 131,
+      "logged": "2026-09-06T08:53:07.000Z"
     },
     {
       "id": "letterboxd-review-1481696207",
@@ -1184,7 +1265,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/da_rayray/film/buddy-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/8/9/7/1/4/1389714-buddy-2026-0-600-0-900-crop.jpg?v=6a078eb95a",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-09-04T05:52:52.000Z"
     },
     {
       "id": "letterboxd-review-1481643170",
@@ -1198,7 +1280,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/carry-on-2024/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/0/5/8/7/6/905876-carry-on-2024-0-600-0-900-crop.jpg?v=bc2c1c0d8f",
-      "runtime": 120
+      "runtime": 120,
+      "logged": "2026-09-04T04:38:48.000Z"
     },
     {
       "id": "letterboxd-review-1481632904",
@@ -1212,7 +1295,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/the-hunger-games/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/x3/tw/wu/z4/vAkjFEm76Lu5hSevquxPgQ91OtI-0-600-0-900-crop.jpg?v=f4bfaf16df",
-      "runtime": 142
+      "runtime": 142,
+      "logged": "2026-09-04T04:25:44.000Z"
     },
     {
       "id": "letterboxd-review-1480452538",
@@ -1226,7 +1310,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/aliens/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/4/5/51445-aliens-0-600-0-900-crop.jpg?v=6c62918bdd",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-03T05:24:35.000Z"
     },
     {
       "id": "letterboxd-review-1484684588",
@@ -1240,7 +1325,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/scottsak/film/pitch-perfect/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/yw/kc/ma/m9/cLUMPdwCV0Dxd3P1ZkCXe7bVImI-0-600-0-900-crop.jpg?v=cd134ffb49",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-09-06T08:53:59.000Z"
     },
     {
       "id": "letterboxd-review-1480214539",
@@ -1254,7 +1340,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/the-hangover-part-ii/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/14/sk/45/1c/hFUsdnUoQDQ02EVlKTyhDTdehEr-0-600-0-900-crop.jpg?v=b607a95894",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-09-03T00:58:38.000Z"
     },
     {
       "id": "letterboxd-review-1479148168",
@@ -1268,7 +1355,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/coyote-vs-acme/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-09-02T04:29:45.000Z"
     },
     {
       "id": "letterboxd-review-1479248011",
@@ -1282,7 +1370,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/american-gangster/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/0/1/9/49019-american-gangster-0-600-0-900-crop.jpg?v=a49b2d92f6",
-      "runtime": 157
+      "runtime": 157,
+      "logged": "2026-09-02T06:55:22.000Z"
     },
     {
       "id": "letterboxd-review-1477761462",
@@ -1296,7 +1385,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/dune-2021/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-600-0-900-crop.jpg?v=49eed12751",
-      "runtime": 155
+      "runtime": 155,
+      "logged": "2026-09-01T03:24:28.000Z"
     },
     {
       "id": "letterboxd-review-1476676816",
@@ -1310,7 +1400,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/x-men/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/7/2/3/27723-x-men-0-600-0-900-crop.jpg?v=fce66dceb6",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-08-31T11:58:36.000Z"
     },
     {
       "id": "letterboxd-review-1476594133",
@@ -1324,7 +1415,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/about-last-night/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/5/3/7/40537-about-last-night--0-600-0-900-crop.jpg?v=1b860a0639",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-08-31T10:08:46.000Z"
     },
     {
       "id": "letterboxd-review-1477840723",
@@ -1338,7 +1430,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/harakiri/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/3/0/1/5/43015-harakiri-0-600-0-900-crop.jpg?v=007080a0fb",
-      "runtime": 135
+      "runtime": 135,
+      "logged": "2026-09-01T04:49:56.000Z"
     },
     {
       "id": "letterboxd-review-1477912513",
@@ -1352,7 +1445,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/raulypa/film/dark-phoenix/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/4/7/3/8/5/247385-dark-phoenix-0-600-0-900-crop.jpg?v=bfbcfb3540",
-      "runtime": 114
+      "runtime": 114,
+      "logged": "2026-09-01T06:35:31.000Z"
     },
     {
       "id": "letterboxd-review-1477877605",
@@ -1366,7 +1460,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/logan-2017/1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/f3/ub/fq/f5/gGBu0hKw9BGddG8RkRAMX7B6NDB-0-600-0-900-crop.jpg?v=523ca1f161",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-09-01T05:37:53.000Z"
     },
     {
       "id": "letterboxd-review-1477875226",
@@ -1380,7 +1475,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/fun-with-dick-and-jane-1996/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/i4/7i/o5/2w/qHy52WREa1IM1dotsODePFXV7Wm-0-600-0-900-crop.jpg?v=135ba7ae06",
-      "runtime": 90
+      "runtime": 90,
+      "logged": "2026-09-01T05:34:18.000Z"
     },
     {
       "id": "letterboxd-review-1477110360",
@@ -1394,7 +1490,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/raulypa/film/x-men-apocalypse/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/7/2/4/9/2/172492-x-men-apocalypse-0-600-0-900-crop.jpg?v=eecf0062df",
-      "runtime": 144
+      "runtime": 144,
+      "logged": "2026-08-31T18:53:39.000Z"
     },
     {
       "id": "letterboxd-review-1477864129",
@@ -1408,7 +1505,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/hadestown-the-musical/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/1/7/3/9/2/1317392-hadestown-0-600-0-900-crop.jpg?v=6b2dea3e7b",
-      "runtime": 141
+      "runtime": 141,
+      "logged": "2026-09-01T05:18:40.000Z"
     },
     {
       "id": "letterboxd-review-1477837889",
@@ -1422,7 +1520,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/gangs-of-new-york-2002/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/8/4/6/49846-gangs-of-new-york-0-600-0-900-crop.jpg?v=5c4435acc6",
-      "runtime": 168
+      "runtime": 168,
+      "logged": "2026-09-01T04:46:10.000Z"
     },
     {
       "id": "letterboxd-review-1477530415",
@@ -1436,7 +1535,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-hangover/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/1/0/0/40100-the-hangover-0-600-0-900-crop.jpg?v=6464871bf5",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-08-31T23:47:01.000Z"
     },
     {
       "id": "letterboxd-watch-1477914921",
@@ -1450,7 +1550,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/the-drama/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-09-01T06:40:06.000Z"
     },
     {
       "id": "letterboxd-review-1477913205",
@@ -1464,7 +1565,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/shes-the-man/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/9/4/6/46946-she-s-the-man-0-600-0-900-crop.jpg?v=15a15f33fb",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-09-01T06:36:44.000Z"
     },
     {
       "id": "letterboxd-review-1476431599",
@@ -1478,7 +1580,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/x-men-days-of-future-past/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/9/5/0/7/99507-x-men-days-of-future-past-0-600-0-900-crop.jpg?v=98ca8351c1",
-      "runtime": 132
+      "runtime": 132,
+      "logged": "2026-08-31T05:49:47.000Z"
     },
     {
       "id": "letterboxd-review-1474704610",
@@ -1492,7 +1595,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/sorry-baby-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/9/0/4/6/4/1090464-sorry-baby-2025-0-600-0-900-crop.jpg?v=c011d7fe20",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-30T07:46:19.000Z"
     },
     {
       "id": "letterboxd-review-1474706498",
@@ -1506,7 +1610,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/nine-to-five/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/9/6/1/1/39611-nine-to-five-0-600-0-900-crop.jpg?v=585e6eeb9e",
-      "runtime": 110
+      "runtime": 110,
+      "logged": "2026-08-30T07:49:00.000Z"
     },
     {
       "id": "letterboxd-review-1474518907",
@@ -1520,7 +1625,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/finding-emily/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/3/9/8/1234398-finding-emily-0-600-0-900-crop.jpg?v=1b5859bc03",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-08-30T04:23:45.000Z"
     },
     {
       "id": "letterboxd-review-1472870563",
@@ -1534,7 +1640,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/gintama-the-movie-2026-yoshiwara-in-flames/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/0/6/1/7/1/1406171-gintama-the-movie-2026-yoshiwara-in-flames-0-600-0-900-crop.jpg?v=baf9ef646f",
-      "runtime": 124
+      "runtime": 124,
+      "logged": "2026-08-29T04:23:52.000Z"
     },
     {
       "id": "letterboxd-review-1472136461",
@@ -1548,7 +1655,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/raulypa/film/the-wolverine/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/2/6/3/8/62638-the-wolverine-0-600-0-900-crop.jpg?v=f232f1b127",
-      "runtime": 126
+      "runtime": 126,
+      "logged": "2026-08-28T18:36:45.000Z"
     },
     {
       "id": "letterboxd-review-1475316110",
@@ -1562,7 +1670,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/coyote-vs-acme/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/9/0/8/8/1089088-coyote-vs-acme-0-600-0-900-crop.jpg?v=735eb10cc7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-30T17:45:22.000Z"
     },
     {
       "id": "letterboxd-review-1470946397",
@@ -1576,7 +1685,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/x-men-first-class/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/0/7/4/16074-x-men-first-class-0-600-0-900-crop.jpg?v=e9593bba93",
-      "runtime": 132
+      "runtime": 132,
+      "logged": "2026-08-27T20:46:31.000Z"
     },
     {
       "id": "letterboxd-review-1471582649",
@@ -1590,7 +1700,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/point-break/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/1/5/7/51157-point-break-0-600-0-900-crop.jpg?v=3cd33a67b2",
-      "runtime": 122
+      "runtime": 122,
+      "logged": "2026-08-28T07:12:55.000Z"
     },
     {
       "id": "letterboxd-review-1470092474",
@@ -1604,7 +1715,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/mad-max/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/9/4/2/46942-mad-max-0-600-0-900-crop.jpg?v=677bca879a",
-      "runtime": 91
+      "runtime": 91,
+      "logged": "2026-08-27T03:35:53.000Z"
     },
     {
       "id": "letterboxd-review-1469497036",
@@ -1618,7 +1730,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/raulypa/film/x-men-origins-wolverine/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/4/4/50544-x-men-origins-wolverine-0-600-0-900-crop.jpg?v=2b7fb7e161",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-08-26T19:35:51.000Z"
     },
     {
       "id": "letterboxd-watch-1467692148",
@@ -1632,7 +1745,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/blockers/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/0/4/3/1/370431-blockers-0-600-0-900-crop.jpg?v=2fd74658e5",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-08-25T13:12:42.000Z"
     },
     {
       "id": "letterboxd-review-1468762396",
@@ -1646,7 +1760,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-color-of-pomegranates/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/5/4/2/1/35421-the-color-of-pomegranates-0-600-0-900-crop.jpg?v=f8f12ce6b2",
-      "runtime": 80
+      "runtime": 80,
+      "logged": "2026-08-26T04:53:12.000Z"
     },
     {
       "id": "letterboxd-review-1468280591",
@@ -1660,7 +1775,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/x-men-the-last-stand/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/7/1/3/27713-x-men-the-last-stand-0-600-0-900-crop.jpg?v=61ff7376df",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-08-25T21:45:51.000Z"
     },
     {
       "id": "letterboxd-review-1471587283",
@@ -1674,7 +1790,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/west-side-story-2021/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/yd/j5/tz/up/xW3t04p24jH7aQyq1J63ApAP9gG-0-600-0-900-crop.jpg?v=a25d5f6f88",
-      "runtime": 156
+      "runtime": 156,
+      "logged": "2026-08-28T07:21:35.000Z"
     },
     {
       "id": "letterboxd-review-1467075585",
@@ -1688,7 +1805,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/high-fidelity/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/fh/qn/as/cp/sEZKCUFU6Ozf7hZ3UuaKWUqHLTZ-0-600-0-900-crop.jpg?v=73f6b8a843",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-08-25T00:36:12.000Z"
     },
     {
       "id": "letterboxd-review-1464796325",
@@ -1702,7 +1820,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/harry-potter-and-the-half-blood-prince/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/5/51385-harry-potter-and-the-half-blood-prince-0-600-0-900-crop.jpg?v=789e7859c8",
-      "runtime": 153
+      "runtime": 153,
+      "logged": "2026-08-23T17:30:34.000Z"
     },
     {
       "id": "letterboxd-review-1465903400",
@@ -1716,7 +1835,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/x2/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/lt/cd/xz/vb/xmen2-poster-0-600-0-900-crop.jpg?v=141895ae80",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-08-24T05:19:59.000Z"
     },
     {
       "id": "letterboxd-review-1465622979",
@@ -1730,7 +1850,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/x-men/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/7/2/3/27723-x-men-0-600-0-900-crop.jpg?v=fce66dceb6",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-08-24T01:33:29.000Z"
     },
     {
       "id": "letterboxd-review-1465414292",
@@ -1744,7 +1865,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/easy-a/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/6/7/7/0/26770-easy-a-0-600-0-900-crop.jpg?v=61986c3654",
-      "runtime": 93
+      "runtime": 93,
+      "logged": "2026-08-23T23:13:58.000Z"
     },
     {
       "id": "letterboxd-review-1463376701",
@@ -1758,7 +1880,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-odyssey-2026/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-08-22T21:05:43.000Z"
     },
     {
       "id": "letterboxd-review-1464061107",
@@ -1772,7 +1895,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/scottsak/film/spider-man-brand-new-day/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-23T04:58:01.000Z"
     },
     {
       "id": "letterboxd-review-1463279263",
@@ -1786,7 +1910,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/scottsak/film/while-you-were-sleeping/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/5/7/50557-while-you-were-sleeping-0-600-0-900-crop.jpg?v=83ec42bc7d",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-22T20:10:44.000Z"
     },
     {
       "id": "letterboxd-review-1463193423",
@@ -1800,7 +1925,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/skinklevro/film/popstar-never-stop-never-stopping/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/7/0/4/7/6/270476-popstar-never-stop-never-stopping-0-600-0-900-crop.jpg?v=c6e71d71e8",
-      "runtime": 86
+      "runtime": 86,
+      "logged": "2026-08-22T19:15:46.000Z"
     },
     {
       "id": "letterboxd-review-1462390023",
@@ -1814,7 +1940,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/incendies/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/8/6/2/7/18627-incendies-0-600-0-900-crop.jpg?v=428c0056f4",
-      "runtime": 131
+      "runtime": 131,
+      "logged": "2026-08-22T04:50:30.000Z"
     },
     {
       "id": "letterboxd-review-1462275881",
@@ -1828,7 +1955,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/thank-you-for-smoking/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/qh/tu/w1/wm/v8PKsbAGIvAhKbbRUjdQ3jgFD2S-0-600-0-900-crop.jpg?v=f196e341fa",
-      "runtime": 92
+      "runtime": 92,
+      "logged": "2026-08-22T03:06:59.000Z"
     },
     {
       "id": "letterboxd-review-1459297957",
@@ -1842,7 +1970,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/sirat-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/7/7/7/1037777-sirat-2025-0-600-0-900-crop.jpg?v=1660cb1f29",
-      "runtime": 115
+      "runtime": 115,
+      "logged": "2026-08-20T01:38:57.000Z"
     },
     {
       "id": "letterboxd-review-1459510996",
@@ -1856,7 +1985,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/hal-harper/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/7/2/9/0/1307290-hal-harper-0-600-0-900-crop.jpg?v=407368e03f",
-      "runtime": 270
+      "runtime": 270,
+      "logged": "2026-08-20T05:08:04.000Z"
     },
     {
       "id": "letterboxd-review-1459510764",
@@ -1870,7 +2000,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/people-we-meet-on-vacation/3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/3/2/8/5/6/932856-people-we-meet-on-vacation-0-600-0-900-crop.jpg?v=c98853a2fc",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-08-20T05:07:46.000Z"
     },
     {
       "id": "letterboxd-review-1458009414",
@@ -1884,7 +2015,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/spider-man-brand-new-day/3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-19T04:57:20.000Z"
     },
     {
       "id": "letterboxd-review-1457546695",
@@ -1898,7 +2030,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/kylie_sak/film/shes-the-one/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/3/7/1/45371-she-s-the-one-0-600-0-900-crop.jpg?v=cd65c02467",
-      "runtime": 96
+      "runtime": 96,
+      "logged": "2026-08-18T22:23:51.000Z"
     },
     {
       "id": "letterboxd-review-1457744679",
@@ -1912,7 +2045,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/batman-under-the-red-hood/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/4/3/0/8/24308-batman-under-the-red-hood-0-600-0-900-crop.jpg?v=79aef1f6a4",
-      "runtime": 75
+      "runtime": 75,
+      "logged": "2026-08-19T01:05:48.000Z"
     },
     {
       "id": "letterboxd-review-1457323825",
@@ -1926,7 +2060,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/the-death-of-superman/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/1/8/3/4/7/418347-the-death-of-superman-0-600-0-900-crop.jpg?v=151217ba4a",
-      "runtime": 81
+      "runtime": 81,
+      "logged": "2026-08-18T20:05:53.000Z"
     },
     {
       "id": "letterboxd-review-1457311491",
@@ -1940,7 +2075,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/death-note-2006/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/0/6/8/3/4/606834-death-note-2006-0-600-0-900-crop.jpg?v=5a5d43ebbc",
-      "runtime": 851
+      "runtime": 851,
+      "logged": "2026-08-18T19:57:23.000Z"
     },
     {
       "id": "letterboxd-review-1459328793",
@@ -1954,7 +2090,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/there-will-be-blood/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/jg/cd/7y/f5/there%20will%20be%20blood-0-600-0-900-crop.jpg?v=8a533d5350",
-      "runtime": 158
+      "runtime": 158,
+      "logged": "2026-08-20T02:06:06.000Z"
     },
     {
       "id": "letterboxd-watch-1456445551",
@@ -1968,7 +2105,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/grown-ups-2/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/5j/17/k1/d2/xVfzcl1fcTDA4T76enoHF80MR4n-0-600-0-900-crop.jpg?v=02684786cb",
-      "runtime": 101
+      "runtime": 101,
+      "logged": "2026-08-18T04:10:54.000Z"
     },
     {
       "id": "letterboxd-review-1454807547",
@@ -1982,7 +2120,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/supergirl-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/4/2/8/6/974286-supergirl-2026-0-600-0-900-crop.jpg?v=e85ddf39db",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-08-17T04:29:48.000Z"
     },
     {
       "id": "letterboxd-review-1453528492",
@@ -1996,7 +2135,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/skinklevro/film/the-super-mario-galaxy-movie/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/1/0/0/8/0/1110080-the-super-mario-galaxy-movie-0-600-0-900-crop.jpg?v=fefcfca134",
-      "runtime": 98
+      "runtime": 98,
+      "logged": "2026-08-16T16:05:03.000Z"
     },
     {
       "id": "letterboxd-review-1452425084",
@@ -2010,7 +2150,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/chungking-express/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/6/0/2/45602-chungking-express-0-600-0-900-crop.jpg?v=9475abb05b",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-15T23:44:24.000Z"
     },
     {
       "id": "letterboxd-review-1452225961",
@@ -2024,7 +2165,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/tony-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/0/9/0/0/1/1209001-tony-2026-0-600-0-900-crop.jpg?v=63ce7b9234",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-08-15T21:51:20.000Z"
     },
     {
       "id": "letterboxd-review-1452033925",
@@ -2038,7 +2180,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/tupapi_/film/the-end-of-oak-street/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-600-0-900-crop.jpg?v=b06dbfb4c9",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-08-15T20:12:09.000Z"
     },
     {
       "id": "letterboxd-review-1451164394",
@@ -2052,7 +2195,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/raulypa/film/the-social-network/1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/nw/cm/pa/ai/sGQv3ZMZBDBnl3z42Q0mEQ5uiDe-0-600-0-900-crop.jpg?v=54ee59f7cd",
-      "runtime": 121
+      "runtime": 121,
+      "logged": "2026-08-15T06:43:21.000Z"
     },
     {
       "id": "letterboxd-review-1450678721",
@@ -2066,7 +2210,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/the-end-of-oak-street/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/9/2/9/6/2/992962-the-end-of-oak-street-0-600-0-900-crop.jpg?v=b06dbfb4c9",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-08-14T23:43:38.000Z"
     },
     {
       "id": "letterboxd-review-1450253717",
@@ -2080,7 +2225,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/scottsak/film/the-last-house-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/6/7/4/1167674-the-last-house-2026-0-600-0-900-crop.jpg?v=cb3208a300",
-      "runtime": 110
+      "runtime": 110,
+      "logged": "2026-08-14T19:03:21.000Z"
     },
     {
       "id": "letterboxd-review-1449399513",
@@ -2094,7 +2240,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/three-colours-blue/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/2/51942-three-colors-blue-0-600-0-900-crop.jpg?v=2f5ab6d19e",
-      "runtime": 98
+      "runtime": 98,
+      "logged": "2026-08-14T03:16:44.000Z"
     },
     {
       "id": "letterboxd-review-1448369500",
@@ -2108,7 +2255,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/obsession-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-08-13T13:19:43.000Z"
     },
     {
       "id": "letterboxd-review-1446490957",
@@ -2122,7 +2270,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/spider-man-brand-new-day/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-12T04:19:54.000Z"
     },
     {
       "id": "letterboxd-review-1446409887",
@@ -2136,7 +2285,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/scottsak/film/hamilton-2020/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/5/3/0/9/485309-hamilton-0-600-0-900-crop.jpg?v=6430888d58",
-      "runtime": 160
+      "runtime": 160,
+      "logged": "2026-08-12T03:09:36.000Z"
     },
     {
       "id": "letterboxd-review-1444545668",
@@ -2150,7 +2300,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/scottsak/film/the-greatest-showman/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/4/3/0/6/3/243063-the-greatest-showman-0-600-0-900-crop.jpg?v=f548460c56",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-08-11T00:33:59.000Z"
     },
     {
       "id": "letterboxd-review-1443707114",
@@ -2164,7 +2315,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/beautiful-boy-2018/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/4/0/5/8/384058-beautiful-boy-0-600-0-900-crop.jpg?v=f926f71a50",
-      "runtime": 121
+      "runtime": 121,
+      "logged": "2026-08-10T15:36:42.000Z"
     },
     {
       "id": "letterboxd-review-1441982177",
@@ -2178,7 +2330,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/duck-you-sucker/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/7/2/6/51726-duck-you-sucker-0-600-0-900-crop.jpg?v=b70f075d9e",
-      "runtime": 157
+      "runtime": 157,
+      "logged": "2026-08-09T20:17:19.000Z"
     },
     {
       "id": "letterboxd-review-1440461093",
@@ -2192,7 +2345,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/the-lego-batman-movie/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-600-0-900-crop.jpg?v=ff7c1cbca1",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-08-08T20:52:38.000Z"
     },
     {
       "id": "letterboxd-review-1440792719",
@@ -2206,7 +2360,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/the-muppets/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/0/3/603-the-muppets-0-600-0-900-crop.jpg?v=7cdefccfc1",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-08T23:46:17.000Z"
     },
     {
       "id": "letterboxd-review-1439581862",
@@ -2220,7 +2375,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/the-notebook/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/6/6/7/45667-the-notebook-0-600-0-900-crop.jpg?v=d867e84f30",
-      "runtime": 123
+      "runtime": 123,
+      "logged": "2026-08-08T09:14:00.000Z"
     },
     {
       "id": "letterboxd-review-1439347590",
@@ -2234,7 +2390,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/spider-man-brand-new-day/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-08T04:42:27.000Z"
     },
     {
       "id": "letterboxd-review-1439016471",
@@ -2248,7 +2405,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/scottsak/film/eternity-2025-1/5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/4/3/3/9/0/1143390-eternity-2025-1-0-600-0-900-crop.jpg?v=adc98f0553",
-      "runtime": 114
+      "runtime": 114,
+      "logged": "2026-08-08T00:34:30.000Z"
     },
     {
       "id": "letterboxd-review-1439161308",
@@ -2262,7 +2420,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/the-long-walk-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/3/1/3/1/6/531316-the-long-walk-2025-0-600-0-900-crop.jpg?v=9cf0c245aa",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-08-08T02:23:29.000Z"
     },
     {
       "id": "letterboxd-review-1437660360",
@@ -2276,7 +2435,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/city-on-fire/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/2/9/4/6/22946-city-on-fire-0-600-0-900-crop.jpg?v=9867be4804",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-08-07T04:29:59.000Z"
     },
     {
       "id": "letterboxd-review-1437802353",
@@ -2290,7 +2450,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/spider-man-no-way-home/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-600-0-900-crop.jpg?v=a336d4f40c",
-      "runtime": 148
+      "runtime": 148,
+      "logged": "2026-08-07T07:16:40.000Z"
     },
     {
       "id": "letterboxd-review-1438984552",
@@ -2304,7 +2465,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/scottsak/film/spider-man-brand-new-day/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-08T00:09:10.000Z"
     },
     {
       "id": "letterboxd-review-1436082510",
@@ -2318,7 +2480,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/spider-man-brand-new-day/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-06T05:40:19.000Z"
     },
     {
       "id": "letterboxd-review-1436141298",
@@ -2332,7 +2495,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/the-odyssey-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-08-06T06:53:12.000Z"
     },
     {
       "id": "letterboxd-review-1433989145",
@@ -2346,7 +2510,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/mr_n00dl3s/film/ichi-the-killer/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/9/0/8/46908-ichi-the-killer-0-600-0-900-crop.jpg?v=05cf96b1d5",
-      "runtime": 129
+      "runtime": 129,
+      "logged": "2026-08-05T01:12:00.000Z"
     },
     {
       "id": "letterboxd-watch-1432781740",
@@ -2360,7 +2525,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/the-idaho-murders-college-nightmare/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/0/6/2/3/9/1606239-the-idaho-murders-college-nightmare-0-600-0-900-crop.jpg?v=3e68ee3002",
-      "runtime": 132
+      "runtime": 132,
+      "logged": "2026-08-04T10:53:04.000Z"
     },
     {
       "id": "letterboxd-review-1431918497",
@@ -2374,7 +2540,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/arrival-2016/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-600-0-900-crop.jpg?v=0fc28fdf2c",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-08-03T22:25:19.000Z"
     },
     {
       "id": "letterboxd-review-1429917557",
@@ -2388,7 +2555,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-02T22:20:32.000Z"
     },
     {
       "id": "letterboxd-review-1430663141",
@@ -2402,7 +2570,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/the-drama/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-600-0-900-crop.jpg?v=2320acafd5",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-08-03T05:28:39.000Z"
     },
     {
       "id": "letterboxd-review-1429047534",
@@ -2416,7 +2585,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/raulypa/film/spider-man-far-from-home/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/6/2/9/7/7/362977-spider-man-far-from-home-0-600-0-900-crop.jpg?v=d139fbf2ae",
-      "runtime": 129
+      "runtime": 129,
+      "logged": "2026-08-02T15:11:39.000Z"
     },
     {
       "id": "letterboxd-review-1430176313",
@@ -2430,7 +2600,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/scottsak/film/the-dink/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/4/9/4/7/5/1249475-the-dink-0-600-0-900-crop.jpg?v=0f00f70cf0",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-08-03T00:30:35.000Z"
     },
     {
       "id": "letterboxd-review-1429912394",
@@ -2444,7 +2615,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/spider-man-brand-new-day/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-02T22:18:19.000Z"
     },
     {
       "id": "letterboxd-review-1428431118",
@@ -2458,7 +2630,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-02T06:00:09.000Z"
     },
     {
       "id": "letterboxd-review-1427822271",
@@ -2472,7 +2645,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/hell-or-high-water/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/os/sk/tr/0a/6YOrNBdoXvT8aC5VPLkkN6t5z0V-0-600-0-900-crop.jpg?v=ae04fa804c",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-08-01T23:42:50.000Z"
     },
     {
       "id": "letterboxd-review-1427527001",
@@ -2486,7 +2660,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/spider-man-brand-new-day/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-01T21:24:51.000Z"
     },
     {
       "id": "letterboxd-review-1426493406",
@@ -2500,7 +2675,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-01T09:02:22.000Z"
     },
     {
       "id": "letterboxd-review-1426429999",
@@ -2514,7 +2690,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/scottsak/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-01T07:44:37.000Z"
     },
     {
       "id": "letterboxd-review-1426181390",
@@ -2528,7 +2705,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/little-miss-sunshine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-08-01T04:10:25.000Z"
     },
     {
       "id": "letterboxd-review-1426296310",
@@ -2542,7 +2720,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/a-toxic-love-story/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/9/0/3/0/4/1590304-a-toxic-love-story-0-600-0-900-crop.jpg?v=ead75c9f9e",
-      "runtime": 91
+      "runtime": 91,
+      "logged": "2026-08-01T05:34:08.000Z"
     },
     {
       "id": "letterboxd-review-1425806296",
@@ -2556,7 +2735,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/perfect-blue/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/1/7/5/46175-perfect-blue-0-600-0-900-crop.jpg?v=1ed5878cce",
-      "runtime": 81
+      "runtime": 81,
+      "logged": "2026-08-01T00:08:49.000Z"
     },
     {
       "id": "letterboxd-review-1426344738",
@@ -2570,7 +2750,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/ratatouille/2/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/n8/rl/pc/se/jEiEU8viSb8CIIHcfprVr2V6XDz-0-600-0-900-crop.jpg?v=25e13045f0",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-08-01T06:14:32.000Z"
     },
     {
       "id": "letterboxd-review-1425090350",
@@ -2584,7 +2765,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/tupapi_/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-07-31T17:16:25.000Z"
     },
     {
       "id": "letterboxd-review-1429967130",
@@ -2598,7 +2780,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-08-02T22:42:10.000Z"
     },
     {
       "id": "letterboxd-review-1422747370",
@@ -2612,7 +2795,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/raising-helen/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/2/2/5/49225-raising-helen-0-600-0-900-crop.jpg?v=90856c7994",
-      "runtime": 119
+      "runtime": 119,
+      "logged": "2026-07-30T10:57:01.000Z"
     },
     {
       "id": "letterboxd-review-1424581701",
@@ -2626,7 +2810,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/there-will-be-blood/1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/jg/cd/7y/f5/there%20will%20be%20blood-0-600-0-900-crop.jpg?v=8a533d5350",
-      "runtime": 158
+      "runtime": 158,
+      "logged": "2026-07-31T09:55:31.000Z"
     },
     {
       "id": "letterboxd-review-1424395138",
@@ -2640,7 +2825,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/spider-man-brand-new-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
-      "runtime": 145
+      "runtime": 145,
+      "logged": "2026-07-31T06:01:43.000Z"
     },
     {
       "id": "letterboxd-review-1422154583",
@@ -2654,7 +2840,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/tupapi_/film/the-perks-of-being-a-wallflower/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/1/3/3/8/71338-the-perks-of-being-a-wallflower-0-600-0-900-crop.jpg?v=f2235860f7",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-07-30T01:36:55.000Z"
     },
     {
       "id": "letterboxd-review-1420516330",
@@ -2668,7 +2855,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/kill-bill-the-whole-bloody-affair/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/4/8/4/3/9/348439-kill-bill-the-whole-bloody-affair-0-600-0-900-crop.jpg?v=5d08ead101",
-      "runtime": 254
+      "runtime": 254,
+      "logged": "2026-07-29T03:25:34.000Z"
     },
     {
       "id": "letterboxd-review-1418970256",
@@ -2682,7 +2870,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/kylie_sak/film/four-weddings-and-a-funeral/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/9j/zy/5o/tg/md9kMKnLG8LG4pMDM98gy5x4K5L-0-600-0-900-crop.jpg?v=92fc8c1a91",
-      "runtime": 117
+      "runtime": 117,
+      "logged": "2026-07-28T06:40:05.000Z"
     },
     {
       "id": "letterboxd-review-1419560551",
@@ -2696,7 +2885,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/raulypa/film/cowboy-bebop/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/0/7/2/2/1/607221-cowboy-bebop-0-600-0-900-crop.jpg?v=7d3ec1c167",
-      "runtime": 625
+      "runtime": 625,
+      "logged": "2026-07-28T17:09:05.000Z"
     },
     {
       "id": "letterboxd-review-1418800633",
@@ -2710,7 +2900,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/one-night-only-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/1/1/6/7/7/1311677-one-night-only-2026-0-600-0-900-crop.jpg?v=9e18b23e11",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-07-28T04:02:02.000Z"
     },
     {
       "id": "letterboxd-review-1418064750",
@@ -2724,7 +2915,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/avatar-aang-the-last-airbender/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/8/2/4/3/2/882432-avatar-aang-the-last-airbender-0-600-0-900-crop.jpg?v=7049f9a3e5",
-      "runtime": 99
+      "runtime": 99,
+      "logged": "2026-07-27T20:12:40.000Z"
     },
     {
       "id": "letterboxd-review-1416094460",
@@ -2738,7 +2930,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/mamma-mia/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/10/5l/wu/jl/gOm2iMMbC6EonrFzmSQ8xvCa4Ei.jpg-0-600-0-900-crop.jpg?v=e49de6f770",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-07-26T20:10:49.000Z"
     },
     {
       "id": "letterboxd-review-1415799261",
@@ -2752,7 +2945,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/good-will-hunting/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/2/1/51621-good-will-hunting-0-600-0-900-crop.jpg?v=acb4766abd",
-      "runtime": 127
+      "runtime": 127,
+      "logged": "2026-07-26T17:24:13.000Z"
     },
     {
       "id": "letterboxd-review-1415794760",
@@ -2766,7 +2960,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/the-odyssey-2026/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-26T17:21:08.000Z"
     },
     {
       "id": "letterboxd-review-1416880992",
@@ -2780,7 +2975,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/hadestown-the-musical/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/1/7/3/9/2/1317392-hadestown-0-600-0-900-crop.jpg?v=6b2dea3e7b",
-      "runtime": 141
+      "runtime": 141,
+      "logged": "2026-07-27T02:45:38.000Z"
     },
     {
       "id": "letterboxd-review-1414257521",
@@ -2794,7 +2990,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/the-odyssey-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-25T21:35:07.000Z"
     },
     {
       "id": "letterboxd-review-1414765775",
@@ -2808,7 +3005,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/the-invite-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-07-26T02:50:21.000Z"
     },
     {
       "id": "letterboxd-review-1411696917",
@@ -2822,7 +3020,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/72-hours-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/4/3/1/4/854314-72-hours-2026-0-600-0-900-crop.jpg?v=764e241e51",
-      "runtime": 105
+      "runtime": 105,
+      "logged": "2026-07-24T10:29:32.000Z"
     },
     {
       "id": "letterboxd-review-1412200681",
@@ -2836,7 +3035,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/avatar-aang-the-last-airbender/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/8/2/4/3/2/882432-avatar-aang-the-last-airbender-0-600-0-900-crop.jpg?v=7049f9a3e5",
-      "runtime": 99
+      "runtime": 99,
+      "logged": "2026-07-24T18:41:13.000Z"
     },
     {
       "id": "letterboxd-review-1411229680",
@@ -2850,7 +3050,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/blue-valentine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/dn/ni/2p/7i/r8l15gDSQMupjKXEyXkOMkRpcsn-0-600-0-900-crop.jpg?v=6c93540868",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-07-24T02:10:26.000Z"
     },
     {
       "id": "letterboxd-review-1421090196",
@@ -2864,7 +3065,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/troy/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/s4/d9/77/ed/edMlij7nw2NMla32xskDnzMCFBM-0-600-0-900-crop.jpg?v=e7b13d27e0",
-      "runtime": 163
+      "runtime": 163,
+      "logged": "2026-07-29T14:13:45.000Z"
     },
     {
       "id": "letterboxd-review-1409722425",
@@ -2878,7 +3080,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/the-proposal-2009/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/4/7/9/40479-the-proposal-0-600-0-900-crop.jpg?v=3ae07535cc",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-07-23T03:16:36.000Z"
     },
     {
       "id": "letterboxd-review-1409676906",
@@ -2892,7 +3095,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/roommates-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/8/7/2/3/7/1387237-roommates-2026-0-600-0-900-crop.jpg?v=f91e0d4396",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-07-23T02:44:03.000Z"
     },
     {
       "id": "letterboxd-review-1408323696",
@@ -2906,7 +3110,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/toy-story/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/2/9/0/51290-toy-story-0-600-0-900-crop.jpg?v=0ce275d722",
-      "runtime": 81
+      "runtime": 81,
+      "logged": "2026-07-22T07:55:43.000Z"
     },
     {
       "id": "letterboxd-review-1408059167",
@@ -2920,7 +3125,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-color-of-money/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/9/3/0/44930-the-color-of-money-0-600-0-900-crop.jpg?v=e9d86f8587",
-      "runtime": 119
+      "runtime": 119,
+      "logged": "2026-07-22T03:28:49.000Z"
     },
     {
       "id": "letterboxd-review-1406341423",
@@ -2934,7 +3140,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-hustler/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/1/7/9/51179-the-hustler-0-600-0-900-crop.jpg?v=d989cf6c7a",
-      "runtime": 134
+      "runtime": 134,
+      "logged": "2026-07-21T03:25:28.000Z"
     },
     {
       "id": "letterboxd-review-1406216668",
@@ -2948,7 +3155,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/only-the-brave-2017/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/0/3/6/4/330364-only-the-brave-0-600-0-900-crop.jpg?v=57a981261d",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-07-21T01:57:56.000Z"
     },
     {
       "id": "letterboxd-review-1405131787",
@@ -2962,7 +3170,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/skinklevro/film/the-talented-mr-ripley/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/1/3/8/51138-the-talented-mr-ripley-0-600-0-900-crop.jpg?v=70e0a57506",
-      "runtime": 140
+      "runtime": 140,
+      "logged": "2026-07-20T12:27:07.000Z"
     },
     {
       "id": "letterboxd-review-1405991720",
@@ -2976,7 +3185,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/little-miss-sunshine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-20T23:12:16.000Z"
     },
     {
       "id": "letterboxd-review-1404549541",
@@ -2990,7 +3200,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/minions-monsters-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/9/6/8/0/8/1196808-minions-monsters-2026-0-600-0-900-crop.jpg?v=8ff282e996",
-      "runtime": 90
+      "runtime": 90,
+      "logged": "2026-07-20T01:50:10.000Z"
     },
     {
       "id": "letterboxd-review-1404957285",
@@ -3004,7 +3215,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/raulypa/film/chernobyl/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/3/2/0/8/2/532082-chernobyl-0-600-0-900-crop.jpg?v=ff1851eaee",
-      "runtime": 327
+      "runtime": 327,
+      "logged": "2026-07-20T08:08:33.000Z"
     },
     {
       "id": "letterboxd-review-1403916032",
@@ -3018,7 +3230,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/tupapi_/film/the-odyssey-2026/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-19T17:46:19.000Z"
     },
     {
       "id": "letterboxd-review-1402759661",
@@ -3032,7 +3245,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/da_rayray/film/the-odyssey-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-19T01:21:02.000Z"
     },
     {
       "id": "letterboxd-review-1401560508",
@@ -3046,7 +3260,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-odyssey-2026/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-18T11:10:25.000Z"
     },
     {
       "id": "letterboxd-review-1402706707",
@@ -3060,7 +3275,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/scottsak/film/the-rock/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/8/1/0/46810-the-rock-0-600-0-900-crop.jpg?v=3801768f12",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-07-19T00:46:18.000Z"
     },
     {
       "id": "letterboxd-review-1403180055",
@@ -3074,7 +3290,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/the-devils-advocate/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/7/8/0/50780-the-devil-s-advocate-0-600-0-900-crop.jpg?v=3e200616d7",
-      "runtime": 144
+      "runtime": 144,
+      "logged": "2026-07-19T06:11:54.000Z"
     },
     {
       "id": "letterboxd-review-1401586853",
@@ -3088,7 +3305,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/tupapi_/film/the-odyssey-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-18T11:39:30.000Z"
     },
     {
       "id": "letterboxd-review-1401498791",
@@ -3116,7 +3334,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-odyssey-2026/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-18T10:33:57.000Z"
     },
     {
       "id": "letterboxd-review-1400489257",
@@ -3130,7 +3349,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/toy-story-3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/4/5/8/46458-toy-story-3-0-600-0-900-crop.jpg?v=d46903002c",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-07-17T20:39:29.000Z"
     },
     {
       "id": "letterboxd-review-1399375398",
@@ -3144,7 +3364,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/toy-story-5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-17T02:38:36.000Z"
     },
     {
       "id": "letterboxd-review-1399661108",
@@ -3158,7 +3379,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/the-lego-batman-movie/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-600-0-900-crop.jpg?v=ff7c1cbca1",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-07-17T06:56:44.000Z"
     },
     {
       "id": "letterboxd-review-1399660923",
@@ -3172,7 +3394,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/little-miss-sunshine/1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-17T06:56:29.000Z"
     },
     {
       "id": "letterboxd-review-1396998642",
@@ -3186,7 +3409,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/little-miss-sunshine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-15T10:35:17.000Z"
     },
     {
       "id": "letterboxd-review-1398053303",
@@ -3200,7 +3424,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/tar-2022/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/3/4/0/9/6/734096-tar-0-600-0-900-crop.jpg?v=e6d8348cff",
-      "runtime": 158
+      "runtime": 158,
+      "logged": "2026-07-16T04:22:02.000Z"
     },
     {
       "id": "letterboxd-review-1398217908",
@@ -3214,7 +3439,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/tupapi_/film/tmnt/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/1/0/9/51109-tmnt-0-600-0-900-crop.jpg?v=52247ba114",
-      "runtime": 87
+      "runtime": 87,
+      "logged": "2026-07-16T08:07:49.000Z"
     },
     {
       "id": "letterboxd-review-1396676871",
@@ -3228,7 +3454,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/heat-1995/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/9/4/51994-heat-0-600-0-900-crop.jpg?v=54dce97dc6",
-      "runtime": 170
+      "runtime": 170,
+      "logged": "2026-07-15T03:20:20.000Z"
     },
     {
       "id": "letterboxd-review-1395248767",
@@ -3242,7 +3469,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/the-town/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/am/yz/8g/am/c7zMl6igI6LMBuuov0tEz7fN2EH-0-600-0-900-crop.jpg?v=b15a92a025",
-      "runtime": 125
+      "runtime": 125,
+      "logged": "2026-07-14T02:58:52.000Z"
     },
     {
       "id": "letterboxd-review-1393757153",
@@ -3256,7 +3484,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/toy-story-5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-13T03:43:29.000Z"
     },
     {
       "id": "letterboxd-review-1393699998",
@@ -3270,7 +3499,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/furiosa-a-mad-max-saga/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/0/5/2/2/1/705221-furiosa-a-mad-max-saga-0-600-0-900-crop.jpg?v=3c0e322842",
-      "runtime": 149
+      "runtime": 149,
+      "logged": "2026-07-13T02:59:33.000Z"
     },
     {
       "id": "letterboxd-review-1393298004",
@@ -3284,7 +3514,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/toy-story-2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/2/8/9/51289-toy-story-2-0-600-0-900-crop.jpg?v=96fd9a530b",
-      "runtime": 92
+      "runtime": 92,
+      "logged": "2026-07-12T22:25:59.000Z"
     },
     {
       "id": "letterboxd-review-1392500875",
@@ -3298,7 +3529,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/anchorman-2-the-legend-continues/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/p9/7u/tn/bc/icistuafCrDet2mWXRx9cwwz5ak-0-600-0-900-crop.jpg?v=058d2cf8e5",
-      "runtime": 119
+      "runtime": 119,
+      "logged": "2026-07-12T13:04:58.000Z"
     },
     {
       "id": "letterboxd-review-1391557256",
@@ -3312,7 +3544,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/skinklevro/film/this-is-40/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/5/3/2/2/75322-this-is-40-0-600-0-900-crop.jpg?v=f70b0b48d3",
-      "runtime": 134
+      "runtime": 134,
+      "logged": "2026-07-11T20:39:56.000Z"
     },
     {
       "id": "letterboxd-review-1391555194",
@@ -3326,7 +3559,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/anchorman-the-legend-of-ron-burgundy/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/6/3/7/47637-anchorman-the-legend-of-ron-burgundy-0-600-0-900-crop.jpg?v=afdb4fa667",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-07-11T20:38:37.000Z"
     },
     {
       "id": "letterboxd-review-1391554236",
@@ -3340,7 +3574,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/logan-2017/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/f3/ub/fq/f5/gGBu0hKw9BGddG8RkRAMX7B6NDB-0-600-0-900-crop.jpg?v=523ca1f161",
-      "runtime": 137
+      "runtime": 137,
+      "logged": "2026-07-11T20:38:02.000Z"
     },
     {
       "id": "letterboxd-review-1390793414",
@@ -3354,7 +3589,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/toy-story/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/2/9/0/51290-toy-story-0-600-0-900-crop.jpg?v=0ce275d722",
-      "runtime": 81
+      "runtime": 81,
+      "logged": "2026-07-11T08:12:27.000Z"
     },
     {
       "id": "letterboxd-review-1390596133",
@@ -3368,7 +3604,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/mr_n00dl3s/film/to-wong-foo-thanks-for-everything-julie-newmar/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/3/5/4/47354-to-wong-foo-thanks-for-everything-julie-newmar-0-600-0-900-crop.jpg?v=92ec18458b",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-07-11T04:21:52.000Z"
     },
     {
       "id": "letterboxd-review-1396837736",
@@ -3382,7 +3619,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-guardian-2006/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/9/2/0/7/49207-the-guardian-0-600-0-900-crop.jpg?v=3be9101146",
-      "runtime": 139
+      "runtime": 139,
+      "logged": "2026-07-15T06:01:19.000Z"
     },
     {
       "id": "letterboxd-review-1387781046",
@@ -3396,7 +3634,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/kiss-me-deadly/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/6/3/0/40630-kiss-me-deadly-0-600-0-900-crop.jpg?v=d81289f7bf",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-07-09T03:15:21.000Z"
     },
     {
       "id": "letterboxd-review-1399723958",
@@ -3410,7 +3649,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/the-odyssey-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c",
-      "runtime": 173
+      "runtime": 173,
+      "logged": "2026-07-17T08:26:50.000Z"
     },
     {
       "id": "letterboxd-review-1386395098",
@@ -3424,7 +3664,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/a-knights-tale/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/2/47122-a-knight-s-tale-0-600-0-900-crop.jpg?v=4f256fae60",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-07-08T03:13:13.000Z"
     },
     {
       "id": "letterboxd-review-1384621965",
@@ -3438,7 +3679,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/tupapi_/film/how-to-train-your-dragon-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/8/0/1/1/6/980116-how-to-train-your-dragon-2025-0-600-0-900-crop.jpg?v=0d82dfeab8",
-      "runtime": 125
+      "runtime": 125,
+      "logged": "2026-07-06T20:32:49.000Z"
     },
     {
       "id": "letterboxd-review-1383997310",
@@ -3452,7 +3694,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/the-proposal-2009/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/4/7/9/40479-the-proposal-0-600-0-900-crop.jpg?v=3ae07535cc",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-07-06T09:32:50.000Z"
     },
     {
       "id": "letterboxd-review-1383996749",
@@ -3466,7 +3709,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/the-wedding-planner/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/5/9/5/50595-the-wedding-planner-0-600-0-900-crop.jpg?v=17cbb4fb87",
-      "runtime": 103
+      "runtime": 103,
+      "logged": "2026-07-06T09:31:48.000Z"
     },
     {
       "id": "letterboxd-review-1383995659",
@@ -3480,7 +3724,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/enola-holmes-3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/6/8/7/2/1086872-enola-holmes-3-0-600-0-900-crop.jpg?v=7e091a46ec",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-07-06T09:29:57.000Z"
     },
     {
       "id": "letterboxd-review-1380175284",
@@ -3494,7 +3739,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/little-miss-sunshine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-07-03T21:52:00.000Z"
     },
     {
       "id": "letterboxd-review-1379313535",
@@ -3508,7 +3754,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/jaws/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/5/4/2/51542-jaws-0-600-0-900-crop.jpg?v=03299455f6",
-      "runtime": 124
+      "runtime": 124,
+      "logged": "2026-07-03T07:43:23.000Z"
     },
     {
       "id": "letterboxd-review-1375462939",
@@ -3522,7 +3769,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/normal-people-2020/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/2/0/7/8/1/620781-normal-people-0-600-0-900-crop.jpg?v=9a7cce9f55",
-      "runtime": 342
+      "runtime": 342,
+      "logged": "2026-06-30T13:51:35.000Z"
     },
     {
       "id": "letterboxd-review-1376484521",
@@ -3536,7 +3784,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/band-of-brothers/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/9/0/1/1/259011-band-of-brothers-0-600-0-900-crop.jpg?v=267d271582",
-      "runtime": 594
+      "runtime": 594,
+      "logged": "2026-07-01T06:58:00.000Z"
     },
     {
       "id": "letterboxd-review-1374920816",
@@ -3550,7 +3799,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/scottsak/film/lessons-in-chemistry/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/4/9/8/3/1074983-lessons-in-chemistry-0-600-0-900-crop.jpg?v=15830ec867",
-      "runtime": 371
+      "runtime": 371,
+      "logged": "2026-06-30T01:24:05.000Z"
     },
     {
       "id": "letterboxd-review-1374967144",
@@ -3564,7 +3814,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/wreck-it-ralph/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/9/1/5/4/69154-wreck-it-ralph-0-600-0-900-crop.jpg?v=3c4fe486b3",
-      "runtime": 101
+      "runtime": 101,
+      "logged": "2026-06-30T02:11:36.000Z"
     },
     {
       "id": "letterboxd-review-1373710456",
@@ -3578,7 +3829,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/toy-story-5/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-06-29T03:04:36.000Z"
     },
     {
       "id": "letterboxd-review-1372422781",
@@ -3592,7 +3844,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/da_rayray/film/the-crazies-2010/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/t7/bv/hm/kf/s15bIs5uLEqPEQERH5YqjCjY6gd-0-600-0-900-crop.jpg?v=aaf4ab97ae",
-      "runtime": 101
+      "runtime": 101,
+      "logged": "2026-06-28T08:50:34.000Z"
     },
     {
       "id": "letterboxd-review-1370516908",
@@ -3606,7 +3859,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/toy-story-5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-06-26T23:12:34.000Z"
     },
     {
       "id": "letterboxd-review-1370299711",
@@ -3620,7 +3874,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/austin-powers-international-man-of-mystery/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/3/6/51336-austin-powers-international-man-of-mystery-0-600-0-900-crop.jpg?v=b24eda4ee9",
-      "runtime": 89
+      "runtime": 89,
+      "logged": "2026-06-26T20:04:16.000Z"
     },
     {
       "id": "letterboxd-review-1370745974",
@@ -3634,7 +3889,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/supergirl-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/4/2/8/6/974286-supergirl-2026-0-600-0-900-crop.jpg?v=e85ddf39db",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-06-27T03:12:59.000Z"
     },
     {
       "id": "letterboxd-review-1369253652",
@@ -3648,7 +3904,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/shrek/3/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/4/51344-shrek-0-600-0-900-crop.jpg?v=cd09df2c75",
-      "runtime": 90
+      "runtime": 90,
+      "logged": "2026-06-25T22:38:46.000Z"
     },
     {
       "id": "letterboxd-review-1368787144",
@@ -3662,7 +3919,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/john-tucker-must-die/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/2/9/9/47299-john-tucker-must-die-0-600-0-900-crop.jpg?v=c462bcc2a7",
-      "runtime": 87
+      "runtime": 87,
+      "logged": "2026-06-25T15:05:38.000Z"
     },
     {
       "id": "letterboxd-review-1368312228",
@@ -3676,7 +3934,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/boyz-n-the-hood/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/7/4/51474-boyz-n-the-hood-0-600-0-900-crop.jpg?v=cfd318a89f",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-06-25T03:27:21.000Z"
     },
     {
       "id": "letterboxd-review-1368284140",
@@ -3690,7 +3949,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/tupapi_/film/october-sky/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/3/8/6/8/43868-october-sky-0-600-0-900-crop.jpg?v=7d94f13221",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-06-25T02:56:44.000Z"
     },
     {
       "id": "letterboxd-review-1366815535",
@@ -3704,7 +3964,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/paid-in-full-2002/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/1/4/7/44147-paid-in-full-0-600-0-900-crop.jpg?v=862663b50a",
-      "runtime": 98
+      "runtime": 98,
+      "logged": "2026-06-23T23:12:23.000Z"
     },
     {
       "id": "letterboxd-review-1367027141",
@@ -3718,7 +3979,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/talladega-nights-the-ballad-of-ricky-bobby/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/8/8/7/46887-talladega-nights-the-ballad-of-ricky-bobby-0-600-0-900-crop.jpg?v=8908d69604",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-06-24T02:53:06.000Z"
     },
     {
       "id": "letterboxd-review-1365972485",
@@ -3732,7 +3994,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/pleasantville/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/1/6/4/50164-pleasantville-0-600-0-900-crop.jpg?v=bbe651025b",
-      "runtime": 124
+      "runtime": 124,
+      "logged": "2026-06-23T05:12:57.000Z"
     },
     {
       "id": "letterboxd-review-1365683838",
@@ -3746,7 +4009,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/you-dont-mess-with-the-zohan/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/su/vd/x1/p2/dont-mess-with-the-zohan-0-600-0-900-crop.jpg?v=6994623937",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-06-23T00:10:55.000Z"
     },
     {
       "id": "letterboxd-review-1364772912",
@@ -3760,7 +4024,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/beautiful-boy-2018/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/4/0/5/8/384058-beautiful-boy-0-600-0-900-crop.jpg?v=f926f71a50",
-      "runtime": 121
+      "runtime": 121,
+      "logged": "2026-06-22T06:24:57.000Z"
     },
     {
       "id": "letterboxd-review-1364680375",
@@ -3774,7 +4039,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/masters-of-the-universe-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/8/6/6/1/3/386613-masters-of-the-universe-2026-0-600-0-900-crop.jpg?v=8340b3dfbe",
-      "runtime": 141
+      "runtime": 141,
+      "logged": "2026-06-22T04:32:14.000Z"
     },
     {
       "id": "letterboxd-review-1363879222",
@@ -3788,7 +4054,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/toy-story-5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-06-21T18:03:02.000Z"
     },
     {
       "id": "letterboxd-review-1363351227",
@@ -3802,7 +4069,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/voicemails-for-isabelle/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/4/1/9/7/5/541975-voicemails-for-isabelle-0-600-0-900-crop.jpg?v=1a9f45496a",
-      "runtime": 119
+      "runtime": 119,
+      "logged": "2026-06-21T08:10:58.000Z"
     },
     {
       "id": "letterboxd-review-1363260871",
@@ -3816,7 +4084,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/maternal-instinct-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/6/0/7/8/3/1560783-maternal-instinct-2026-0-600-0-900-crop.jpg?v=7978cfa68d",
-      "runtime": 97
+      "runtime": 97,
+      "logged": "2026-06-21T06:02:25.000Z"
     },
     {
       "id": "letterboxd-review-1362475626",
@@ -3830,7 +4099,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/non-stop-2014/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/8/9/4/2/158942-non-stop-0-600-0-900-crop.jpg?v=30e4d1461f",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2026-06-20T18:54:45.000Z"
     },
     {
       "id": "letterboxd-review-1362360411",
@@ -3844,7 +4114,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/tupapi_/film/teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/0/2/51002-teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze-0-600-0-900-crop.jpg?v=504304dfad",
-      "runtime": 88
+      "runtime": 88,
+      "logged": "2026-06-20T17:03:45.000Z"
     },
     {
       "id": "letterboxd-review-1362358840",
@@ -3858,7 +4129,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/teenage-mutant-ninja-turtles/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/0/1/51001-teenage-mutant-ninja-turtles-0-600-0-900-crop.jpg?v=5c0cf9fcf0",
-      "runtime": 93
+      "runtime": 93,
+      "logged": "2026-06-20T17:03:04.000Z"
     },
     {
       "id": "letterboxd-review-1361591314",
@@ -3872,7 +4144,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/toy-story-5/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/8/6/977186-toy-story-5-0-600-0-900-crop.jpg?v=d0ac6a7d01",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-06-20T01:07:45.000Z"
     },
     {
       "id": "letterboxd-review-1361156309",
@@ -3886,7 +4159,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/toy-story-4/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/2/8/6/2/8/228628-toy-story-4-0-600-0-900-crop.jpg?v=e5bf22ba02",
-      "runtime": 100
+      "runtime": 100,
+      "logged": "2026-06-19T18:28:30.000Z"
     },
     {
       "id": "letterboxd-review-1361032190",
@@ -3900,7 +4174,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/little-miss-sunshine/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h6/xm/om/q7/dOeM4R55TsAFBXCPNIDDMiJkePr-0-600-0-900-crop.jpg?v=09383296c6",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-06-19T16:07:16.000Z"
     },
     {
       "id": "letterboxd-review-1361640553",
@@ -3914,7 +4189,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/under-the-same-moon/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/0/3/3/4/30334-under-the-same-moon-0-600-0-900-crop.jpg?v=30a050d228",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-06-20T02:02:57.000Z"
     },
     {
       "id": "letterboxd-review-1360708362",
@@ -3928,7 +4204,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/this-is-the-end/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/jc/9p/19/zx/oie_1512543TJ3vNUDP-0-600-0-900-crop.jpg?v=8b2686919f",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-06-19T07:46:04.000Z"
     },
     {
       "id": "letterboxd-review-1360642638",
@@ -3942,7 +4219,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/limitless/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/9/7/2/13972-limitless-0-600-0-900-crop.jpg?v=7599c9da90",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-06-19T05:49:39.000Z"
     },
     {
       "id": "letterboxd-review-1359479830",
@@ -3956,7 +4234,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/the-irishman-2019/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/3/2/0/3/333203-the-irishman-0-600-0-900-crop.jpg?v=44b0138d78",
-      "runtime": 209
+      "runtime": 209,
+      "logged": "2026-06-18T05:11:29.000Z"
     },
     {
       "id": "letterboxd-review-1358617866",
@@ -3970,7 +4249,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/the-benchwarmers/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/6/8/0/46680-the-benchwarmers-0-600-0-900-crop.jpg?v=7f58abb6b4",
-      "runtime": 85
+      "runtime": 85,
+      "logged": "2026-06-17T13:07:18.000Z"
     },
     {
       "id": "letterboxd-review-1358378539",
@@ -3984,7 +4264,8 @@
       "rating": 1,
       "link": "https://letterboxd.com/skinklevro/film/balls-up-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/7/5/0/8/977508-balls-up-2026-0-600-0-900-crop.jpg?v=abb4eef85b",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-06-17T05:47:16.000Z"
     },
     {
       "id": "letterboxd-watch-1358126859",
@@ -3998,7 +4279,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/blood-in-blood-out/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/9/0/2/46902-blood-in-blood-out-0-600-0-900-crop.jpg?v=b43f56070b",
-      "runtime": 190
+      "runtime": 190,
+      "logged": "2026-06-17T00:57:46.000Z"
     },
     {
       "id": "letterboxd-review-1357181510",
@@ -4012,7 +4294,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/obsession-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-06-16T05:11:05.000Z"
     },
     {
       "id": "letterboxd-review-1357190913",
@@ -4026,7 +4309,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/its-complicated/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/6/4/0/37640-it-s-complicated-0-600-0-900-crop.jpg?v=42cf17aae9",
-      "runtime": 121
+      "runtime": 121,
+      "logged": "2026-06-16T05:23:38.000Z"
     },
     {
       "id": "letterboxd-review-1356982107",
@@ -4040,7 +4324,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/skinklevro/film/the-lego-batman-movie/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-600-0-900-crop.jpg?v=ff7c1cbca1",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2026-06-16T01:32:43.000Z"
     },
     {
       "id": "letterboxd-review-1357151351",
@@ -4054,7 +4339,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/the-furious/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/6/4/1/5/4/1164154-the-furious-0-600-0-900-crop.jpg?v=f880a59523",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-06-16T04:33:00.000Z"
     },
     {
       "id": "letterboxd-review-1356094047",
@@ -4068,7 +4354,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/daisy-jones-the-six/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/8/5/8/1/6/985816-daisy-jones-the-six-0-600-0-900-crop.jpg?v=9b445c7209",
-      "runtime": 510
+      "runtime": 510,
+      "logged": "2026-06-15T08:17:15.000Z"
     },
     {
       "id": "letterboxd-review-1356011224",
@@ -4082,7 +4369,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/skinklevro/film/midnight-in-paris/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/1e/0j/vs/s6/xxSopLYATHXSepXcEaBh9Gazv6p-0-600-0-900-crop.jpg?v=6073ba801b",
-      "runtime": 94
+      "runtime": 94,
+      "logged": "2026-06-15T05:58:28.000Z"
     },
     {
       "id": "letterboxd-review-1355007058",
@@ -4096,7 +4384,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/skinklevro/film/office-romance-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/4/7/1/3/1/1247131-office-romance-2026-0-600-0-900-crop.jpg?v=bcc10f7dac",
-      "runtime": 115
+      "runtime": 115,
+      "logged": "2026-06-14T15:59:44.000Z"
     },
     {
       "id": "letterboxd-review-1355216794",
@@ -4110,7 +4399,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/disclosure-day/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/5/9/2/5/1/1159251-disclosure-day-0-600-0-900-crop.jpg?v=9ae810e4bb",
-      "runtime": 146
+      "runtime": 146,
+      "logged": "2026-06-14T19:00:49.000Z"
     },
     {
       "id": "letterboxd-review-1353930747",
@@ -4124,7 +4414,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/the-hunger-games-the-ballad-of-songbirds-snakes/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/9/5/1/0/619510-the-hunger-games-the-ballad-of-songbirds-snakes-0-600-0-900-crop.jpg?v=180f24b89f",
-      "runtime": 157
+      "runtime": 157,
+      "logged": "2026-06-13T20:22:09.000Z"
     },
     {
       "id": "letterboxd-review-1353669674",
@@ -4138,7 +4429,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/skinklevro/film/the-usual-suspects/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/5/51495-the-usual-suspects-0-600-0-900-crop.jpg?v=c02dce5b81",
-      "runtime": 106
+      "runtime": 106,
+      "logged": "2026-06-13T16:28:45.000Z"
     },
     {
       "id": "letterboxd-review-1353172680",
@@ -4152,7 +4444,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/skinklevro/film/amadeus/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/bn/hr/ki/ay/eP2pJudgGzUlo2kZuh0tF1MInsb-0-600-0-900-crop.jpg?v=907dc282ae",
-      "runtime": 160
+      "runtime": 160,
+      "logged": "2026-06-13T05:25:28.000Z"
     },
     {
       "id": "letterboxd-review-1352480832",
@@ -4166,7 +4459,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/skinklevro/film/reservoir-dogs/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/u0/4o/op/yx/g7spS2Y4SZoQoC6Hn7zoqEqdYqR-0-600-0-900-crop.jpg?v=6d1aaa720c",
-      "runtime": 99
+      "runtime": 99,
+      "logged": "2026-06-12T18:01:58.000Z"
     },
     {
       "id": "letterboxd-review-1351647521",
@@ -4180,7 +4474,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/skinklevro/film/superman-batman-apocalypse/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/0/0/6/7/20067-superman-batman-apocalypse-0-600-0-900-crop.jpg?v=2d587ec513",
-      "runtime": 79
+      "runtime": 79,
+      "logged": "2026-06-11T22:47:53.000Z"
     },
     {
       "id": "letterboxd-review-1351880798",
@@ -4194,7 +4489,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/con-air/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/8/4/5/50845-con-air-0-600-0-900-crop.jpg?v=207f257fec",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-06-12T03:13:09.000Z"
     },
     {
       "id": "letterboxd-review-1350851200",
@@ -4222,7 +4518,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/gladiator-ii/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/6/9/7/8/486978-gladiator-ii-0-600-0-900-crop.jpg?v=0fb2edf525",
-      "runtime": 148
+      "runtime": 148,
+      "logged": "2026-06-10T04:48:49.000Z"
     },
     {
       "id": "letterboxd-review-1347714588",
@@ -4236,7 +4533,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/superman-2025/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-600-0-900-crop.jpg?v=54e41a55ff",
-      "runtime": 130
+      "runtime": 130,
+      "logged": "2026-06-08T18:06:35.000Z"
     },
     {
       "id": "letterboxd-review-1346959766",
@@ -4250,7 +4548,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/tupapi_/film/gladiator-2000/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/5/2/51952-gladiator-2000-0-600-0-900-crop.jpg?v=0071a74571",
-      "runtime": 155
+      "runtime": 155,
+      "logged": "2026-06-08T02:28:37.000Z"
     },
     {
       "id": "letterboxd-review-1343989489",
@@ -4264,7 +4563,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/tupapi_/film/se7en/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-600-0-900-crop.jpg?v=76a14ef6b4",
-      "runtime": 127
+      "runtime": 127,
+      "logged": "2026-06-06T04:19:57.000Z"
     },
     {
       "id": "letterboxd-review-1340724674",
@@ -4278,7 +4578,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/tupapi_/film/blade-runner-2049/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/6/5/4/3/9/265439-blade-runner-2049-0-600-0-900-crop.jpg?v=86735e0bb8",
-      "runtime": 164
+      "runtime": 164,
+      "logged": "2026-06-03T16:42:29.000Z"
     },
     {
       "id": "letterboxd-review-1336449063",
@@ -4292,7 +4593,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/anatomy-of-a-fall/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/2/2/0/9/3/822093-anatomy-of-a-fall-0-600-0-900-crop.jpg?v=4efab8aedc",
-      "runtime": 151
+      "runtime": 151,
+      "logged": "2026-05-31T12:08:26.000Z"
     },
     {
       "id": "letterboxd-review-1334828769",
@@ -4306,7 +4608,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/da_rayray/film/backrooms-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/6/4/1/9/976419-backrooms-2026-0-600-0-900-crop.jpg?v=f7a99e3fc8",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-05-30T07:57:24.000Z"
     },
     {
       "id": "letterboxd-review-1334859181",
@@ -4320,7 +4623,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/backrooms-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/6/4/1/9/976419-backrooms-2026-0-600-0-900-crop.jpg?v=f7a99e3fc8",
-      "runtime": 111
+      "runtime": 111,
+      "logged": "2026-05-30T08:49:51.000Z"
     },
     {
       "id": "letterboxd-review-1333127706",
@@ -4334,7 +4638,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/memento/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/v1/3q/s4/aa/memento-0-600-0-900-crop.jpg?v=80f0732247",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-05-29T00:08:18.000Z"
     },
     {
       "id": "letterboxd-review-1332423896",
@@ -4348,7 +4653,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/kylie_sak/film/roommates-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/8/7/2/3/7/1387237-roommates-2026-0-600-0-900-crop.jpg?v=f91e0d4396",
-      "runtime": 108
+      "runtime": 108,
+      "logged": "2026-05-28T10:03:12.000Z"
     },
     {
       "id": "letterboxd-review-1329733269",
@@ -4362,7 +4668,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/kylie_sak/film/the-crash-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/2/6/2/3/1/1526231-the-crash-2026-0-600-0-900-crop.jpg?v=332eaf7d2c",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-05-26T02:05:42.000Z"
     },
     {
       "id": "letterboxd-review-1329841904",
@@ -4376,7 +4683,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/tupapi_/film/memento/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/v1/3q/s4/aa/memento-0-600-0-900-crop.jpg?v=80f0732247",
-      "runtime": 113
+      "runtime": 113,
+      "logged": "2026-05-26T03:46:30.000Z"
     },
     {
       "id": "letterboxd-review-1328284772",
@@ -4404,7 +4712,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/da_rayray/film/obsession-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-05-20T04:52:23.000Z"
     },
     {
       "id": "letterboxd-review-1322429426",
@@ -4418,7 +4727,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/da_rayray/film/phantom-of-the-paradise/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/4/6/1/5/34615-phantom-of-the-paradise-0-600-0-900-crop.jpg?v=3c231dd1ff",
-      "runtime": 92
+      "runtime": 92,
+      "logged": "2026-05-20T01:36:31.000Z"
     },
     {
       "id": "letterboxd-review-1310740676",
@@ -4432,7 +4742,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/back-to-the-future/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/5/51945-back-to-the-future-0-600-0-900-crop.jpg?v=b818c8ce28",
-      "runtime": 116
+      "runtime": 116,
+      "logged": "2026-05-10T10:15:45.000Z"
     },
     {
       "id": "letterboxd-review-1310628526",
@@ -4446,7 +4757,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/lost-highway/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/25/5e/r1/3t/z6yhgEzGUJaBBgAxoyggRzwLnVM-0-600-0-900-crop.jpg?v=49d0ffd43f",
-      "runtime": 134
+      "runtime": 134,
+      "logged": "2026-05-10T07:09:17.000Z"
     },
     {
       "id": "letterboxd-review-1308011751",
@@ -4460,7 +4772,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/the-thing/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/t3/qn/vs/p5/s5fH3GqFcHbi2F0NSBSh4KRNTc0-0-600-0-900-crop.jpg?v=01880125bb",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-05-08T05:39:06.000Z"
     },
     {
       "id": "letterboxd-review-1308064431",
@@ -4474,7 +4787,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/michael-2026/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/1/1/0/3/841103-michael-2026-0-600-0-900-crop.jpg?v=1e8e478e40",
-      "runtime": 128
+      "runtime": 128,
+      "logged": "2026-05-08T07:15:20.000Z"
     },
     {
       "id": "letterboxd-review-1306044912",
@@ -4488,7 +4802,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/the-blob-1988/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/0/0/2/47002-the-blob-0-600-0-900-crop.jpg?v=02a0472038",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-05-06T06:37:01.000Z"
     },
     {
       "id": "letterboxd-review-1303559272",
@@ -4502,7 +4817,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/michael-2026/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/1/1/0/3/841103-michael-2026-0-600-0-900-crop.jpg?v=1e8e478e40",
-      "runtime": 128
+      "runtime": 128,
+      "logged": "2026-05-04T01:28:40.000Z"
     },
     {
       "id": "letterboxd-review-1302310498",
@@ -4516,7 +4832,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/da_rayray/film/district-9/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/0/8/6/0/40860-district-9-0-600-0-900-crop.jpg?v=5fb9b8c5a9",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-05-03T06:54:42.000Z"
     },
     {
       "id": "letterboxd-review-1296347465",
@@ -4530,7 +4847,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/michael-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/1/1/0/3/841103-michael-2026-0-600-0-900-crop.jpg?v=1e8e478e40",
-      "runtime": 128
+      "runtime": 128,
+      "logged": "2026-04-28T04:42:29.000Z"
     },
     {
       "id": "letterboxd-review-1289574365",
@@ -4544,7 +4862,8 @@
       "rating": 3,
       "link": "https://letterboxd.com/kylie_sak/film/red-white-royal-blue/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/3/5/4/1/7/835417-red-white-royal-blue-0-600-0-900-crop.jpg?v=79730f5057",
-      "runtime": 118
+      "runtime": 118,
+      "logged": "2026-04-22T12:07:24.000Z"
     },
     {
       "id": "letterboxd-review-1288072693",
@@ -4558,7 +4877,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/hannah-montana-20th-anniversary-special/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/0/2/8/6/0/1502860-hannah-montana-20th-anniversary-special-0-600-0-900-crop.jpg?v=6a66011e62",
-      "runtime": 59
+      "runtime": 59,
+      "logged": "2026-04-21T01:07:23.000Z"
     },
     {
       "id": "letterboxd-review-1288012009",
@@ -4572,7 +4892,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/phantom-thread/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/5/3/8/4/335384-phantom-thread-0-600-0-900-crop.jpg?v=6b47f80ec7",
-      "runtime": 130
+      "runtime": 130,
+      "logged": "2026-04-20T23:53:04.000Z"
     },
     {
       "id": "letterboxd-review-1284471401",
@@ -4586,7 +4907,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/the-evil-dead/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/c7/4g/ae/zn/7cpSdCrBY7UhiygkcP57dpixXsW-0-600-0-900-crop.jpg?v=1525e98692",
-      "runtime": 85
+      "runtime": 85,
+      "logged": "2026-04-18T08:51:51.000Z"
     },
     {
       "id": "letterboxd-review-1283202644",
@@ -4600,7 +4922,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/kylie_sak/film/project-hail-mary/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
-      "runtime": 156
+      "runtime": 156,
+      "logged": "2026-04-17T04:40:35.000Z"
     },
     {
       "id": "letterboxd-review-1281848458",
@@ -4614,7 +4937,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/sentimental-value-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/5/7/1013357-sentimental-value-2025-0-600-0-900-crop.jpg?v=e89e64a309",
-      "runtime": 133
+      "runtime": 133,
+      "logged": "2026-04-15T21:24:05.000Z"
     },
     {
       "id": "letterboxd-review-1278662525",
@@ -4628,7 +4952,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/da_rayray/film/the-wild-robot/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/1/1/9/6/1071196-the-wild-robot-0-600-0-900-crop.jpg?v=a70bdbaea0",
-      "runtime": 102
+      "runtime": 102,
+      "logged": "2026-04-13T00:55:08.000Z"
     },
     {
       "id": "letterboxd-review-1257938137",
@@ -4642,7 +4967,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/project-hail-mary/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
-      "runtime": 156
+      "runtime": 156,
+      "logged": "2026-03-29T08:08:02.000Z"
     },
     {
       "id": "letterboxd-review-1256463789",
@@ -4656,7 +4982,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/one-battle-after-another/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-600-0-900-crop.jpg?v=d27c4cc662",
-      "runtime": 162
+      "runtime": 162,
+      "logged": "2026-03-28T10:45:53.000Z"
     },
     {
       "id": "letterboxd-watch-1256459399",
@@ -4670,7 +4997,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/saturday-night-2024/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/1/0/6/8/3/1010683-saturday-night-0-600-0-900-crop.jpg?v=f4857efc36",
-      "runtime": 109
+      "runtime": 109,
+      "logged": "2026-03-28T10:38:55.000Z"
     },
     {
       "id": "letterboxd-review-1248607800",
@@ -4684,7 +5012,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/kylie_sak/film/ps-i-love-you/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/4/9/4/48494-p-s-i-love-you-0-600-0-900-crop.jpg?v=7e95f06cd4",
-      "runtime": 126
+      "runtime": 126,
+      "logged": "2026-03-22T10:20:50.000Z"
     },
     {
       "id": "letterboxd-review-1241028065",
@@ -4698,7 +5027,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/rental-family-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/9/2/7/7/8/1092778-rental-family-2025-0-600-0-900-crop.jpg?v=36ab9fb4e8",
-      "runtime": 110
+      "runtime": 110,
+      "logged": "2026-03-16T07:06:14.000Z"
     },
     {
       "id": "letterboxd-review-1238137305",
@@ -4712,7 +5042,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/kylie_sak/film/moonlight-2016/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/90/gn/c7/9k/qAwFbszz0kRyTuXmMeKQZCX3Q2O-0-600-0-900-crop.jpg?v=192bde15c6",
-      "runtime": 112
+      "runtime": 112,
+      "logged": "2026-03-14T10:19:38.000Z"
     },
     {
       "id": "letterboxd-review-1237979521",
@@ -4726,7 +5057,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/undertone-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/5/7/4/0/8/1357408-undertone-2025-1-0-600-0-900-crop.jpg?v=fc416b1596",
-      "runtime": 94
+      "runtime": 94,
+      "logged": "2026-03-14T05:37:33.000Z"
     },
     {
       "id": "letterboxd-review-1232796221",
@@ -4740,7 +5072,8 @@
       "rating": 5,
       "link": "https://letterboxd.com/kylie_sak/film/harry-styles-one-night-in-manchester/1/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/0/8/9/2/4/1508924-harry-styles-one-night-in-manchester-0-600-0-900-crop.jpg?v=ab6b5b0a80",
-      "runtime": 97
+      "runtime": 97,
+      "logged": "2026-03-09T09:08:30.000Z"
     },
     {
       "id": "letterboxd-review-1136735142",
@@ -4754,7 +5087,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/stranger-things-5-the-finale/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/3/3/4/1440334-stranger-things-5-the-finale-0-600-0-900-crop.jpg?v=b9fef563bd",
-      "runtime": 125
+      "runtime": 125,
+      "logged": "2026-01-03T07:44:51.000Z"
     },
     {
       "id": "letterboxd-review-1133951623",
@@ -4768,7 +5102,8 @@
       "rating": 2,
       "link": "https://letterboxd.com/da_rayray/film/we-bury-the-dead/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/3/8/9/7/1083897-we-bury-the-dead-0-600-0-900-crop.jpg?v=5d38f3591a",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2026-01-02T04:53:30.000Z"
     },
     {
       "id": "letterboxd-review-1133307811",
@@ -4782,7 +5117,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/dawn-of-the-dead-2004/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/jd/d8/7x/e8/yfqsgzW6AQYmBjIEIq0y9EB1Rgl-0-600-0-900-crop.jpg?v=7d5cbe2c3c",
-      "runtime": 101
+      "runtime": 101,
+      "logged": "2026-01-01T23:07:45.000Z"
     },
     {
       "id": "letterboxd-review-1132043914",
@@ -4796,7 +5132,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/train-to-busan/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/0/9/1/2/330912-train-to-busan-0-600-0-900-crop.jpg?v=c85e151cfe",
-      "runtime": 118
+      "runtime": 118,
+      "logged": "2026-01-01T06:53:24.000Z"
     },
     {
       "id": "letterboxd-review-1102113080",
@@ -4810,7 +5147,8 @@
       "rating": 0.5,
       "link": "https://letterboxd.com/da_rayray/film/five-nights-at-freddys-2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/1/1/8/8/3/1111883-five-nights-at-freddys-2-0-600-0-900-crop.jpg?v=f382c9b76f",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2025-12-13T08:50:34.000Z"
     },
     {
       "id": "letterboxd-review-1085227147",
@@ -4824,7 +5162,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/the-cabin-in-the-woods/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/7/5/9/8/37598-the-cabin-in-the-woods-0-600-0-900-crop.jpg?v=0f79c08986",
-      "runtime": 95
+      "runtime": 95,
+      "logged": "2025-11-26T06:05:43.000Z"
     },
     {
       "id": "letterboxd-review-1038136840",
@@ -4838,7 +5177,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/harry-potter-and-the-deathly-hallows-part-1/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/u8/tj/88/3v/harry-potter-and-the-deathly-hallows-part-i-original-0-600-0-900-crop.jpg?v=a31050208d",
-      "runtime": 146
+      "runtime": 146,
+      "logged": "2025-10-11T08:07:01.000Z"
     },
     {
       "id": "letterboxd-review-1032045973",
@@ -4852,7 +5192,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/harry-potter-and-the-half-blood-prince/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/5/51385-harry-potter-and-the-half-blood-prince-0-600-0-900-crop.jpg?v=789e7859c8",
-      "runtime": 153
+      "runtime": 153,
+      "logged": "2025-10-04T19:55:27.000Z"
     },
     {
       "id": "letterboxd-review-1024265700",
@@ -4866,7 +5207,8 @@
       "rating": 3.5,
       "link": "https://letterboxd.com/da_rayray/film/constantine-city-of-demons-the-movie/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/6/8/7/1/5/468715-constantine-city-of-demons-the-movie-0-600-0-900-crop.jpg?v=41c9a9dbbb",
-      "runtime": 90
+      "runtime": 90,
+      "logged": "2025-09-26T06:46:27.000Z"
     },
     {
       "id": "letterboxd-review-1024264265",
@@ -4880,7 +5222,8 @@
       "rating": 2.5,
       "link": "https://letterboxd.com/da_rayray/film/nobody-2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/0/7/8/6/1/907861-nobody-2-0-600-0-900-crop.jpg?v=2e34255620",
-      "runtime": 89
+      "runtime": 89,
+      "logged": "2025-09-26T06:42:10.000Z"
     },
     {
       "id": "letterboxd-review-1024262543",
@@ -4894,7 +5237,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/weapons-2025/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-600-0-900-crop.jpg?v=8100270337",
-      "runtime": 129
+      "runtime": 129,
+      "logged": "2025-09-26T06:37:40.000Z"
     },
     {
       "id": "letterboxd-review-1024262038",
@@ -4908,7 +5252,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/caught-stealing/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/1/9/9/1129199-caught-stealing-0-600-0-900-crop.jpg?v=d3b8da3722",
-      "runtime": 107
+      "runtime": 107,
+      "logged": "2025-09-26T06:36:21.000Z"
     },
     {
       "id": "letterboxd-review-1024261189",
@@ -4922,7 +5267,8 @@
       "rating": 4.5,
       "link": "https://letterboxd.com/da_rayray/film/the-lego-batman-movie/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-600-0-900-crop.jpg?v=ff7c1cbca1",
-      "runtime": 104
+      "runtime": 104,
+      "logged": "2025-09-26T06:34:08.000Z"
     },
     {
       "id": "letterboxd-review-1024258452",
@@ -4936,7 +5282,8 @@
       "rating": 4,
       "link": "https://letterboxd.com/da_rayray/film/porco-rosso/",
       "poster": "https://a.ltrbxd.com/resized/sm/upload/pf/lk/cj/4e/nCx0EESDNxwXGn7rkCU6cvXTpIB-0-600-0-900-crop.jpg?v=67361260f7",
-      "runtime": 93
+      "runtime": 93,
+      "logged": "2025-09-26T06:26:44.000Z"
     }
   ]
 }

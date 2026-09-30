@@ -64,8 +64,11 @@ nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: 
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
 .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
 .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
-.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; align-content: start; }
 .tile .v { font-family: var(--font-display); font-weight: 900; font-size: 2.2rem; line-height: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tile-text { display: grid; gap: 2px; min-width: 0; }
+.tile.has-media { grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; }
+.tile-poster { width: 50px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); display: block; }
 .tile .v.name { font-size: 1.7rem; line-height: 1.25; }
 .tile .s { font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -98,7 +101,10 @@ td.best { color: var(--accent); font-weight: 500; }
 .empty { padding: 22px; text-align: center; color: var(--muted); border: 1.5px dashed var(--line); border-radius: 6px; }
 ol.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 8px; }
 code { font-family: var(--font-mono); font-size: .85em; background: var(--chip); padding: 1px 5px; border-radius: 3px; }
-@media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tile .s { white-space: normal; overflow-wrap: anywhere; } .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
+@media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tile .s { white-space: normal; overflow-wrap: anywhere; }
+  .tile.has-media { grid-template-columns: minmax(0, 1fr); position: relative; }
+  .tile.has-media .label { padding-right: 40px; min-height: 2.6em; }
+  .tile.has-media > .tile-poster { position: absolute; top: 12px; right: 12px; width: 34px; } .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
 </style>
 </head>
 <body>
@@ -116,6 +122,7 @@ const hrs = min => (min / 60).toFixed(min >= 6000 ? 0 : 1);
 const monthKey = d => d.slice(0, 7);
 const monthName = (k, long) => { const [y, m] = k.split('-'); return new Date(+y, +m - 1, 15).toLocaleDateString('en-US', { month: long ? 'long' : 'short', year: 'numeric' }); };
 const shiftMonth = (k, n) => { const [y, m] = k.split('-').map(Number); const d = new Date(y, m - 1 + n, 1); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`; };
+const fmtDay = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 const nowKey = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`; };
 
 let data = { members: [], entries: [] };
@@ -165,6 +172,11 @@ function render() {
   document.getElementById('view').innerHTML = banner + ({ month: viewMonth, setup: viewSetup })[ui.view]();
 }
 
+// Summary box; media (a film poster) sits to the left of the text.
+const tile = (label, value, sub, media = '', cls = 'num') => `<div class="tile${media ? ' has-media' : ''}">${media}
+  <div class="tile-text"><span class="label">${label}</span><span class="v ${cls}">${value}</span><span class="s">${sub}</span></div></div>`;
+const poster = e => e.poster ? `<img class="tile-poster" src="${esc(e.poster)}" alt="${esc(e.title)} poster" loading="lazy" onerror="this.remove()">` : '';
+
 function viewMonth() {
   const rows = monthStats(ui.month);
   const total = rows.reduce((s, r) => s + r.min, 0), films = rows.reduce((s, r) => s + r.films, 0);
@@ -172,16 +184,21 @@ function viewMonth() {
   const leader = rows[0] && rows[0].min ? rows[0] : null;
   const longest = rows.map(r => r.longest).filter(Boolean).sort((a, b) => b.runtime - a.runtime)[0];
   const prev = monthStats(shiftMonth(ui.month, -1));
-  const timed = rows.reduce((s, r) => s + r.films - r.missing, 0);
+  const monthEntries = data.entries.filter(e => monthKey(e.date) === ui.month && rows.some(r => r.m.username === e.user));
   const longAvg = rows.filter(r => r.avg).sort((a, b) => b.avg - a.avg)[0];
   const lead = rows.length > 1 && rows[1].min ? { gap: rows[0].min - rows[1].min } : null;
+  // Most time one member logged on a single day this month.
+  const days = {};
+  for (const e of monthEntries) if (e.runtime) days[e.user + ' ' + e.date] = (days[e.user + ' ' + e.date] || 0) + e.runtime;
+  const [marathonKey, marathonMin] = Object.entries(days).sort((a, b) => b[1] - a[1])[0] || [];
+  const oldest = monthEntries.filter(e => e.year).sort((a, b) => a.year - b.year || a.date.localeCompare(b.date))[0];
   const tiles = `<div class="tiles">
-    <div class="tile"><span class="label">League total</span><span class="v num">${hrs(total)}<small style="font-size:.5em">h</small></span><span class="s">${films} film${films === 1 ? '' : 's'} logged</span></div>
-    <div class="tile"><span class="label">Leader</span><span class="v name">${leader ? esc(leader.m.name) : '—'}</span><span class="s">${leader ? hm(leader.min) : 'Nobody has logged a film yet'}</span></div>
-    <div class="tile"><span class="label">Lead over 2nd</span><span class="v num">${lead ? hm(lead.gap) : '—'}</span><span class="s">${!lead ? 'Needs two members with time logged' : lead.gap ? `Ahead of ${esc(rows[1].m.name)}` : `Tied: ${esc(rows[0].m.name)} &amp; ${esc(rows[1].m.name)}`}</span></div>
-    <div class="tile"><span class="label">Avg film runtime</span><span class="v num">${timed ? hm(total / timed) : '—'}</span><span class="s">${longAvg ? `Longest avg: ${esc(longAvg.m.name)} · ${hm(longAvg.avg)}` : 'No films yet'}</span></div>
-    <div class="tile"><span class="label">Average per member</span><span class="v num">${hrs(rows.length ? total / rows.length : 0)}<small style="font-size:.5em">h</small></span><span class="s">${rows.length} member${rows.length === 1 ? '' : 's'}</span></div>
-    <div class="tile"><span class="label">Longest sit</span><span class="v num">${longest ? hm(longest.runtime) : '—'}</span><span class="s">${longest ? `${esc(longest.title)} · ${esc(nameOf(longest.user))}` : 'No films yet'}</span></div>
+    ${tile('League total', `${hrs(total)}<small style="font-size:.5em">h</small>`, `${films} film${films === 1 ? '' : 's'} logged`)}
+    ${tile('Leader', leader ? esc(leader.m.name) : '—', leader ? hm(leader.min) : 'Nobody has logged a film yet', '', 'name')}
+    ${tile('Lead over 2nd', lead ? hm(lead.gap) : '—', !lead ? 'Needs two members with time logged' : lead.gap ? `Ahead of ${esc(rows[1].m.name)}` : `Tied: ${esc(rows[0].m.name)} &amp; ${esc(rows[1].m.name)}`)}
+    ${tile('Marathon day', marathonKey ? hm(marathonMin) : '—', marathonKey ? `${esc(nameOf(marathonKey.split(' ')[0]))} · ${fmtDay(marathonKey.split(' ')[1])}` : 'No films yet')}
+    ${tile('Oldest film', oldest ? oldest.year : '—', oldest ? `${esc(oldest.title)} · ${esc(nameOf(oldest.user))}` : 'No films yet', oldest ? poster(oldest) : '')}
+    ${tile('Longest sit', longest ? hm(longest.runtime) : '—', longest ? `${esc(longest.title)} · ${esc(nameOf(longest.user))}` : 'No films yet', longest ? poster(longest) : '')}
   </div>`;
   if (!rows.length) return tiles + `<div class="empty">No members yet.</div>`;
   const table = `<section class="panel"><div class="head"><h2>${monthName(ui.month, true)}</h2><span class="muted small">Ranked by total runtime of films logged in the diary this month. Rewatches count.</span></div>
