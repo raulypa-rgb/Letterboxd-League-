@@ -69,9 +69,6 @@ nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: 
 .tile-text { display: grid; gap: 2px; min-width: 0; }
 .tile.has-media { grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; }
 .tile-poster { width: 50px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px; border: 1px solid var(--line); display: block; }
-.tile-avatar { position: relative; width: 50px; height: 50px; border-radius: 50%; overflow: hidden; border: 2px solid var(--accent); display: grid; place-items: center;
-  background: var(--chip); font: 800 1.3rem var(--font-display); color: var(--ink); }
-.tile-avatar img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .tile .v.name { font-size: 1.7rem; line-height: 1.25; }
 .tile .s { font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -107,8 +104,7 @@ code { font-family: var(--font-mono); font-size: .85em; background: var(--chip);
 @media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tile .s { white-space: normal; overflow-wrap: anywhere; }
   .tile.has-media { grid-template-columns: minmax(0, 1fr); position: relative; }
   .tile.has-media .label { padding-right: 40px; min-height: 2.6em; }
-  .tile.has-media > .tile-poster, .tile.has-media > .tile-avatar { position: absolute; top: 12px; right: 12px; width: 34px; }
-  .tile.has-media > .tile-avatar { height: 34px; font-size: .95rem; border-width: 1.5px; } .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
+  .tile.has-media > .tile-poster { position: absolute; top: 12px; right: 12px; width: 34px; } .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
 </style>
 </head>
 <body>
@@ -176,12 +172,10 @@ function render() {
   document.getElementById('view').innerHTML = banner + ({ month: viewMonth, setup: viewSetup })[ui.view]();
 }
 
-// Summary box; media (a poster or profile picture) sits to the left of the text.
+// Summary box; media (a film poster) sits to the left of the text.
 const tile = (label, value, sub, media = '', cls = 'num') => `<div class="tile${media ? ' has-media' : ''}">${media}
   <div class="tile-text"><span class="label">${label}</span><span class="v ${cls}">${value}</span><span class="s">${sub}</span></div></div>`;
 const poster = e => e.poster ? `<img class="tile-poster" src="${esc(e.poster)}" alt="${esc(e.title)} poster" loading="lazy" onerror="this.remove()">` : '';
-const avatar = m => `<span class="tile-avatar">${esc(((m && m.name) || '?').slice(0, 1).toUpperCase())}${m && m.avatar
-  ? `<img src="${esc(m.avatar)}" alt="" onerror="this.remove()">` : ''}</span>`;
 
 function viewMonth() {
   const rows = monthStats(ui.month);
@@ -198,10 +192,9 @@ function viewMonth() {
   for (const e of monthEntries) if (e.runtime) days[e.user + ' ' + e.date] = (days[e.user + ' ' + e.date] || 0) + e.runtime;
   const [marathonKey, marathonMin] = Object.entries(days).sort((a, b) => b[1] - a[1])[0] || [];
   const oldest = monthEntries.filter(e => e.year).sort((a, b) => a.year - b.year || a.date.localeCompare(b.date))[0];
-  const leaderInfo = leader && members().find(m => m.username === leader.m.username);
   const tiles = `<div class="tiles">
     ${tile('League total', `${hrs(total)}<small style="font-size:.5em">h</small>`, `${films} film${films === 1 ? '' : 's'} logged`)}
-    ${tile('Leader', leader ? esc(leader.m.name) : '—', leader ? hm(leader.min) : 'Nobody has logged a film yet', leader ? avatar(leaderInfo) : '', 'name')}
+    ${tile('Leader', leader ? esc(leader.m.name) : '—', leader ? hm(leader.min) : 'Nobody has logged a film yet', '', 'name')}
     ${tile('Lead over 2nd', lead ? hm(lead.gap) : '—', !lead ? 'Needs two members with time logged' : lead.gap ? `Ahead of ${esc(rows[1].m.name)}` : `Tied: ${esc(rows[0].m.name)} &amp; ${esc(rows[1].m.name)}`)}
     ${tile('Marathon day', marathonKey ? hm(marathonMin) : '—', marathonKey ? `${esc(nameOf(marathonKey.split(' ')[0]))} · ${fmtDay(marathonKey.split(' ')[1])}` : 'No films yet')}
     ${tile('Oldest film', oldest ? oldest.year : '—', oldest ? `${esc(oldest.title)} · ${esc(nameOf(oldest.user))}` : 'No films yet', oldest ? poster(oldest) : '')}
