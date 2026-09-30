@@ -1,40 +1,40 @@
 {
-  "updated": "2026-09-30T06:31:18.155Z",
+  "updated": "2026-09-30T06:49:50.314Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-09-30T06:31:11.366Z"
+      "lastFetched": "2026-09-30T06:49:43.505Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-09-30T06:31:12.257Z"
+      "lastFetched": "2026-09-30T06:49:44.394Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-09-30T06:31:13.150Z"
+      "lastFetched": "2026-09-30T06:49:45.284Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-09-30T06:31:14.036Z"
+      "lastFetched": "2026-09-30T06:49:46.169Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-09-30T06:31:14.935Z"
+      "lastFetched": "2026-09-30T06:49:47.068Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-09-30T06:31:15.854Z"
+      "lastFetched": "2026-09-30T06:49:47.997Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-09-30T06:31:16.863Z"
+      "lastFetched": "2026-09-30T06:49:49.023Z"
     }
   ],
   "entries": [
@@ -97,6 +97,21 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/t0/2v/iy/9c/aiB7u6xZ9RWeDTQ7c92J8AoiHj3-0-600-0-900-crop.jpg?v=422ef264f8",
       "runtime": 116,
       "logged": "2026-09-30T02:54:36.000Z"
+    },
+    {
+      "id": "letterboxd-review-1517213476",
+      "user": "tupapi_",
+      "date": "2026-09-29",
+      "title": "Space Jam: A New Legacy",
+      "year": 2021,
+      "slug": "space-jam-a-new-legacy",
+      "tmdb": "379686",
+      "rewatch": true,
+      "rating": 3,
+      "link": "https://letterboxd.com/tupapi_/film/space-jam-a-new-legacy/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/1/4/8/8/3/314883-space-jam-a-new-legacy-0-600-0-900-crop.jpg?v=c640006c01",
+      "logged": "2026-09-30T06:46:40.000Z",
+      "runtime": 115
     },
     {
       "id": "letterboxd-review-1515753842",
