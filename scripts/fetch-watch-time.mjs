@@ -40,6 +40,9 @@ const tag = (xml, name) => {
   return m ? decode(m[1]) : '';
 };
 
+// Letterboxd serves profile pictures from a.ltrbxd.com/resized/avatar/...
+const findAvatar = html => (html.match(/https:\/\/a\.ltrbxd\.com\/resized\/avatar\/[^"'\s<>]+/) || [])[0] || '';
+
 // One diary entry per <item>; list and other non-diary items have no watchedDate and are skipped.
 export function parseFeed(xml, username) {
   const items = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
@@ -67,8 +70,10 @@ export function parseFeed(xml, username) {
       logged: Number.isNaN(pub) ? null : new Date(pub).toISOString(),
     });
   }
-  const name = tag(xml.split('<item>')[0], 'title').replace(/^Letterboxd - /, '');
-  return { name, entries, items: items.length };
+  const channel = xml.split('<item>')[0];
+  const name = tag(channel, 'title').replace(/^Letterboxd - /, '');
+  const avatar = findAvatar(channel);
+  return { name, avatar, entries, items: items.length };
 }
 
 async function get(url, as = 'text') {
@@ -118,9 +123,19 @@ async function main() {
     const username = m.username.toLowerCase();
     const prev = (data.members || []).find(x => x.username === username) || {};
     const row = { username, name: m.name || prev.name || username, lastFetched: prev.lastFetched || null };
+    if (prev.avatar) row.avatar = prev.avatar;
+    if (prev.avatarChecked) row.avatarChecked = prev.avatarChecked;
     try {
       const feed = parseFeed(await get(`https://letterboxd.com/${username}/rss/`), username);
       if (!m.name && feed.name) row.name = feed.name;
+      if (feed.avatar) row.avatar = feed.avatar;
+      // The feed may not carry the profile picture; look on the profile page at most once a day.
+      const today = new Date().toISOString().slice(0, 10);
+      if (!feed.avatar && row.avatarChecked !== today) {
+        row.avatarChecked = today;
+        try { row.avatar = findAvatar(await get(`https://letterboxd.com/${username}/`)) || row.avatar; }
+        catch (err) { console.warn(`${username}: no profile picture (${err.message || err})`); }
+      }
       for (const e of feed.entries) byId.set(e.id, { ...byId.get(e.id), ...e });
       // A saved entry missing from a feed window that should include it was deleted on Letterboxd.
       // The feed holds the latest ~50 items; with fewer than that it holds the whole diary.
