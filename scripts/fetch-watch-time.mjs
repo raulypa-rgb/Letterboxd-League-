@@ -20,6 +20,7 @@ const MEMBERS_FILE = path.join(ROOT, 'data/members.json');
 const DATA_FILE = path.join(ROOT, 'data/watch-time.json');
 const RUNTIME_FILE = path.join(ROOT, 'data/runtimes.json');
 const TMDB_KEY = process.env.TMDB_API_KEY || '';
+const FEED_SIZE = 50;
 const UA = 'Mozilla/5.0 (compatible; LetterboxdLeague/1.0; +https://github.com/raulypa-rgb/Letterboxd-League-)';
 
 const readJson = async (file, fallback) => {
@@ -49,6 +50,7 @@ export function parseFeed(xml, username) {
     const link = tag(item, 'link');
     const slug = (link.match(/\/film\/([^/]+)/) || [])[1] || '';
     const rating = tag(item, 'letterboxd:memberRating');
+    const pub = Date.parse(tag(item, 'pubDate'));
     const poster = (tag(item, 'description').match(/<img[^>]+src="([^"]+)"/) || [])[1] || '';
     entries.push({
       id: tag(item, 'guid') || `${username}:${date}:${slug}`,
@@ -62,10 +64,11 @@ export function parseFeed(xml, username) {
       rating: rating ? Number(rating) : null,
       link,
       poster,
+      logged: Number.isNaN(pub) ? null : new Date(pub).toISOString(),
     });
   }
   const name = tag(xml.split('<item>')[0], 'title').replace(/^Letterboxd - /, '');
-  return { name, entries };
+  return { name, entries, items: items.length };
 }
 
 async function get(url, as = 'text') {
@@ -119,6 +122,15 @@ async function main() {
       const feed = parseFeed(await get(`https://letterboxd.com/${username}/rss/`), username);
       if (!m.name && feed.name) row.name = feed.name;
       for (const e of feed.entries) byId.set(e.id, { ...byId.get(e.id), ...e });
+      // A saved entry missing from a feed window that should include it was deleted on Letterboxd.
+      // The feed holds the latest ~50 items; with fewer than that it holds the whole diary.
+      const seen = new Set(feed.entries.map(e => e.id));
+      const since = feed.items >= FEED_SIZE ? feed.entries.map(e => e.logged).filter(Boolean).sort()[0] : '';
+      for (const [id, e] of byId) {
+        if (e.user !== username || seen.has(id) || !e.logged || since === undefined || e.logged < since) continue;
+        byId.delete(id);
+        console.log(`${username}: removed deleted entry ${e.title} (${e.date})`);
+      }
       row.lastFetched = new Date().toISOString();
       console.log(`${username}: ${feed.entries.length} diary entries in feed`);
     } catch (err) {
