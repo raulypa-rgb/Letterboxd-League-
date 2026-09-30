@@ -49,11 +49,7 @@ h2 { font-size: 1.9rem; font-weight: 800; text-transform: uppercase; line-height
 .marquee .eyebrow { font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; opacity: .7; font-weight: 600; }
 .marquee .eyebrow a { text-decoration-color: color-mix(in srgb, var(--marquee-ink) 45%, transparent); }
 .marquee h1 { font-size: clamp(2.2rem, 7vw, 3.8rem); font-weight: 900; text-transform: uppercase; line-height: .95; }
-.stepper { display: flex; align-items: center; gap: 6px; }
-.stepper button { background: transparent; color: var(--marquee-ink); border: 1.5px solid color-mix(in srgb, var(--marquee-ink) 35%, transparent);
-  border-radius: 4px; width: 38px; height: 38px; font-size: 1.1rem; cursor: pointer; }
-.stepper button:disabled { opacity: .3; cursor: not-allowed; }
-.stepper strong { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; text-transform: uppercase; min-width: 8.5ch; text-align: center; line-height: 1; }
+.current-month { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; text-transform: uppercase; line-height: 1; }
 
 nav.tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--line); overflow-x: auto; }
 nav.tabs button { background: none; border: 0; padding: 10px 14px; font: 600 .95rem var(--font-body); color: var(--muted); cursor: pointer;
@@ -129,13 +125,12 @@ let data = { members: [], entries: [] };
 let demo = false, loadError = '';
 const ui = { view: 'month', month: nowKey() };
 
-// Hash keeps the view and month shareable: #month/2026-09
+// The page always shows the current month; the hash only remembers the tab: #month or #setup
 function readHash() {
-  const [v, m] = location.hash.slice(1).split('/');
+  const v = location.hash.slice(1).split('/')[0];
   if (VIEWS.some(([k]) => k === v)) ui.view = v;
-  if (/^\d{4}-\d{2}$/.test(m || '')) ui.month = m;
 }
-function writeHash() { history.replaceState(null, '', `#${ui.view}/${ui.month}`); }
+function writeHash() { history.replaceState(null, '', `#${ui.view}`); }
 
 const members = () => data.members.length ? data.members
   : [...new Set(data.entries.map(e => e.user))].map(u => ({ username: u, name: u }));
@@ -155,14 +150,11 @@ function monthStats(key) {
 }
 
 function render() {
+  ui.month = nowKey();
   writeHash();
   document.getElementById('marquee').innerHTML = `<div class="marquee-row">
     <div><div class="eyebrow">Letterboxd League · <a href="index.html">Box Office League</a></div><h1>Watch Time</h1></div>
-    <div class="stepper" aria-label="Month">
-      <button data-act="step" data-n="-1" aria-label="Previous month">◀</button>
-      <strong>${monthName(ui.month)}</strong>
-      <button data-act="step" data-n="1" aria-label="Next month" ${ui.month >= nowKey() ? 'disabled' : ''}>▶</button>
-    </div></div>`;
+    <strong class="current-month">${monthName(ui.month)}</strong></div>`;
   document.getElementById('tabs').innerHTML = VIEWS.map(([k, n]) =>
     `<button role="tab" data-act="view" data-k="${k}" aria-selected="${ui.view === k}">${n}</button>`).join('');
   const banner = demo ? `<div class="banner"><span><strong>Demo data.</strong> These members are made up. Add real usernames on the Members &amp; setup tab.</span>
@@ -270,7 +262,6 @@ document.addEventListener('click', ev => {
   const b = ev.target.closest('[data-act]'); if (!b) return;
   const act = b.dataset.act;
   if (act === 'view') ui.view = b.dataset.k;
-  else if (act === 'step') ui.month = shiftMonth(ui.month, +b.dataset.n) > nowKey() ? nowKey() : shiftMonth(ui.month, +b.dataset.n);
   else if (act === 'demo') { demo = true; data = demoData(); }
   else if (act === 'undemo') { demo = false; data = real; }
   else return;
@@ -284,9 +275,6 @@ fetch('data/watch-time.json', { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(j => {
     real = data = { updated: j.updated, members: j.members || [], entries: (j.entries || []).filter(e => e.date) };
-    // If nothing is logged yet this month, open on the latest month that has viewings.
-    const latest = data.entries.map(e => monthKey(e.date)).sort().pop();
-    if (!location.hash && latest && !data.entries.some(e => monthKey(e.date) === ui.month)) ui.month = latest;
     render();
   })
   .catch(() => { loadError = "Couldn't load data/watch-time.json (open the page from a web server or GitHub Pages, not straight from disk)."; render(); });
