@@ -63,7 +63,7 @@ nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: 
 .banner { background: var(--chip); border-radius: 6px; padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
 .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
-.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
 .tile .v { font-family: var(--font-display); font-weight: 900; font-size: 2.2rem; line-height: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .tile .v.name { font-size: 1.7rem; line-height: 1.25; }
@@ -93,29 +93,12 @@ td.best { color: var(--accent); font-weight: 500; }
 .bar i { display: block; height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--bar-deep), var(--bar)); box-shadow: 0 0 8px color-mix(in srgb, var(--bar) 35%, transparent); }
 .chip { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); white-space: nowrap; }
 .chip.warn { background: color-mix(in srgb, var(--bad) 16%, transparent); color: var(--bad); }
-.linkbtn { background: none; border: 0; padding: 0; cursor: pointer; text-align: left; font-weight: 600; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
 
-/* Year heatmap: one hue, stronger fill = more hours. */
-.heat td.cell { text-align: center; font-family: var(--font-mono); font-size: .8rem; padding: 3px; border-bottom: 0; }
-.heat td.cell span { display: block; border-radius: 4px; padding: 7px 2px; min-width: 42px; color: var(--ink); }
-.heat td.cell span.s3, .heat td.cell span.s4 { color: var(--accent-ink); font-weight: 500; }
-.heat td.cell span.zero { color: var(--muted); background: var(--bg); }
-.heat th.sel { color: var(--ink); }
-.legend { display: flex; align-items: center; gap: 6px; font-size: .78rem; color: var(--muted); }
-.legend i { width: 22px; height: 12px; border-radius: 3px; display: inline-block; }
 
-.diary { display: grid; gap: 0; }
-.dentry { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
-.dentry:last-child { border-bottom: 0; }
-.poster { width: 44px; height: 66px; border-radius: 3px; background: var(--chip); object-fit: cover; display: block; }
-.dentry .t { font-weight: 600; }
-.dentry .t a { text-decoration: none; }
-.dentry .t a:hover { text-decoration: underline; }
-.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .empty { padding: 22px; text-align: center; color: var(--muted); border: 1.5px dashed var(--line); border-radius: 6px; }
 ol.steps { margin: 0; padding-left: 1.3em; display: grid; gap: 8px; }
 code { font-family: var(--font-mono); font-size: .85em; background: var(--chip); padding: 1px 5px; border-radius: 3px; }
-@media (max-width: 560px) { .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
+@media (max-width: 560px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tile .s { white-space: normal; overflow-wrap: anywhere; } .hide-sm { display: none; } .show-sm { display: block !important; } td.member { min-width: 96px; } td { padding: 8px 5px; } th { padding: 6px 5px; } table { font-size: .85rem; } .rank { font-size: 1.3rem; width: 1.4rem; } .panel { padding: 14px; } .tile .v { font-size: 1.8rem; } .tile .v.name { font-size: 1.35rem; line-height: 1.6; } }
 </style>
 </head>
 <body>
@@ -126,8 +109,7 @@ code { font-family: var(--font-mono); font-size: .85em; background: var(--chip);
 </main>
 <script>
 (() => {
-const VIEWS = [['month', 'Month'], ['year', 'Year'], ['diary', 'Diary'], ['setup', 'Members & setup']];
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const VIEWS = [['month', 'Month'], ['setup', 'Members & setup']];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const hm = min => { min = Math.round(min || 0); const h = Math.floor(min / 60), m = min % 60; return h ? `${h}h ${String(m).padStart(2, '0')}m` : `${m}m`; };
 const hrs = min => (min / 60).toFixed(min >= 6000 ? 0 : 1);
@@ -135,11 +117,10 @@ const monthKey = d => d.slice(0, 7);
 const monthName = (k, long) => { const [y, m] = k.split('-'); return new Date(+y, +m - 1, 15).toLocaleDateString('en-US', { month: long ? 'long' : 'short', year: 'numeric' }); };
 const shiftMonth = (k, n) => { const [y, m] = k.split('-').map(Number); const d = new Date(y, m - 1 + n, 1); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`; };
 const nowKey = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`; };
-const fmtDay = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 
 let data = { members: [], entries: [] };
 let demo = false, loadError = '';
-const ui = { view: 'month', month: nowKey(), who: 'all' };
+const ui = { view: 'month', month: nowKey() };
 
 // Hash keeps the view and month shareable: #month/2026-09
 function readHash() {
@@ -171,9 +152,9 @@ function render() {
   document.getElementById('marquee').innerHTML = `<div class="marquee-row">
     <div><div class="eyebrow">Letterboxd League · <a href="index.html">Box Office League</a></div><h1>Watch Time</h1></div>
     <div class="stepper" aria-label="Month">
-      <button data-act="step" data-n="${ui.view === 'year' ? -12 : -1}" aria-label="Previous">◀</button>
-      <strong>${ui.view === 'year' ? ui.month.slice(0, 4) : monthName(ui.month)}</strong>
-      <button data-act="step" data-n="${ui.view === 'year' ? 12 : 1}" aria-label="Next" ${ui.month >= nowKey() || (ui.view === 'year' && ui.month.slice(0, 4) >= nowKey().slice(0, 4)) ? 'disabled' : ''}>▶</button>
+      <button data-act="step" data-n="-1" aria-label="Previous month">◀</button>
+      <strong>${monthName(ui.month)}</strong>
+      <button data-act="step" data-n="1" aria-label="Next month" ${ui.month >= nowKey() ? 'disabled' : ''}>▶</button>
     </div></div>`;
   document.getElementById('tabs').innerHTML = VIEWS.map(([k, n]) =>
     `<button role="tab" data-act="view" data-k="${k}" aria-selected="${ui.view === k}">${n}</button>`).join('');
@@ -181,7 +162,7 @@ function render() {
       <button class="btn ghost sm" data-act="undemo">Hide demo</button></div>`
     : !data.entries.length ? `<div class="banner"><span>${loadError ? esc(loadError) : 'No viewings logged yet.'} See <strong>Members &amp; setup</strong> to start tracking.</span>
       <button class="btn accent sm" data-act="demo">Show demo data</button></div>` : '';
-  document.getElementById('view').innerHTML = banner + ({ month: viewMonth, year: viewYear, diary: viewDiary, setup: viewSetup })[ui.view]();
+  document.getElementById('view').innerHTML = banner + ({ month: viewMonth, setup: viewSetup })[ui.view]();
 }
 
 function viewMonth() {
@@ -193,9 +174,11 @@ function viewMonth() {
   const prev = monthStats(shiftMonth(ui.month, -1));
   const timed = rows.reduce((s, r) => s + r.films - r.missing, 0);
   const longAvg = rows.filter(r => r.avg).sort((a, b) => b.avg - a.avg)[0];
+  const lead = rows.length > 1 && rows[1].min ? { gap: rows[0].min - rows[1].min } : null;
   const tiles = `<div class="tiles">
     <div class="tile"><span class="label">League total</span><span class="v num">${hrs(total)}<small style="font-size:.5em">h</small></span><span class="s">${films} film${films === 1 ? '' : 's'} logged</span></div>
     <div class="tile"><span class="label">Leader</span><span class="v name">${leader ? esc(leader.m.name) : '—'}</span><span class="s">${leader ? hm(leader.min) : 'Nobody has logged a film yet'}</span></div>
+    <div class="tile"><span class="label">Lead over 2nd</span><span class="v num">${lead ? hm(lead.gap) : '—'}</span><span class="s">${!lead ? 'Needs two members with time logged' : lead.gap ? `Ahead of ${esc(rows[1].m.name)}` : `Tied: ${esc(rows[0].m.name)} &amp; ${esc(rows[1].m.name)}`}</span></div>
     <div class="tile"><span class="label">Avg film runtime</span><span class="v num">${timed ? hm(total / timed) : '—'}</span><span class="s">${longAvg ? `Longest avg: ${esc(longAvg.m.name)} · ${hm(longAvg.avg)}` : 'No films yet'}</span></div>
     <div class="tile"><span class="label">Average per member</span><span class="v num">${hrs(rows.length ? total / rows.length : 0)}<small style="font-size:.5em">h</small></span><span class="s">${rows.length} member${rows.length === 1 ? '' : 's'}</span></div>
     <div class="tile"><span class="label">Longest sit</span><span class="v num">${longest ? hm(longest.runtime) : '—'}</span><span class="s">${longest ? `${esc(longest.title)} · ${esc(nameOf(longest.user))}` : 'No films yet'}</span></div>
@@ -208,7 +191,7 @@ function viewMonth() {
       const p = prev.find(x => x.m.username === r.m.username), d = r.min - (p ? p.min : 0);
       return `<tr>
       <td><span class="rank ${i === 0 && r.min ? 'first' : ''}">${i + 1}</span></td>
-      <td class="member"><button class="linkbtn who" data-act="who" data-u="${esc(r.m.username)}">${esc(r.m.name)}</button>
+      <td class="member"><span class="who">${esc(r.m.name)}</span>
         ${r.missing ? `<span class="chip warn" title="Films without a runtime aren't counted yet">${r.missing} missing runtime</span>` : ''}
         <div class="muted small show-sm">${r.films} film${r.films === 1 ? '' : 's'}</div>
         <div class="bar" title="${esc(r.m.name)}: ${hm(r.min)}"><i style="width:${(r.min / max * 100).toFixed(1)}%"></i></div></td>
@@ -219,67 +202,6 @@ function viewMonth() {
       <td class="r num"><strong>${hm(r.min)}</strong></td></tr>`;
     }).join('')}</tbody></table></div></section>`;
   return tiles + table;
-}
-
-function viewYear() {
-  const year = ui.month.slice(0, 4);
-  const keys = MONTHS.map((_, i) => `${year}-${String(i + 1).padStart(2, '0')}`);
-  const grid = members().map(m => {
-    const per = keys.map(k => data.entries.filter(e => e.user === m.username && monthKey(e.date) === k).reduce((s, e) => s + (e.runtime || 0), 0));
-    return { m, per, total: per.reduce((a, b) => a + b, 0) };
-  }).sort((a, b) => b.total - a.total);
-  const max = Math.max(1, ...grid.flatMap(g => g.per));
-  const winners = keys.map((k, i) => { const best = Math.max(...grid.map(g => g.per[i])); return best ? grid.filter(g => g.per[i] === best).map(g => g.m.name) : []; });
-  // Five fixed steps of the accent so the legend matches exactly what the cells show.
-  const STEPS = [18, 34, 52, 72, 92];
-  const idx = v => Math.min(STEPS.length - 1, Math.floor(v / max * STEPS.length)), step = v => STEPS[idx(v)];
-  const cell = (v, g, k) => v
-    ? `<span class="s${idx(v)}" style="background:color-mix(in srgb, var(--accent) ${step(v)}%, var(--surface))" title="${esc(g.m.name)} · ${monthName(k, true)}: ${hm(v)}">${hrs(v)}</span>`
-    : `<span class="zero" title="${esc(g.m.name)} · ${monthName(k, true)}: nothing logged">·</span>`;
-  const films = u => data.entries.filter(e => e.user === u && e.date.startsWith(year)).length;
-  const avgRt = u => { const es = data.entries.filter(e => e.user === u && e.date.startsWith(year) && e.runtime); return es.length ? hm(es.reduce((s, e) => s + e.runtime, 0) / es.length) : '—'; };
-  const wins = name => winners.filter(w => w.includes(name)).length;
-  const top = Math.max(1, ...grid.map(g => g.total));
-  const standings = `<section class="panel"><div class="head"><h2>${year} standings</h2><span class="muted small">Total runtime logged so far this year.</span></div>
-    ${grid.length ? `<div class="tscroll"><table>
-    <thead><tr><th></th><th>Member</th><th class="r">Films</th><th class="r hide-sm">Months won</th><th class="r hide-sm">Avg runtime</th><th class="r hide-sm">Avg / month</th><th class="r">Watch time</th></tr></thead>
-    <tbody>${grid.map((g, i) => { const active = keys.filter(k => k <= nowKey()).length || 1;
-      return `<tr><td><span class="rank ${i === 0 && g.total ? 'first' : ''}">${i + 1}</span></td>
-      <td class="member"><span class="who">${esc(g.m.name)}</span><div class="bar" title="${esc(g.m.name)}: ${hm(g.total)}"><i style="width:${(g.total / top * 100).toFixed(1)}%"></i></div></td>
-      <td class="r num">${films(g.m.username)}</td><td class="r num hide-sm">${wins(g.m.name)}</td><td class="r num hide-sm">${avgRt(g.m.username)}</td>
-      <td class="r num hide-sm muted">${hm(g.total / active)}</td><td class="r num"><strong>${hm(g.total)}</strong></td></tr>`; }).join('')}</tbody></table></div>` : '<div class="empty">No members yet.</div>'}
-  </section>`;
-  return standings + `<section class="panel"><div class="head"><h2>${year} by month</h2>
-      <div class="legend">Fewer hours ${STEPS.map(s => `<i style="background:color-mix(in srgb, var(--accent) ${s}%, var(--surface))"></i>`).join('')} More</div></div>
-    ${grid.length ? `<div class="tscroll"><table class="heat">
-      <thead><tr><th>Member</th>${keys.map((k, i) => `<th class="r ${k === ui.month ? 'sel' : ''}" style="text-align:center"><button class="linkbtn" style="font-weight:600;text-decoration:none;color:inherit" data-act="goto" data-k="${k}">${MONTHS[i]}</button></th>`).join('')}<th class="r">Total</th></tr></thead>
-      <tbody>${grid.map(g => `<tr><td class="who" style="white-space:nowrap">${esc(g.m.name)}</td>${g.per.map((v, i) => `<td class="cell">${cell(v, g, keys[i])}</td>`).join('')}<td class="r num"><strong>${hm(g.total)}</strong></td></tr>`).join('')}</tbody>
-    </table></div>
-    <p class="muted small" style="margin:0">Cells show hours. Click a month to open its leaderboard.</p>` : '<div class="empty">No members yet.</div>'}
-  </section>
-  <section class="panel"><div class="head"><h2>Monthly winners</h2></div>
-    <div class="tscroll"><table><thead><tr><th>Month</th><th>Winner</th><th class="r">Watch time</th></tr></thead>
-    <tbody>${keys.filter(k => k <= nowKey()).map(k => { const i = keys.indexOf(k), best = Math.max(0, ...grid.map(g => g.per[i]));
-      return `<tr><td>${monthName(k, true)}</td><td class="who">${winners[i].length ? esc(winners[i].join(' & ')) : '<span class="muted">—</span>'}</td><td class="r num">${best ? hm(best) : '—'}</td></tr>`; }).join('')}</tbody></table></div>
-  </section>`;
-}
-
-function viewDiary() {
-  const list = data.entries.filter(e => monthKey(e.date) === ui.month && (ui.who === 'all' || e.user === ui.who))
-    .sort((a, b) => b.date.localeCompare(a.date) || a.user.localeCompare(b.user));
-  const total = list.reduce((s, e) => s + (e.runtime || 0), 0);
-  return `<section class="panel"><div class="head"><h2>Diary · ${monthName(ui.month, true)}</h2>
-      <div class="row"><select data-act="who-select" aria-label="Member"><option value="all">All members</option>
-        ${members().map(m => `<option value="${esc(m.username)}" ${ui.who === m.username ? 'selected' : ''}>${esc(m.name)}</option>`).join('')}</select>
-        <span class="muted small num">${list.length} film${list.length === 1 ? '' : 's'} · ${hm(total)}</span></div></div>
-    ${list.length ? `<div class="diary">${list.map(e => `<div class="dentry">
-      ${e.poster ? `<img class="poster" src="${esc(e.poster)}" alt="" loading="lazy">` : '<div class="poster"></div>'}
-      <div style="min-width:0"><div class="t">${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)} <span class="muted small">${e.year || ''}</span>
-        ${e.rewatch ? '<span class="chip">Rewatch</span>' : ''}</div>
-        <div class="muted small">${esc(nameOf(e.user))} · ${fmtDay(e.date)}${e.rating ? ' · ' + '★'.repeat(Math.floor(e.rating)) + (e.rating % 1 ? '½' : '') : ''}</div></div>
-      <div class="num">${e.runtime ? hm(e.runtime) : '<span class="chip warn">no runtime</span>'}</div></div>`).join('')}</div>`
-      : '<div class="empty">Nothing logged this month.</div>'}
-  </section>`;
 }
 
 function viewSetup() {
@@ -332,15 +254,10 @@ document.addEventListener('click', ev => {
   const act = b.dataset.act;
   if (act === 'view') ui.view = b.dataset.k;
   else if (act === 'step') ui.month = shiftMonth(ui.month, +b.dataset.n) > nowKey() ? nowKey() : shiftMonth(ui.month, +b.dataset.n);
-  else if (act === 'goto') { ui.month = b.dataset.k; ui.view = 'month'; }
-  else if (act === 'who') { ui.who = b.dataset.u; ui.view = 'diary'; }
   else if (act === 'demo') { demo = true; data = demoData(); }
   else if (act === 'undemo') { demo = false; data = real; }
   else return;
   render();
-});
-document.addEventListener('change', ev => {
-  if (ev.target.dataset.act === 'who-select') { ui.who = ev.target.value; render(); }
 });
 window.addEventListener('hashchange', () => { readHash(); render(); });
 
