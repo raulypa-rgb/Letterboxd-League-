@@ -1,43 +1,57 @@
 {
-  "updated": "2026-09-29T07:03:23.144Z",
+  "updated": "2026-09-30T02:58:48.602Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-09-29T07:03:16.211Z"
+      "lastFetched": "2026-09-30T02:58:41.860Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-09-29T07:03:17.113Z"
+      "lastFetched": "2026-09-30T02:58:42.742Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-09-29T07:03:18.012Z"
+      "lastFetched": "2026-09-30T02:58:43.627Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-09-29T07:03:18.907Z"
+      "lastFetched": "2026-09-30T02:58:44.501Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-09-29T07:03:19.819Z"
+      "lastFetched": "2026-09-30T02:58:45.378Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-09-29T07:03:20.761Z"
+      "lastFetched": "2026-09-30T02:58:46.276Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-09-29T07:03:21.772Z"
+      "lastFetched": "2026-09-30T02:58:47.334Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1517018475",
+      "user": "skinklevro",
+      "date": "2026-09-29",
+      "title": "How to Lose a Guy in 10 Days",
+      "year": 2003,
+      "slug": "how-to-lose-a-guy-in-10-days",
+      "tmdb": "9919",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/skinklevro/film/how-to-lose-a-guy-in-10-days/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/t0/2v/iy/9c/aiB7u6xZ9RWeDTQ7c92J8AoiHj3-0-600-0-900-crop.jpg?v=422ef264f8",
+      "runtime": 116
+    },
     {
       "id": "letterboxd-review-1515753842",
       "user": "mr_n00dl3s",
