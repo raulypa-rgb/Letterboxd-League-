@@ -33,7 +33,7 @@ Watch time for a month is the sum of runtimes of the films a member logged in th
 
 ## Setting it up
 
-1. Put everyone's Letterboxd username in `data/members.json`. `name` is optional. Diaries must be public.
+1. Put everyone's Letterboxd username in `data/members.json`. `name` is optional. Diaries must be public. For the leader's profile picture, add `"avatar"` with the image address of their Letterboxd profile picture (on their profile, right-click or long-press the picture and copy the image address). Letterboxd blocks the tracker from reading profile pages, so it can't fetch pictures itself.
    ```json
    { "members": [ { "username": "dave", "name": "Dave" }, { "username": "karsten" } ] }
    ```

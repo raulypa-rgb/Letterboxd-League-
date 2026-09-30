@@ -1,5 +1,5 @@
 {
-  "_readme": "Letterboxd usernames to track (the part after letterboxd.com/). name is optional and is what the site shows; without it the site uses the name from the member's Letterboxd profile.",
+  "_readme": "Letterboxd usernames to track (the part after letterboxd.com/). name is optional and is what the site shows; without it the site uses the name from the member's Letterboxd profile. avatar is optional: the image address of their Letterboxd profile picture, shown when they lead.",
   "members": [
     { "username": "raulypa" },
     { "username": "da_rayray" },
