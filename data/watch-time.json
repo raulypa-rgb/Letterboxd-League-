@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-01T03:43:22.857Z",
+  "updated": "2026-10-01T04:52:23.219Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-01T03:43:16.082Z"
+      "lastFetched": "2026-10-01T04:52:16.938Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-01T03:43:16.969Z"
+      "lastFetched": "2026-10-01T04:52:17.822Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-01T03:43:17.853Z"
+      "lastFetched": "2026-10-01T04:52:18.709Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-01T03:43:18.730Z"
+      "lastFetched": "2026-10-01T04:52:19.591Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-01T03:43:19.615Z"
+      "lastFetched": "2026-10-01T04:52:20.492Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-01T03:43:20.538Z"
+      "lastFetched": "2026-10-01T04:52:21.419Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-01T03:43:21.573Z"
+      "lastFetched": "2026-10-01T04:52:22.409Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1518377035",
+      "user": "da_rayray",
+      "date": "2026-09-30",
+      "title": "Heat",
+      "year": 1995,
+      "slug": "heat-1995",
+      "tmdb": "949",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/da_rayray/film/heat-1995/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/9/4/51994-heat-0-600-0-900-crop.jpg?v=54dce97dc6",
+      "logged": "2026-10-01T04:48:26.000Z",
+      "runtime": 170
+    },
     {
       "id": "letterboxd-review-1518125690",
       "user": "mr_n00dl3s",
