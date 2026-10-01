@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-01T02:24:12.551Z",
+  "updated": "2026-10-01T03:43:22.857Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-01T02:24:06.097Z"
+      "lastFetched": "2026-10-01T03:43:16.082Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-01T02:24:07.012Z"
+      "lastFetched": "2026-10-01T03:43:16.969Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-01T02:24:07.895Z"
+      "lastFetched": "2026-10-01T03:43:17.853Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-01T02:24:08.789Z"
+      "lastFetched": "2026-10-01T03:43:18.730Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-01T02:24:09.691Z"
+      "lastFetched": "2026-10-01T03:43:19.615Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-01T02:24:10.648Z"
+      "lastFetched": "2026-10-01T03:43:20.538Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-01T02:24:11.742Z"
+      "lastFetched": "2026-10-01T03:43:21.573Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/1/1/4/8/871148-wicked-for-good-0-600-0-900-crop.jpg?v=f1330d6f91",
       "logged": "2026-10-01T00:15:46.000Z",
       "runtime": 137
+    },
+    {
+      "id": "letterboxd-review-1518315560",
+      "user": "mr_n00dl3s",
+      "date": "2026-09-30",
+      "title": "The Wizard of Oz",
+      "year": 1939,
+      "slug": "the-wizard-of-oz-1939",
+      "tmdb": "630",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/the-wizard-of-oz-1939/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/4/51494-the-wizard-of-oz-1939-0-600-0-900-crop.jpg?v=61f48285ea",
+      "logged": "2026-10-01T03:38:52.000Z",
+      "runtime": 102
     },
     {
       "id": "letterboxd-review-1517125984",
