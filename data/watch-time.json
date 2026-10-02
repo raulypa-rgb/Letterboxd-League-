@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-02T05:45:43.505Z",
+  "updated": "2026-10-02T06:59:56.364Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-02T05:45:36.552Z"
+      "lastFetched": "2026-10-02T06:59:50.064Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-02T05:45:37.450Z"
+      "lastFetched": "2026-10-02T06:59:50.939Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-02T05:45:38.336Z"
+      "lastFetched": "2026-10-02T06:59:51.825Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-02T05:45:39.236Z"
+      "lastFetched": "2026-10-02T06:59:52.698Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-02T05:45:40.139Z"
+      "lastFetched": "2026-10-02T06:59:53.585Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-02T05:45:41.058Z"
+      "lastFetched": "2026-10-02T06:59:54.496Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-02T05:45:42.087Z"
+      "lastFetched": "2026-10-02T06:59:55.554Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1519723605",
+      "user": "raulypa",
+      "date": "2026-10-01",
+      "title": "Gone Girl",
+      "year": 2014,
+      "slug": "gone-girl",
+      "tmdb": "210577",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/raulypa/film/gone-girl/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/9/8/5/7/149857-gone-girl-0-600-0-900-crop.jpg?v=dfe3c8018b",
+      "logged": "2026-10-02T06:48:46.000Z",
+      "runtime": 149
+    },
     {
       "id": "letterboxd-review-1518377035",
       "user": "da_rayray",
