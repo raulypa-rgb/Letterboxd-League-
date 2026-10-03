@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-03T01:53:21.398Z",
+  "updated": "2026-10-03T07:24:28.949Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-03T01:53:14.527Z"
+      "lastFetched": "2026-10-03T07:24:22.137Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-03T01:53:15.411Z"
+      "lastFetched": "2026-10-03T07:24:23.029Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-03T01:53:16.293Z"
+      "lastFetched": "2026-10-03T07:24:23.925Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-03T01:53:17.174Z"
+      "lastFetched": "2026-10-03T07:24:24.824Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-03T01:53:18.083Z"
+      "lastFetched": "2026-10-03T07:24:25.720Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-03T01:53:19.008Z"
+      "lastFetched": "2026-10-03T07:24:26.654Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-03T01:53:20.088Z"
+      "lastFetched": "2026-10-03T07:24:27.670Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1521183251",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-02",
+      "title": "Beware Boiúna",
+      "year": 2026,
+      "slug": "beware-boiuna",
+      "tmdb": "1244523",
+      "rewatch": false,
+      "rating": 2,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/beware-boiuna/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/0/9/5/1127095-beware-boiuna-0-600-0-900-crop.jpg?v=df1e66d6c2",
+      "logged": "2026-10-03T07:13:04.000Z",
+      "runtime": 104
+    },
     {
       "id": "letterboxd-review-1520819269",
       "user": "raulypa",
