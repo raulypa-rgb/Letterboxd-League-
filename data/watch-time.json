@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-02T06:59:56.364Z",
+  "updated": "2026-10-03T01:53:21.398Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-02T06:59:50.064Z"
+      "lastFetched": "2026-10-03T01:53:14.527Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-02T06:59:50.939Z"
+      "lastFetched": "2026-10-03T01:53:15.411Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-02T06:59:51.825Z"
+      "lastFetched": "2026-10-03T01:53:16.293Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-02T06:59:52.698Z"
+      "lastFetched": "2026-10-03T01:53:17.174Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-02T06:59:53.585Z"
+      "lastFetched": "2026-10-03T01:53:18.083Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-02T06:59:54.496Z"
+      "lastFetched": "2026-10-03T01:53:19.008Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-02T06:59:55.554Z"
+      "lastFetched": "2026-10-03T01:53:20.088Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1520819269",
+      "user": "raulypa",
+      "date": "2026-10-02",
+      "title": "Verity",
+      "year": 2026,
+      "slug": "verity-2026",
+      "tmdb": "1283515",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/verity-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/1/5/1/1167151-verity-2026-0-600-0-900-crop.jpg?v=3169444893",
+      "logged": "2026-10-03T01:51:24.000Z",
+      "runtime": 114
+    },
     {
       "id": "letterboxd-review-1519723605",
       "user": "raulypa",
