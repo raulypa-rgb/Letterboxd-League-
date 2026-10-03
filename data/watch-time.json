@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-03T07:24:28.949Z",
+  "updated": "2026-10-03T18:24:07.765Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-03T07:24:22.137Z"
+      "lastFetched": "2026-10-03T18:24:01.346Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-03T07:24:23.029Z"
+      "lastFetched": "2026-10-03T18:24:02.242Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-03T07:24:23.925Z"
+      "lastFetched": "2026-10-03T18:24:03.136Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-03T07:24:24.824Z"
+      "lastFetched": "2026-10-03T18:24:04.019Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-03T07:24:25.720Z"
+      "lastFetched": "2026-10-03T18:24:04.942Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-03T07:24:26.654Z"
+      "lastFetched": "2026-10-03T18:24:05.872Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-03T07:24:27.670Z"
+      "lastFetched": "2026-10-03T18:24:06.957Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1521739244",
+      "user": "raulypa",
+      "date": "2026-10-03",
+      "title": "Hamilton",
+      "year": 2020,
+      "slug": "hamilton-2020",
+      "tmdb": "556574",
+      "rewatch": true,
+      "rating": 5,
+      "link": "https://letterboxd.com/raulypa/film/hamilton-2020/3/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/5/3/0/9/485309-hamilton-0-600-0-900-crop.jpg?v=6430888d58",
+      "logged": "2026-10-03T17:27:09.000Z",
+      "runtime": 160
+    },
     {
       "id": "letterboxd-review-1521183251",
       "user": "mr_n00dl3s",
