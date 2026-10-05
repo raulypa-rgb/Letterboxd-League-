@@ -1,43 +1,73 @@
 {
-  "updated": "2026-10-04T00:07:02.763Z",
+  "updated": "2026-10-05T05:15:44.047Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-04T00:06:55.995Z"
+      "lastFetched": "2026-10-05T05:15:36.743Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-04T00:06:56.861Z"
+      "lastFetched": "2026-10-05T05:15:37.633Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-04T00:06:57.716Z"
+      "lastFetched": "2026-10-05T05:15:38.517Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-04T00:06:58.586Z"
+      "lastFetched": "2026-10-05T05:15:39.404Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-04T00:06:59.457Z"
+      "lastFetched": "2026-10-05T05:15:40.380Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-04T00:07:00.388Z"
+      "lastFetched": "2026-10-05T05:15:41.292Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-04T00:07:01.469Z"
+      "lastFetched": "2026-10-05T05:15:42.303Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1524578671",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-04",
+      "title": "Unabomber",
+      "year": 2026,
+      "slug": "unabomber-2026",
+      "tmdb": "1492640",
+      "rewatch": false,
+      "rating": 2,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/unabomber-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/6/9/2/1/1/1369211-unabomber-2026-0-600-0-900-crop.jpg?v=8b88a65b3a",
+      "logged": "2026-10-05T05:03:23.000Z",
+      "runtime": 101
+    },
+    {
+      "id": "letterboxd-review-1524587374",
+      "user": "skinklevro",
+      "date": "2026-10-04",
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "slug": "a-beautiful-mind",
+      "tmdb": "453",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/skinklevro/film/a-beautiful-mind/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/6/4/8/51648-a-beautiful-mind-0-600-0-900-crop.jpg?v=790ccfb890",
+      "logged": "2026-10-05T05:13:42.000Z",
+      "runtime": 135
+    },
     {
       "id": "letterboxd-review-1521939461",
       "user": "kylie_sak",
