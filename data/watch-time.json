@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-06T02:55:16.406Z",
+  "updated": "2026-10-06T04:46:53.023Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-06T02:55:09.583Z"
+      "lastFetched": "2026-10-06T04:46:46.353Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-06T02:55:10.479Z"
+      "lastFetched": "2026-10-06T04:46:47.218Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-06T02:55:11.368Z"
+      "lastFetched": "2026-10-06T04:46:48.075Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-06T02:55:12.266Z"
+      "lastFetched": "2026-10-06T04:46:48.930Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-06T02:55:13.157Z"
+      "lastFetched": "2026-10-06T04:46:49.793Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-06T02:55:14.102Z"
+      "lastFetched": "2026-10-06T04:46:50.679Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-06T02:55:15.121Z"
+      "lastFetched": "2026-10-06T04:46:51.671Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/h1/fd/pz/pi/3oAa8mJJ97CH9AeGEY6vjAxqcvZ-0-600-0-900-crop.jpg?v=3ce471493f",
       "logged": "2026-10-06T02:47:44.000Z",
       "runtime": 134
+    },
+    {
+      "id": "letterboxd-review-1525885031",
+      "user": "raulypa",
+      "date": "2026-10-05",
+      "title": "Green Lantern: Beware My Power",
+      "year": 2022,
+      "slug": "green-lantern-beware-my-power",
+      "tmdb": "887357",
+      "rewatch": false,
+      "rating": 2.5,
+      "link": "https://letterboxd.com/raulypa/film/green-lantern-beware-my-power/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/7/9/8/7/0/6/798706-green-lantern-beware-my-power-0-600-0-900-crop.jpg?v=708074eb1a",
+      "logged": "2026-10-06T04:40:40.000Z",
+      "runtime": 88
     },
     {
       "id": "letterboxd-review-1524578671",
