@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-05T05:51:40.007Z",
+  "updated": "2026-10-06T02:55:16.406Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-05T05:51:33.580Z"
+      "lastFetched": "2026-10-06T02:55:09.583Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-05T05:51:34.484Z"
+      "lastFetched": "2026-10-06T02:55:10.479Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-05T05:51:35.375Z"
+      "lastFetched": "2026-10-06T02:55:11.368Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-05T05:51:36.280Z"
+      "lastFetched": "2026-10-06T02:55:12.266Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-05T05:51:37.184Z"
+      "lastFetched": "2026-10-06T02:55:13.157Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-05T05:51:38.136Z"
+      "lastFetched": "2026-10-06T02:55:14.102Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-05T05:51:39.199Z"
+      "lastFetched": "2026-10-06T02:55:15.121Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1525773867",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-05",
+      "title": "Moneyball",
+      "year": 2011,
+      "slug": "moneyball",
+      "tmdb": "60308",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/moneyball/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/h1/fd/pz/pi/3oAa8mJJ97CH9AeGEY6vjAxqcvZ-0-600-0-900-crop.jpg?v=3ce471493f",
+      "logged": "2026-10-06T02:47:44.000Z",
+      "runtime": 134
+    },
     {
       "id": "letterboxd-review-1524578671",
       "user": "mr_n00dl3s",
