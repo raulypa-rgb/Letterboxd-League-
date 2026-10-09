@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-08T01:04:48.458Z",
+  "updated": "2026-10-09T01:06:45.623Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-08T01:04:42.290Z"
+      "lastFetched": "2026-10-09T01:06:39.422Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-08T01:04:43.146Z"
+      "lastFetched": "2026-10-09T01:06:40.286Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-08T01:04:44.007Z"
+      "lastFetched": "2026-10-09T01:06:41.156Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-08T01:04:44.866Z"
+      "lastFetched": "2026-10-09T01:06:42.022Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-08T01:04:45.734Z"
+      "lastFetched": "2026-10-09T01:06:42.894Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-08T01:04:46.627Z"
+      "lastFetched": "2026-10-09T01:06:43.784Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-08T01:04:47.647Z"
+      "lastFetched": "2026-10-09T01:06:44.815Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1529374112",
+      "user": "tupapi_",
+      "date": "2026-10-08",
+      "title": "The Love Hypothesis",
+      "year": 2026,
+      "slug": "the-love-hypothesis",
+      "tmdb": "1032863",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/tupapi_/film/the-love-hypothesis/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/9/3/1/1/8/1/931181-the-love-hypothesis-0-600-0-900-crop.jpg?v=af3d1729f2",
+      "logged": "2026-10-09T00:49:41.000Z",
+      "runtime": 112
+    },
     {
       "id": "letterboxd-review-1527765711",
       "user": "skinklevro",
