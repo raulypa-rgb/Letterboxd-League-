@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-09T01:06:45.623Z",
+  "updated": "2026-10-09T02:18:42.049Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-09T01:06:39.422Z"
+      "lastFetched": "2026-10-09T02:18:35.315Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-09T01:06:40.286Z"
+      "lastFetched": "2026-10-09T02:18:36.185Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-09T01:06:41.156Z"
+      "lastFetched": "2026-10-09T02:18:37.064Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-09T01:06:42.022Z"
+      "lastFetched": "2026-10-09T02:18:37.946Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-09T01:06:42.894Z"
+      "lastFetched": "2026-10-09T02:18:38.838Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-09T01:06:43.784Z"
+      "lastFetched": "2026-10-09T02:18:39.759Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-09T01:06:44.815Z"
+      "lastFetched": "2026-10-09T02:18:40.778Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1529452863",
+      "user": "da_rayray",
+      "date": "2026-10-08",
+      "title": "Pan's Labyrinth",
+      "year": 2006,
+      "slug": "pans-labyrinth",
+      "tmdb": "1417",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/da_rayray/film/pans-labyrinth/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/4/7/51047-pan-s-labyrinth-0-600-0-900-crop.jpg?v=79f89e7325",
+      "logged": "2026-10-09T02:10:21.000Z",
+      "runtime": 118
+    },
     {
       "id": "letterboxd-review-1529374112",
       "user": "tupapi_",
