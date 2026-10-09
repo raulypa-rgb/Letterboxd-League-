@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-09T16:37:35.079Z",
+  "updated": "2026-10-09T21:55:49.145Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-09T16:37:28.691Z"
+      "lastFetched": "2026-10-09T21:55:42.738Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-09T16:37:29.572Z"
+      "lastFetched": "2026-10-09T21:55:43.640Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-09T16:37:30.447Z"
+      "lastFetched": "2026-10-09T21:55:44.529Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-09T16:37:31.334Z"
+      "lastFetched": "2026-10-09T21:55:45.440Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-09T16:37:32.229Z"
+      "lastFetched": "2026-10-09T21:55:46.338Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-09T16:37:33.145Z"
+      "lastFetched": "2026-10-09T21:55:47.274Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-09T16:37:34.271Z"
+      "lastFetched": "2026-10-09T21:55:48.337Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1530488220",
+      "user": "skinklevro",
+      "date": "2026-10-09",
+      "title": "The Death of Superman",
+      "year": 2018,
+      "slug": "the-death-of-superman",
+      "tmdb": "487670",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/skinklevro/film/the-death-of-superman/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/1/8/3/4/7/418347-the-death-of-superman-0-600-0-900-crop.jpg?v=151217ba4a",
+      "logged": "2026-10-09T21:51:45.000Z",
+      "runtime": 81
+    },
     {
       "id": "letterboxd-review-1529452863",
       "user": "da_rayray",
