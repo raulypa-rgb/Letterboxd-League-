@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-10T06:36:16.235Z",
+  "updated": "2026-10-10T22:06:51.528Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-10T06:36:09.663Z"
+      "lastFetched": "2026-10-10T22:06:44.463Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-10T06:36:10.514Z"
+      "lastFetched": "2026-10-10T22:06:45.382Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-10T06:36:11.384Z"
+      "lastFetched": "2026-10-10T22:06:46.280Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-10T06:36:12.239Z"
+      "lastFetched": "2026-10-10T22:06:47.176Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-10T06:36:13.114Z"
+      "lastFetched": "2026-10-10T22:06:48.080Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-10T06:36:13.998Z"
+      "lastFetched": "2026-10-10T22:06:49.018Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-10T06:36:14.985Z"
+      "lastFetched": "2026-10-10T22:06:50.180Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1532094004",
+      "user": "tupapi_",
+      "date": "2026-10-10",
+      "title": "The Social Reckoning",
+      "year": 2026,
+      "slug": "the-social-reckoning",
+      "tmdb": "1281331",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/tupapi_/film/the-social-reckoning/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/6/4/6/6/9/1164669-the-social-reckoning-0-600-0-900-crop.jpg?v=e880229a7f",
+      "logged": "2026-10-10T22:02:30.000Z",
+      "runtime": 112
+    },
     {
       "id": "letterboxd-review-1531000065",
       "user": "kylie_sak",
