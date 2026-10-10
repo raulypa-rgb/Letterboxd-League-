@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-10T00:15:57.457Z",
+  "updated": "2026-10-10T05:11:19.222Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-10T00:15:50.976Z"
+      "lastFetched": "2026-10-10T05:11:12.304Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-10T00:15:51.869Z"
+      "lastFetched": "2026-10-10T05:11:13.199Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-10T00:15:52.765Z"
+      "lastFetched": "2026-10-10T05:11:14.093Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-10T00:15:53.709Z"
+      "lastFetched": "2026-10-10T05:11:15.025Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-10T00:15:54.626Z"
+      "lastFetched": "2026-10-10T05:11:15.919Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-10T00:15:55.569Z"
+      "lastFetched": "2026-10-10T05:11:16.834Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-10T00:15:56.647Z"
+      "lastFetched": "2026-10-10T05:11:17.860Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1531000065",
+      "user": "kylie_sak",
+      "date": "2026-10-09",
+      "title": "Top Gun",
+      "year": 1986,
+      "slug": "top-gun",
+      "tmdb": "744",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/kylie_sak/film/top-gun/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/e9/dh/nn/5w/fKSZl8ONN7DQh5ujgdObRIFmhiZ-0-600-0-900-crop.jpg?v=042d149015",
+      "logged": "2026-10-10T05:00:57.000Z",
+      "runtime": 110
+    },
     {
       "id": "letterboxd-review-1530665795",
       "user": "scottsak",
