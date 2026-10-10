@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-10T05:11:19.222Z",
+  "updated": "2026-10-10T06:36:16.235Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-10T05:11:12.304Z"
+      "lastFetched": "2026-10-10T06:36:09.663Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-10T05:11:13.199Z"
+      "lastFetched": "2026-10-10T06:36:10.514Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-10T05:11:14.093Z"
+      "lastFetched": "2026-10-10T06:36:11.384Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-10T05:11:15.025Z"
+      "lastFetched": "2026-10-10T06:36:12.239Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-10T05:11:15.919Z"
+      "lastFetched": "2026-10-10T06:36:13.114Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-10T05:11:16.834Z"
+      "lastFetched": "2026-10-10T06:36:13.998Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-10T05:11:17.860Z"
+      "lastFetched": "2026-10-10T06:36:14.985Z"
     }
   ],
   "entries": [
@@ -54,6 +54,21 @@
       "runtime": 110
     },
     {
+      "id": "letterboxd-review-1531078472",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-09",
+      "title": "Digger",
+      "year": 2026,
+      "slug": "digger-2026",
+      "tmdb": "1248832",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/digger-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95",
+      "logged": "2026-10-10T06:30:55.000Z",
+      "runtime": 129
+    },
+    {
       "id": "letterboxd-review-1530665795",
       "user": "scottsak",
       "date": "2026-10-09",
@@ -67,6 +82,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/0/1/9/1262019-primetime-2026-0-600-0-900-crop.jpg?v=41640d6988",
       "logged": "2026-10-10T00:14:33.000Z",
       "runtime": 109
+    },
+    {
+      "id": "letterboxd-review-1531066015",
+      "user": "scottsak",
+      "date": "2026-10-09",
+      "title": "Chicago",
+      "year": 2002,
+      "slug": "chicago",
+      "tmdb": "1574",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/scottsak/film/chicago/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/o0/rp/mq/1k/18pCc2XZ5MO7wsywOYEbhoeuxNw-0-600-0-900-crop.jpg?v=cdd4bb7a58",
+      "logged": "2026-10-10T06:16:26.000Z",
+      "runtime": 113
     },
     {
       "id": "letterboxd-review-1530488220",
