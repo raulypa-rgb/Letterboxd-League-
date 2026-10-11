@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-11T02:52:00.629Z",
+  "updated": "2026-10-11T04:15:19.645Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-11T02:51:54.408Z"
+      "lastFetched": "2026-10-11T04:15:13.227Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-11T02:51:55.274Z"
+      "lastFetched": "2026-10-11T04:15:14.128Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-11T02:51:56.148Z"
+      "lastFetched": "2026-10-11T04:15:15.030Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-11T02:51:57.019Z"
+      "lastFetched": "2026-10-11T04:15:15.937Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-11T02:51:57.902Z"
+      "lastFetched": "2026-10-11T04:15:16.852Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-11T02:51:58.810Z"
+      "lastFetched": "2026-10-11T04:15:17.779Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-11T02:51:59.819Z"
+      "lastFetched": "2026-10-11T04:15:18.835Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1532606171",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-10",
+      "title": "9",
+      "year": 2009,
+      "slug": "9",
+      "tmdb": "12244",
+      "rewatch": false,
+      "rating": 3,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/9/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/6/6/7/44667-9-0-600-0-900-crop.jpg?v=b33dd485d4",
+      "logged": "2026-10-11T04:06:56.000Z",
+      "runtime": 79
+    },
     {
       "id": "letterboxd-review-1532403659",
       "user": "raulypa",
