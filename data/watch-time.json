@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-11T01:47:30.217Z",
+  "updated": "2026-10-11T02:52:00.629Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-11T01:47:23.175Z"
+      "lastFetched": "2026-10-11T02:51:54.408Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-11T01:47:24.086Z"
+      "lastFetched": "2026-10-11T02:51:55.274Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-11T01:47:24.991Z"
+      "lastFetched": "2026-10-11T02:51:56.148Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-11T01:47:25.896Z"
+      "lastFetched": "2026-10-11T02:51:57.019Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-11T01:47:26.821Z"
+      "lastFetched": "2026-10-11T02:51:57.902Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-11T01:47:27.760Z"
+      "lastFetched": "2026-10-11T02:51:58.810Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-11T01:47:28.831Z"
+      "lastFetched": "2026-10-11T02:51:59.819Z"
     }
   ],
   "entries": [
@@ -51,6 +51,21 @@
       "link": "https://letterboxd.com/raulypa/film/9/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/6/6/7/44667-9-0-600-0-900-crop.jpg?v=b33dd485d4",
       "logged": "2026-10-11T01:41:12.000Z",
+      "runtime": 79
+    },
+    {
+      "id": "letterboxd-review-1532500178",
+      "user": "scottsak",
+      "date": "2026-10-10",
+      "title": "9",
+      "year": 2009,
+      "slug": "9",
+      "tmdb": "12244",
+      "rewatch": false,
+      "rating": 3,
+      "link": "https://letterboxd.com/scottsak/film/9/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/6/6/7/44667-9-0-600-0-900-crop.jpg?v=b33dd485d4",
+      "logged": "2026-10-11T02:48:36.000Z",
       "runtime": 79
     },
     {
