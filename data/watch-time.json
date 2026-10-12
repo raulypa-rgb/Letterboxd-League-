@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-12T01:09:40.349Z",
+  "updated": "2026-10-12T06:04:31.104Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-12T01:09:33.475Z"
+      "lastFetched": "2026-10-12T06:04:24.144Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-12T01:09:34.347Z"
+      "lastFetched": "2026-10-12T06:04:25.059Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-12T01:09:35.222Z"
+      "lastFetched": "2026-10-12T06:04:25.965Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-12T01:09:36.084Z"
+      "lastFetched": "2026-10-12T06:04:26.881Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-12T01:09:36.970Z"
+      "lastFetched": "2026-10-12T06:04:27.806Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-12T01:09:37.896Z"
+      "lastFetched": "2026-10-12T06:04:28.746Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-12T01:09:38.990Z"
+      "lastFetched": "2026-10-12T06:04:29.779Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/2/51382-gone-with-the-wind-0-600-0-900-crop.jpg?v=26a1d7ea7e",
       "logged": "2026-10-12T00:54:52.000Z",
       "runtime": 238
+    },
+    {
+      "id": "letterboxd-review-1534589799",
+      "user": "kylie_sak",
+      "date": "2026-10-11",
+      "title": "Animals",
+      "year": 2026,
+      "slug": "animals-2026",
+      "tmdb": "1236045",
+      "rewatch": false,
+      "rating": 2.5,
+      "link": "https://letterboxd.com/kylie_sak/film/animals-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/2/3/4/1119234-animals-2026-2-0-600-0-900-crop.jpg?v=6c15da80a6",
+      "logged": "2026-10-12T05:54:27.000Z",
+      "runtime": 106
     },
     {
       "id": "letterboxd-review-1532663540",
