@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-12T23:10:45.201Z",
+  "updated": "2026-10-12T23:41:05.624Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-12T23:10:38.741Z"
+      "lastFetched": "2026-10-12T23:40:58.864Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-12T23:10:39.631Z"
+      "lastFetched": "2026-10-12T23:40:59.816Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-12T23:10:40.522Z"
+      "lastFetched": "2026-10-12T23:41:00.767Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-12T23:10:41.418Z"
+      "lastFetched": "2026-10-12T23:41:01.728Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-12T23:10:42.314Z"
+      "lastFetched": "2026-10-12T23:41:02.700Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-12T23:10:43.240Z"
+      "lastFetched": "2026-10-12T23:41:03.694Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-12T23:10:44.392Z"
+      "lastFetched": "2026-10-12T23:41:04.815Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1535769155",
+      "user": "scottsak",
+      "date": "2026-10-12",
+      "title": "Hamilton",
+      "year": 2020,
+      "slug": "hamilton-2020",
+      "tmdb": "556574",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/hamilton-2020/2/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/5/3/0/9/485309-hamilton-0-600-0-900-crop.jpg?v=6430888d58",
+      "logged": "2026-10-12T23:38:55.000Z",
+      "runtime": 160
+    },
     {
       "id": "letterboxd-review-1534182076",
       "user": "kylie_sak",
