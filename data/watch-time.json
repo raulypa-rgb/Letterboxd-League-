@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-13T01:17:47.015Z",
+  "updated": "2026-10-13T06:09:18.116Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-13T01:17:40.581Z"
+      "lastFetched": "2026-10-13T06:09:11.823Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-13T01:17:41.478Z"
+      "lastFetched": "2026-10-13T06:09:12.823Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-13T01:17:42.423Z"
+      "lastFetched": "2026-10-13T06:09:13.687Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-13T01:17:43.312Z"
+      "lastFetched": "2026-10-13T06:09:14.539Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-13T01:17:44.229Z"
+      "lastFetched": "2026-10-13T06:09:15.407Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-13T01:17:45.157Z"
+      "lastFetched": "2026-10-13T06:09:16.310Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-13T01:17:46.207Z"
+      "lastFetched": "2026-10-13T06:09:17.306Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1536210125",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-12",
+      "title": "The Thing",
+      "year": 1982,
+      "slug": "the-thing",
+      "tmdb": "1091",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/the-thing/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/t3/qn/vs/p5/s5fH3GqFcHbi2F0NSBSh4KRNTc0-0-600-0-900-crop.jpg?v=01880125bb",
+      "logged": "2026-10-13T06:05:28.000Z",
+      "runtime": 109
+    },
     {
       "id": "letterboxd-review-1535769155",
       "user": "scottsak",
