@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-12T23:41:05.624Z",
+  "updated": "2026-10-13T01:17:47.015Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-12T23:40:58.864Z"
+      "lastFetched": "2026-10-13T01:17:40.581Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-12T23:40:59.816Z"
+      "lastFetched": "2026-10-13T01:17:41.478Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-12T23:41:00.767Z"
+      "lastFetched": "2026-10-13T01:17:42.423Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-12T23:41:01.728Z"
+      "lastFetched": "2026-10-13T01:17:43.312Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-12T23:41:02.700Z"
+      "lastFetched": "2026-10-13T01:17:44.229Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-12T23:41:03.694Z"
+      "lastFetched": "2026-10-13T01:17:45.157Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-12T23:41:04.815Z"
+      "lastFetched": "2026-10-13T01:17:46.207Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/5/3/0/9/485309-hamilton-0-600-0-900-crop.jpg?v=6430888d58",
       "logged": "2026-10-12T23:38:55.000Z",
       "runtime": 160
+    },
+    {
+      "id": "letterboxd-review-1535876130",
+      "user": "skinklevro",
+      "date": "2026-10-12",
+      "title": "Supergirl",
+      "year": 2026,
+      "slug": "supergirl-2026",
+      "tmdb": "1081003",
+      "rewatch": false,
+      "rating": 2,
+      "link": "https://letterboxd.com/skinklevro/film/supergirl-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/9/7/4/2/8/6/974286-supergirl-2026-0-600-0-900-crop.jpg?v=e85ddf39db",
+      "logged": "2026-10-13T01:06:41.000Z",
+      "runtime": 108
     },
     {
       "id": "letterboxd-review-1534182076",
