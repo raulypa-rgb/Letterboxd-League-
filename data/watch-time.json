@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-13T06:09:18.116Z",
+  "updated": "2026-10-14T00:45:22.471Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-13T06:09:11.823Z"
+      "lastFetched": "2026-10-14T00:45:15.861Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-13T06:09:12.823Z"
+      "lastFetched": "2026-10-14T00:45:16.790Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-13T06:09:13.687Z"
+      "lastFetched": "2026-10-14T00:45:17.716Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-13T06:09:14.539Z"
+      "lastFetched": "2026-10-14T00:45:18.637Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-13T06:09:15.407Z"
+      "lastFetched": "2026-10-14T00:45:19.602Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-13T06:09:16.310Z"
+      "lastFetched": "2026-10-14T00:45:20.558Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-13T06:09:17.306Z"
+      "lastFetched": "2026-10-14T00:45:21.665Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1537226237",
+      "user": "scottsak",
+      "date": "2026-10-13",
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "slug": "spider-man-brand-new-day",
+      "tmdb": "969681",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/spider-man-brand-new-day/3/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
+      "logged": "2026-10-14T00:32:42.000Z",
+      "runtime": 145
+    },
     {
       "id": "letterboxd-review-1536210125",
       "user": "mr_n00dl3s",
