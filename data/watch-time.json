@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-14T00:45:22.471Z",
+  "updated": "2026-10-15T12:58:10.264Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-14T00:45:15.861Z"
+      "lastFetched": "2026-10-15T12:58:03.814Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-14T00:45:16.790Z"
+      "lastFetched": "2026-10-15T12:58:04.718Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-14T00:45:17.716Z"
+      "lastFetched": "2026-10-15T12:58:05.622Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-14T00:45:18.637Z"
+      "lastFetched": "2026-10-15T12:58:06.526Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-14T00:45:19.602Z"
+      "lastFetched": "2026-10-15T12:58:07.431Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-14T00:45:20.558Z"
+      "lastFetched": "2026-10-15T12:58:08.359Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-14T00:45:21.665Z"
+      "lastFetched": "2026-10-15T12:58:09.454Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1539049473",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-14",
+      "title": "Digger",
+      "year": 2026,
+      "slug": "digger-2026",
+      "tmdb": "1248832",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/digger-2026/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95",
+      "logged": "2026-10-15T12:22:57.000Z",
+      "runtime": 129
+    },
     {
       "id": "letterboxd-review-1537226237",
       "user": "scottsak",
