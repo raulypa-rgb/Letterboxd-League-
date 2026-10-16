@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-16T01:18:50.672Z",
+  "updated": "2026-10-16T02:39:01.803Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-16T01:18:44.155Z"
+      "lastFetched": "2026-10-16T02:38:55.341Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-16T01:18:45.060Z"
+      "lastFetched": "2026-10-16T02:38:56.242Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-16T01:18:45.959Z"
+      "lastFetched": "2026-10-16T02:38:57.150Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-16T01:18:46.916Z"
+      "lastFetched": "2026-10-16T02:38:58.062Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-16T01:18:47.821Z"
+      "lastFetched": "2026-10-16T02:38:58.984Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-16T01:18:48.770Z"
+      "lastFetched": "2026-10-16T02:38:59.930Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-16T01:18:49.864Z"
+      "lastFetched": "2026-10-16T02:39:00.996Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1539921383",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-15",
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "slug": "project-hail-mary",
+      "tmdb": "687163",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/project-hail-mary/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/1/2/8/8/611288-project-hail-mary-0-600-0-900-crop.jpg?v=ac31b6ec03",
+      "logged": "2026-10-16T02:23:19.000Z",
+      "runtime": 156
+    },
     {
       "id": "letterboxd-review-1539049473",
       "user": "mr_n00dl3s",
