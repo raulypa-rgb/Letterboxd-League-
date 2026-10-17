@@ -1,43 +1,73 @@
 {
-  "updated": "2026-10-16T23:00:12.954Z",
+  "updated": "2026-10-17T05:35:00.016Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-16T23:00:05.890Z"
+      "lastFetched": "2026-10-17T05:34:53.065Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-16T23:00:06.784Z"
+      "lastFetched": "2026-10-17T05:34:53.963Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-16T23:00:07.678Z"
+      "lastFetched": "2026-10-17T05:34:54.861Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-16T23:00:08.580Z"
+      "lastFetched": "2026-10-17T05:34:55.750Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-16T23:00:09.473Z"
+      "lastFetched": "2026-10-17T05:34:56.654Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-16T23:00:10.418Z"
+      "lastFetched": "2026-10-17T05:34:57.578Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-16T23:00:11.581Z"
+      "lastFetched": "2026-10-17T05:34:58.732Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1541530563",
+      "user": "raulypa",
+      "date": "2026-10-16",
+      "title": "Resident Evil",
+      "year": 2026,
+      "slug": "resident-evil-2026",
+      "tmdb": "1423191",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/resident-evil-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/0/2/7/1/7/1302717-untitled-resident-evil-reboot-0-600-0-900-crop.jpg?v=a688bf1bc7",
+      "logged": "2026-10-17T05:17:08.000Z",
+      "runtime": 95
+    },
+    {
+      "id": "letterboxd-review-1541546740",
+      "user": "scottsak",
+      "date": "2026-10-16",
+      "title": "Coraline",
+      "year": 2009,
+      "slug": "coraline",
+      "tmdb": "14836",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/scottsak/film/coraline/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-600-0-900-crop.jpg?v=b792483e2a",
+      "logged": "2026-10-17T05:32:54.000Z",
+      "runtime": 100
+    },
     {
       "id": "letterboxd-review-1539921383",
       "user": "mr_n00dl3s",
