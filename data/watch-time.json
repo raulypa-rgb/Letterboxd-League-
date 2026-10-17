@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-17T19:09:01.733Z",
+  "updated": "2026-10-17T23:18:51.869Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-17T19:08:54.800Z"
+      "lastFetched": "2026-10-17T23:18:45.277Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-17T19:08:55.691Z"
+      "lastFetched": "2026-10-17T23:18:46.180Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-17T19:08:56.561Z"
+      "lastFetched": "2026-10-17T23:18:47.089Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-17T19:08:57.432Z"
+      "lastFetched": "2026-10-17T23:18:48.049Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-17T19:08:58.317Z"
+      "lastFetched": "2026-10-17T23:18:48.975Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-17T19:08:59.239Z"
+      "lastFetched": "2026-10-17T23:18:49.929Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-17T19:09:00.333Z"
+      "lastFetched": "2026-10-17T23:18:51.060Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/7/9/5/45795-the-little-rascals-0-600-0-900-crop.jpg?v=3ef1a55be4",
       "logged": "2026-10-17T18:51:39.000Z",
       "runtime": 82
+    },
+    {
+      "id": "letterboxd-review-1542672270",
+      "user": "tupapi_",
+      "date": "2026-10-17",
+      "title": "Only the Brave",
+      "year": 2017,
+      "slug": "only-the-brave-2017",
+      "tmdb": "395991",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/tupapi_/film/only-the-brave-2017/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/3/0/3/6/4/330364-only-the-brave-0-600-0-900-crop.jpg?v=57a981261d",
+      "logged": "2026-10-17T23:04:02.000Z",
+      "runtime": 133
     },
     {
       "id": "letterboxd-review-1541530563",
