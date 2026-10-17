@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-17T07:00:19.059Z",
+  "updated": "2026-10-17T19:09:01.733Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-17T07:00:12.185Z"
+      "lastFetched": "2026-10-17T19:08:54.800Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-17T07:00:13.065Z"
+      "lastFetched": "2026-10-17T19:08:55.691Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-17T07:00:13.941Z"
+      "lastFetched": "2026-10-17T19:08:56.561Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-17T07:00:14.820Z"
+      "lastFetched": "2026-10-17T19:08:57.432Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-17T07:00:15.715Z"
+      "lastFetched": "2026-10-17T19:08:58.317Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-17T07:00:16.634Z"
+      "lastFetched": "2026-10-17T19:08:59.239Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-17T07:00:17.677Z"
+      "lastFetched": "2026-10-17T19:09:00.333Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1542220348",
+      "user": "tupapi_",
+      "date": "2026-10-17",
+      "title": "The Little Rascals",
+      "year": 1994,
+      "slug": "the-little-rascals",
+      "tmdb": "10897",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/tupapi_/film/the-little-rascals/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/5/7/9/5/45795-the-little-rascals-0-600-0-900-crop.jpg?v=3ef1a55be4",
+      "logged": "2026-10-17T18:51:39.000Z",
+      "runtime": 82
+    },
     {
       "id": "letterboxd-review-1541530563",
       "user": "raulypa",
