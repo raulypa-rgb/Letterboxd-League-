@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-18T06:38:14.508Z",
+  "updated": "2026-10-18T07:13:02.245Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-18T06:38:08.135Z"
+      "lastFetched": "2026-10-18T07:12:55.506Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-18T06:38:09.019Z"
+      "lastFetched": "2026-10-18T07:12:56.378Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-18T06:38:09.902Z"
+      "lastFetched": "2026-10-18T07:12:57.244Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-18T06:38:10.786Z"
+      "lastFetched": "2026-10-18T07:12:58.106Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-18T06:38:11.692Z"
+      "lastFetched": "2026-10-18T07:12:58.984Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-18T06:38:12.621Z"
+      "lastFetched": "2026-10-18T07:12:59.903Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-18T06:38:13.698Z"
+      "lastFetched": "2026-10-18T07:13:00.992Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1543270396",
+      "user": "scottsak",
+      "date": "2026-10-17",
+      "title": "Brokeback Mountain",
+      "year": 2005,
+      "slug": "brokeback-mountain",
+      "tmdb": "142",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/scottsak/film/brokeback-mountain/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/0/9/51909-brokeback-mountain-0-600-0-900-crop.jpg?v=40ad2b59a0",
+      "logged": "2026-10-18T06:40:28.000Z",
+      "runtime": 134
+    },
     {
       "id": "letterboxd-review-1542220348",
       "user": "tupapi_",
