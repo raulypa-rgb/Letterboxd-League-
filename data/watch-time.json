@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-18T05:02:37.135Z",
+  "updated": "2026-10-18T06:38:14.508Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-18T05:02:30.113Z"
+      "lastFetched": "2026-10-18T06:38:08.135Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-18T05:02:31.045Z"
+      "lastFetched": "2026-10-18T06:38:09.019Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-18T05:02:31.955Z"
+      "lastFetched": "2026-10-18T06:38:09.902Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-18T05:02:32.842Z"
+      "lastFetched": "2026-10-18T06:38:10.786Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-18T05:02:33.748Z"
+      "lastFetched": "2026-10-18T06:38:11.692Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-18T05:02:34.683Z"
+      "lastFetched": "2026-10-18T06:38:12.621Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-18T05:02:35.757Z"
+      "lastFetched": "2026-10-18T06:38:13.698Z"
     }
   ],
   "entries": [
@@ -82,6 +82,36 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/7/5/8/3/9/7/758397-the-idea-of-you-0-600-0-900-crop.jpg?v=8c9e3b74af",
       "logged": "2026-10-18T04:38:59.000Z",
       "runtime": 116
+    },
+    {
+      "id": "letterboxd-review-1543266537",
+      "user": "tupapi_",
+      "date": "2026-10-17",
+      "title": "The Wild Robot",
+      "year": 2024,
+      "slug": "the-wild-robot",
+      "tmdb": "1184918",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/tupapi_/film/the-wild-robot/2/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/1/1/9/6/1071196-the-wild-robot-0-600-0-900-crop.jpg?v=a70bdbaea0",
+      "logged": "2026-10-18T06:35:53.000Z",
+      "runtime": 102
+    },
+    {
+      "id": "letterboxd-watch-1543263520",
+      "user": "tupapi_",
+      "date": "2026-10-17",
+      "title": "The Wild Robot",
+      "year": 2024,
+      "slug": "the-wild-robot",
+      "tmdb": "1184918",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/tupapi_/film/the-wild-robot/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/1/1/9/6/1071196-the-wild-robot-0-600-0-900-crop.jpg?v=a70bdbaea0",
+      "logged": "2026-10-18T06:32:08.000Z",
+      "runtime": 102
     },
     {
       "id": "letterboxd-review-1541530563",
