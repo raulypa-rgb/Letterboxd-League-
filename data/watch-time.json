@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-18T08:50:35.335Z",
+  "updated": "2026-10-19T02:32:06.970Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-18T08:50:28.604Z"
+      "lastFetched": "2026-10-19T02:32:00.189Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-18T08:50:29.491Z"
+      "lastFetched": "2026-10-19T02:32:01.063Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-18T08:50:30.352Z"
+      "lastFetched": "2026-10-19T02:32:01.935Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-18T08:50:31.222Z"
+      "lastFetched": "2026-10-19T02:32:02.807Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-18T08:50:32.104Z"
+      "lastFetched": "2026-10-19T02:32:03.700Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-18T08:50:33.013Z"
+      "lastFetched": "2026-10-19T02:32:04.636Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-18T08:50:34.077Z"
+      "lastFetched": "2026-10-19T02:32:05.667Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/2/9/4/4/3/1629443-you-can-see-everything-0-600-0-900-crop.jpg?v=84f6724d74",
       "logged": "2026-10-18T08:43:28.000Z",
       "runtime": 175
+    },
+    {
+      "id": "letterboxd-review-1544810775",
+      "user": "tupapi_",
+      "date": "2026-10-18",
+      "title": "Street Fighter",
+      "year": 2026,
+      "slug": "street-fighter-2026",
+      "tmdb": "1153576",
+      "rewatch": false,
+      "rating": 2.5,
+      "link": "https://letterboxd.com/tupapi_/film/street-fighter-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/4/0/2/9/0/1040290-street-fighter-2026-0-600-0-900-crop.jpg?v=5cc9002644",
+      "logged": "2026-10-19T02:12:14.000Z",
+      "runtime": 125
     },
     {
       "id": "letterboxd-review-1543270396",
@@ -126,21 +141,6 @@
       "link": "https://letterboxd.com/tupapi_/film/the-wild-robot/2/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/1/1/9/6/1071196-the-wild-robot-0-600-0-900-crop.jpg?v=a70bdbaea0",
       "logged": "2026-10-18T06:35:53.000Z",
-      "runtime": 102
-    },
-    {
-      "id": "letterboxd-watch-1543263520",
-      "user": "tupapi_",
-      "date": "2026-10-17",
-      "title": "The Wild Robot",
-      "year": 2024,
-      "slug": "the-wild-robot",
-      "tmdb": "1184918",
-      "rewatch": true,
-      "rating": 4.5,
-      "link": "https://letterboxd.com/tupapi_/film/the-wild-robot/1/",
-      "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/7/1/1/9/6/1071196-the-wild-robot-0-600-0-900-crop.jpg?v=a70bdbaea0",
-      "logged": "2026-10-18T06:32:08.000Z",
       "runtime": 102
     },
     {
