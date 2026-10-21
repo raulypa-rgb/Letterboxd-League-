@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-19T14:59:07.664Z",
+  "updated": "2026-10-21T04:05:52.965Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-19T14:59:01.150Z"
+      "lastFetched": "2026-10-21T04:05:45.637Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-19T14:59:02.058Z"
+      "lastFetched": "2026-10-21T04:05:46.584Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-19T14:59:02.949Z"
+      "lastFetched": "2026-10-21T04:05:47.519Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-19T14:59:03.838Z"
+      "lastFetched": "2026-10-21T04:05:48.459Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-19T14:59:04.772Z"
+      "lastFetched": "2026-10-21T04:05:49.419Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-19T14:59:05.721Z"
+      "lastFetched": "2026-10-21T04:05:50.394Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-19T14:59:06.857Z"
+      "lastFetched": "2026-10-21T04:05:51.528Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1547695013",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-20",
+      "title": "Your Mother Your Mother Your Mother",
+      "year": 2026,
+      "slug": "your-mother-your-mother-your-mother",
+      "tmdb": "1437396",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/your-mother-your-mother-your-mother/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/1/5/2/1/6/1315216-your-mother-your-mother-your-mother-0-600-0-900-crop.jpg?v=a644997d58",
+      "logged": "2026-10-21T04:04:36.000Z",
+      "runtime": 112
+    },
     {
       "id": "letterboxd-review-1543362285",
       "user": "mr_n00dl3s",
