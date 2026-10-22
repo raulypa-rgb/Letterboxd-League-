@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-21T04:05:52.965Z",
+  "updated": "2026-10-22T04:11:52.712Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-21T04:05:45.637Z"
+      "lastFetched": "2026-10-22T04:11:45.713Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-21T04:05:46.584Z"
+      "lastFetched": "2026-10-22T04:11:46.624Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-21T04:05:47.519Z"
+      "lastFetched": "2026-10-22T04:11:47.531Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-21T04:05:48.459Z"
+      "lastFetched": "2026-10-22T04:11:48.442Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-21T04:05:49.419Z"
+      "lastFetched": "2026-10-22T04:11:49.349Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-21T04:05:50.394Z"
+      "lastFetched": "2026-10-22T04:11:50.300Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-21T04:05:51.528Z"
+      "lastFetched": "2026-10-22T04:11:51.350Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1548974337",
+      "user": "kylie_sak",
+      "date": "2026-10-21",
+      "title": "The Outsiders",
+      "year": 1983,
+      "slug": "the-outsiders",
+      "tmdb": "227",
+      "rewatch": false,
+      "rating": 3,
+      "link": "https://letterboxd.com/kylie_sak/film/the-outsiders/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/8/2/9/51829-the-outsiders-0-600-0-900-crop.jpg?v=6596aa5148",
+      "logged": "2026-10-22T03:52:37.000Z",
+      "runtime": 91
+    },
     {
       "id": "letterboxd-review-1547695013",
       "user": "mr_n00dl3s",
