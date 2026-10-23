@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-23T00:46:15.385Z",
+  "updated": "2026-10-23T10:10:14.989Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-23T00:46:09.000Z"
+      "lastFetched": "2026-10-23T10:10:07.764Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-23T00:46:09.893Z"
+      "lastFetched": "2026-10-23T10:10:08.713Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-23T00:46:10.780Z"
+      "lastFetched": "2026-10-23T10:10:09.651Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-23T00:46:11.671Z"
+      "lastFetched": "2026-10-23T10:10:10.566Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-23T00:46:12.581Z"
+      "lastFetched": "2026-10-23T10:10:11.506Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-23T00:46:13.499Z"
+      "lastFetched": "2026-10-23T10:10:12.454Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-23T00:46:14.576Z"
+      "lastFetched": "2026-10-23T10:10:13.556Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1550475891",
+      "user": "kylie_sak",
+      "date": "2026-10-23",
+      "title": "Midnight Sun",
+      "year": 2018,
+      "slug": "midnight-sun-2018",
+      "tmdb": "419478",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/kylie_sak/film/midnight-sun-2018/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/3/5/3/2/7/2/353272-midnight-sun-0-600-0-900-crop.jpg?v=ffe6bbf3f7",
+      "logged": "2026-10-23T09:58:06.000Z",
+      "runtime": 92
+    },
     {
       "id": "letterboxd-review-1548974337",
       "user": "kylie_sak",
