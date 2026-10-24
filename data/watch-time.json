@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-24T05:08:09.910Z",
+  "updated": "2026-10-24T05:59:40.104Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-24T05:08:03.642Z"
+      "lastFetched": "2026-10-24T05:59:33.160Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-24T05:08:04.515Z"
+      "lastFetched": "2026-10-24T05:59:34.067Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-24T05:08:05.387Z"
+      "lastFetched": "2026-10-24T05:59:34.964Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-24T05:08:06.260Z"
+      "lastFetched": "2026-10-24T05:59:35.863Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-24T05:08:07.147Z"
+      "lastFetched": "2026-10-24T05:59:36.792Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-24T05:08:08.043Z"
+      "lastFetched": "2026-10-24T05:59:37.727Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-24T05:08:09.099Z"
+      "lastFetched": "2026-10-24T05:59:38.797Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1551740947",
+      "user": "da_rayray",
+      "date": "2026-10-23",
+      "title": "Clayface",
+      "year": 2026,
+      "slug": "clayface",
+      "tmdb": "1400940",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/da_rayray/film/clayface/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/6/3/6/1284636-clayface-0-600-0-900-crop.jpg?v=eb305849d5",
+      "logged": "2026-10-24T05:43:37.000Z",
+      "runtime": 109
+    },
     {
       "id": "letterboxd-review-1550475891",
       "user": "kylie_sak",
