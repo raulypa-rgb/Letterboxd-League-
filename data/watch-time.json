@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-24T05:59:40.104Z",
+  "updated": "2026-10-24T07:06:44.797Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-24T05:59:33.160Z"
+      "lastFetched": "2026-10-24T07:06:38.531Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-24T05:59:34.067Z"
+      "lastFetched": "2026-10-24T07:06:39.411Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-24T05:59:34.964Z"
+      "lastFetched": "2026-10-24T07:06:40.282Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-24T05:59:35.863Z"
+      "lastFetched": "2026-10-24T07:06:41.159Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-24T05:59:36.792Z"
+      "lastFetched": "2026-10-24T07:06:42.040Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-24T05:59:37.727Z"
+      "lastFetched": "2026-10-24T07:06:42.971Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-24T05:59:38.797Z"
+      "lastFetched": "2026-10-24T07:06:43.988Z"
     }
   ],
   "entries": [
@@ -67,6 +67,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/5/3/2/7/2/353272-midnight-sun-0-600-0-900-crop.jpg?v=ffe6bbf3f7",
       "logged": "2026-10-23T09:58:06.000Z",
       "runtime": 92
+    },
+    {
+      "id": "letterboxd-review-1551796964",
+      "user": "scottsak",
+      "date": "2026-10-23",
+      "title": "The Invite",
+      "year": 2026,
+      "slug": "the-invite-2026",
+      "tmdb": "950028",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/scottsak/film/the-invite-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
+      "logged": "2026-10-24T06:55:26.000Z",
+      "runtime": 107
     },
     {
       "id": "letterboxd-review-1551705376",
