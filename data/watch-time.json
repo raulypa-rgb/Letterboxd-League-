@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-23T18:02:03.369Z",
+  "updated": "2026-10-24T05:08:09.910Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-23T18:01:56.232Z"
+      "lastFetched": "2026-10-24T05:08:03.642Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-23T18:01:57.160Z"
+      "lastFetched": "2026-10-24T05:08:04.515Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-23T18:01:58.080Z"
+      "lastFetched": "2026-10-24T05:08:05.387Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-23T18:01:58.986Z"
+      "lastFetched": "2026-10-24T05:08:06.260Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-23T18:01:59.945Z"
+      "lastFetched": "2026-10-24T05:08:07.147Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-23T18:02:00.924Z"
+      "lastFetched": "2026-10-24T05:08:08.043Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-23T18:02:02.057Z"
+      "lastFetched": "2026-10-24T05:08:09.099Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/3/5/3/2/7/2/353272-midnight-sun-0-600-0-900-crop.jpg?v=ffe6bbf3f7",
       "logged": "2026-10-23T09:58:06.000Z",
       "runtime": 92
+    },
+    {
+      "id": "letterboxd-review-1551705376",
+      "user": "skinklevro",
+      "date": "2026-10-23",
+      "title": "The Social Reckoning",
+      "year": 2026,
+      "slug": "the-social-reckoning",
+      "tmdb": "1281331",
+      "rewatch": false,
+      "rating": 2.5,
+      "link": "https://letterboxd.com/skinklevro/film/the-social-reckoning/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/6/4/6/6/9/1164669-the-social-reckoning-0-600-0-900-crop.jpg?v=e880229a7f",
+      "logged": "2026-10-24T05:06:14.000Z",
+      "runtime": 112
     },
     {
       "id": "letterboxd-review-1548974337",
