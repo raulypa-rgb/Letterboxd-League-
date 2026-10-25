@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-25T05:51:40.258Z",
+  "updated": "2026-10-25T06:46:54.008Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-25T05:51:33.297Z"
+      "lastFetched": "2026-10-25T06:46:46.881Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-25T05:51:34.201Z"
+      "lastFetched": "2026-10-25T06:46:47.796Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-25T05:51:35.095Z"
+      "lastFetched": "2026-10-25T06:46:48.700Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-25T05:51:36.001Z"
+      "lastFetched": "2026-10-25T06:46:49.741Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-25T05:51:36.920Z"
+      "lastFetched": "2026-10-25T06:46:50.654Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-25T05:51:37.833Z"
+      "lastFetched": "2026-10-25T06:46:51.594Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-25T05:51:38.917Z"
+      "lastFetched": "2026-10-25T06:46:52.712Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1553526951",
+      "user": "kylie_sak",
+      "date": "2026-10-24",
+      "title": "Wildwood",
+      "year": 2026,
+      "slug": "wildwood-2026",
+      "tmdb": "791523",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/kylie_sak/film/wildwood-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "logged": "2026-10-25T06:26:24.000Z",
+      "runtime": 132
+    },
     {
       "id": "letterboxd-review-1551813849",
       "user": "mr_n00dl3s",
@@ -96,6 +111,21 @@
       "link": "https://letterboxd.com/raulypa/film/sense-and-sensibility-2026/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/7/9/9/0/1/1379901-sense-and-sensibility-2026-0-600-0-900-crop.jpg?v=b5907f1c8c",
       "logged": "2026-10-25T02:27:52.000Z",
+      "runtime": 132
+    },
+    {
+      "id": "letterboxd-review-1553525476",
+      "user": "scottsak",
+      "date": "2026-10-24",
+      "title": "Wildwood",
+      "year": 2026,
+      "slug": "wildwood-2026",
+      "tmdb": "791523",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/wildwood-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "logged": "2026-10-25T06:24:40.000Z",
       "runtime": 132
     },
     {
