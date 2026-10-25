@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-24T21:08:29.874Z",
+  "updated": "2026-10-25T02:33:39.394Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-24T21:08:23.342Z"
+      "lastFetched": "2026-10-25T02:33:32.371Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-24T21:08:24.227Z"
+      "lastFetched": "2026-10-25T02:33:33.276Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-24T21:08:25.139Z"
+      "lastFetched": "2026-10-25T02:33:34.185Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-24T21:08:26.060Z"
+      "lastFetched": "2026-10-25T02:33:35.102Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-24T21:08:26.955Z"
+      "lastFetched": "2026-10-25T02:33:36.037Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-24T21:08:27.893Z"
+      "lastFetched": "2026-10-25T02:33:36.996Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-24T21:08:29.065Z"
+      "lastFetched": "2026-10-25T02:33:38.098Z"
     }
   ],
   "entries": [
@@ -67,6 +67,21 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/a3/0q/kf/h8/jUFjMoLh8T2CWzHUSjKCojI5SHu-0-600-0-900-crop.jpg?v=6285ee260e",
       "logged": "2026-10-24T19:59:24.000Z",
       "runtime": 141
+    },
+    {
+      "id": "letterboxd-review-1553235759",
+      "user": "raulypa",
+      "date": "2026-10-24",
+      "title": "Sense and Sensibility",
+      "year": 2026,
+      "slug": "sense-and-sensibility-2026",
+      "tmdb": "1503762",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/sense-and-sensibility-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/3/7/9/9/0/1/1379901-sense-and-sensibility-2026-0-600-0-900-crop.jpg?v=b5907f1c8c",
+      "logged": "2026-10-25T02:27:52.000Z",
+      "runtime": 132
     },
     {
       "id": "letterboxd-review-1552719404",
