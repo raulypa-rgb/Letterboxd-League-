@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-25T06:46:54.008Z",
+  "updated": "2026-10-25T22:08:33.228Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-25T06:46:46.881Z"
+      "lastFetched": "2026-10-25T22:08:26.228Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-25T06:46:47.796Z"
+      "lastFetched": "2026-10-25T22:08:27.120Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-25T06:46:48.700Z"
+      "lastFetched": "2026-10-25T22:08:28.000Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-25T06:46:49.741Z"
+      "lastFetched": "2026-10-25T22:08:28.889Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-25T06:46:50.654Z"
+      "lastFetched": "2026-10-25T22:08:29.793Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-25T06:46:51.594Z"
+      "lastFetched": "2026-10-25T22:08:30.712Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-25T06:46:52.712Z"
+      "lastFetched": "2026-10-25T22:08:31.813Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1554691732",
+      "user": "tupapi_",
+      "date": "2026-10-25",
+      "title": "Collateral",
+      "year": 2004,
+      "slug": "collateral",
+      "tmdb": "1538",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/tupapi_/film/collateral/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/9/9/5/50995-collateral-0-600-0-900-crop.jpg?v=1691f38093",
+      "logged": "2026-10-25T22:07:49.000Z",
+      "runtime": 120
+    },
     {
       "id": "letterboxd-review-1553526951",
       "user": "kylie_sak",
