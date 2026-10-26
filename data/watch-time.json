@@ -1,43 +1,73 @@
 {
-  "updated": "2026-10-25T22:08:33.228Z",
+  "updated": "2026-10-26T02:38:09.497Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-25T22:08:26.228Z"
+      "lastFetched": "2026-10-26T02:38:02.346Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-25T22:08:27.120Z"
+      "lastFetched": "2026-10-26T02:38:03.292Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-25T22:08:28.000Z"
+      "lastFetched": "2026-10-26T02:38:04.208Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-25T22:08:28.889Z"
+      "lastFetched": "2026-10-26T02:38:05.127Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-25T22:08:29.793Z"
+      "lastFetched": "2026-10-26T02:38:06.057Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-25T22:08:30.712Z"
+      "lastFetched": "2026-10-26T02:38:07.005Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-25T22:08:31.813Z"
+      "lastFetched": "2026-10-26T02:38:08.116Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1555100207",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-25",
+      "title": "Wildwood",
+      "year": 2026,
+      "slug": "wildwood-2026",
+      "tmdb": "791523",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/wildwood-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "logged": "2026-10-26T02:24:44.000Z",
+      "runtime": 132
+    },
+    {
+      "id": "letterboxd-review-1555118296",
+      "user": "raulypa",
+      "date": "2026-10-25",
+      "title": "Catch Me If You Can",
+      "year": 2002,
+      "slug": "catch-me-if-you-can-2002",
+      "tmdb": "640",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/catch-me-if-you-can-2002/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/4/51484-catch-me-if-you-can-0-600-0-900-crop.jpg?v=942d676423",
+      "logged": "2026-10-26T02:37:22.000Z",
+      "runtime": 141
+    },
     {
       "id": "letterboxd-review-1554691732",
       "user": "tupapi_",
