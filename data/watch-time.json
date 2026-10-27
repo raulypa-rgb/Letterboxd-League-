@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-27T09:07:13.439Z",
+  "updated": "2026-10-27T14:08:07.619Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-27T09:07:06.422Z"
+      "lastFetched": "2026-10-27T14:08:01.164Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-27T09:07:07.335Z"
+      "lastFetched": "2026-10-27T14:08:02.052Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-27T09:07:08.241Z"
+      "lastFetched": "2026-10-27T14:08:02.943Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-27T09:07:09.147Z"
+      "lastFetched": "2026-10-27T14:08:03.838Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-27T09:07:10.081Z"
+      "lastFetched": "2026-10-27T14:08:04.754Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-27T09:07:11.047Z"
+      "lastFetched": "2026-10-27T14:08:05.711Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-27T09:07:12.102Z"
+      "lastFetched": "2026-10-27T14:08:06.813Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/5/9/4/44594-ponyo-0-600-0-900-crop.jpg?v=6e5faa20db",
       "logged": "2026-10-27T08:50:19.000Z",
       "runtime": 100
+    },
+    {
+      "id": "letterboxd-review-1558193602",
+      "user": "raulypa",
+      "date": "2026-10-27",
+      "title": "Creed",
+      "year": 2015,
+      "slug": "creed",
+      "tmdb": "312221",
+      "rewatch": true,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/creed/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/2/3/9/2/6/0/239260-creed-0-600-0-900-crop.jpg?v=3fa9f6f051",
+      "logged": "2026-10-27T13:48:46.000Z",
+      "runtime": 133
     },
     {
       "id": "letterboxd-review-1556577027",
