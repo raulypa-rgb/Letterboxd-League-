@@ -1,43 +1,73 @@
 {
-  "updated": "2026-10-27T01:22:58.595Z",
+  "updated": "2026-10-27T02:58:21.945Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-27T01:22:52.097Z"
+      "lastFetched": "2026-10-27T02:58:15.553Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-27T01:22:53.018Z"
+      "lastFetched": "2026-10-27T02:58:16.436Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-27T01:22:53.907Z"
+      "lastFetched": "2026-10-27T02:58:17.325Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-27T01:22:54.819Z"
+      "lastFetched": "2026-10-27T02:58:18.223Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-27T01:22:55.744Z"
+      "lastFetched": "2026-10-27T02:58:19.114Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-27T01:22:56.725Z"
+      "lastFetched": "2026-10-27T02:58:20.062Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-27T01:22:57.785Z"
+      "lastFetched": "2026-10-27T02:58:21.137Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1556577027",
+      "user": "da_rayray",
+      "date": "2026-10-26",
+      "title": "Clayface",
+      "year": 2026,
+      "slug": "clayface",
+      "tmdb": "1400940",
+      "rewatch": true,
+      "rating": 4,
+      "link": "https://letterboxd.com/da_rayray/film/clayface/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/6/3/6/1284636-clayface-0-600-0-900-crop.jpg?v=eb305849d5",
+      "logged": "2026-10-27T02:43:40.000Z",
+      "runtime": 109
+    },
+    {
+      "id": "letterboxd-review-1556561218",
+      "user": "raulypa",
+      "date": "2026-10-26",
+      "title": "Clayface",
+      "year": 2026,
+      "slug": "clayface",
+      "tmdb": "1400940",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/clayface/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/6/3/6/1284636-clayface-0-600-0-900-crop.jpg?v=eb305849d5",
+      "logged": "2026-10-27T02:29:42.000Z",
+      "runtime": 109
+    },
     {
       "id": "letterboxd-review-1555100207",
       "user": "mr_n00dl3s",
