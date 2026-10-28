@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-28T03:42:40.786Z",
+  "updated": "2026-10-28T05:04:33.967Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-28T03:42:33.715Z"
+      "lastFetched": "2026-10-28T05:04:27.696Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-28T03:42:34.637Z"
+      "lastFetched": "2026-10-28T05:04:28.561Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-28T03:42:35.553Z"
+      "lastFetched": "2026-10-28T05:04:29.461Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-28T03:42:36.471Z"
+      "lastFetched": "2026-10-28T05:04:30.320Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-28T03:42:37.399Z"
+      "lastFetched": "2026-10-28T05:04:31.197Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-28T03:42:38.363Z"
+      "lastFetched": "2026-10-28T05:04:32.108Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-28T03:42:39.427Z"
+      "lastFetched": "2026-10-28T05:04:33.156Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1559222499",
+      "user": "da_rayray",
+      "date": "2026-10-27",
+      "title": "Wildwood",
+      "year": 2026,
+      "slug": "wildwood-2026",
+      "tmdb": "791523",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/da_rayray/film/wildwood-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/7/0/9/4/6/0/709460-wildwood-2026-0-600-0-900-crop.jpg?v=e0b4be5769",
+      "logged": "2026-10-28T04:54:56.000Z",
+      "runtime": 132
+    },
     {
       "id": "letterboxd-review-1556840460",
       "user": "kylie_sak",
