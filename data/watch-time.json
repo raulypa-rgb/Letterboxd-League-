@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-27T16:16:43.808Z",
+  "updated": "2026-10-28T03:42:40.786Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-27T16:16:37.106Z"
+      "lastFetched": "2026-10-28T03:42:33.715Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-27T16:16:38.020Z"
+      "lastFetched": "2026-10-28T03:42:34.637Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-27T16:16:38.993Z"
+      "lastFetched": "2026-10-28T03:42:35.553Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-27T16:16:39.928Z"
+      "lastFetched": "2026-10-28T03:42:36.471Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-27T16:16:40.868Z"
+      "lastFetched": "2026-10-28T03:42:37.399Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-27T16:16:41.855Z"
+      "lastFetched": "2026-10-28T03:42:38.363Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-27T16:16:42.998Z"
+      "lastFetched": "2026-10-28T03:42:39.427Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/4/5/9/4/44594-ponyo-0-600-0-900-crop.jpg?v=6e5faa20db",
       "logged": "2026-10-27T08:50:19.000Z",
       "runtime": 100
+    },
+    {
+      "id": "letterboxd-review-1559131471",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-27",
+      "title": "The Princess Bride",
+      "year": 1987,
+      "slug": "the-princess-bride",
+      "tmdb": "2493",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/the-princess-bride/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/hk/2u/bd/9p/gpxjoE0yvRwIhFEJgNArtKtaN7S-0-600-0-900-crop.jpg?v=544eada136",
+      "logged": "2026-10-28T03:20:15.000Z",
+      "runtime": 99
     },
     {
       "id": "letterboxd-review-1558193602",
