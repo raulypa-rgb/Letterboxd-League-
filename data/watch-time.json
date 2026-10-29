@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-29T03:27:43.649Z",
+  "updated": "2026-10-29T05:28:29.772Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-29T03:27:37.072Z"
+      "lastFetched": "2026-10-29T05:28:22.803Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-29T03:27:37.986Z"
+      "lastFetched": "2026-10-29T05:28:23.668Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-29T03:27:38.909Z"
+      "lastFetched": "2026-10-29T05:28:24.523Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-29T03:27:39.825Z"
+      "lastFetched": "2026-10-29T05:28:25.378Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-29T03:27:40.761Z"
+      "lastFetched": "2026-10-29T05:28:26.255Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-29T03:27:41.724Z"
+      "lastFetched": "2026-10-29T05:28:27.249Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-29T03:27:42.839Z"
+      "lastFetched": "2026-10-29T05:28:28.249Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1560540985",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-28",
+      "title": "Cloud",
+      "year": 2024,
+      "slug": "cloud-2024",
+      "tmdb": "1244244",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/cloud-2024/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/0/0/5/1127005-cloud-2024-0-600-0-900-crop.jpg?v=b5609fae8c",
+      "logged": "2026-10-29T04:54:31.000Z",
+      "runtime": 124
+    },
     {
       "id": "letterboxd-review-1559222499",
       "user": "da_rayray",
