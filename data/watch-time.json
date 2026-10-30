@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-30T08:58:28.312Z",
+  "updated": "2026-10-30T15:30:41.076Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-30T08:58:21.041Z"
+      "lastFetched": "2026-10-30T15:30:34.021Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-30T08:58:21.911Z"
+      "lastFetched": "2026-10-30T15:30:34.921Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-30T08:58:22.784Z"
+      "lastFetched": "2026-10-30T15:30:35.814Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-30T08:58:23.659Z"
+      "lastFetched": "2026-10-30T15:30:36.717Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-30T08:58:24.542Z"
+      "lastFetched": "2026-10-30T15:30:37.663Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-30T08:58:25.468Z"
+      "lastFetched": "2026-10-30T15:30:38.615Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-30T08:58:26.521Z"
+      "lastFetched": "2026-10-30T15:30:39.692Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1562751447",
+      "user": "raulypa",
+      "date": "2026-10-30",
+      "title": "Meet the Parents",
+      "year": 2000,
+      "slug": "meet-the-parents",
+      "tmdb": "1597",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/meet-the-parents/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/0/9/3/7/50937-meet-the-parents-0-600-0-900-crop.jpg?v=238ab9236a",
+      "logged": "2026-10-30T12:46:32.000Z",
+      "runtime": 108
+    },
     {
       "id": "letterboxd-review-1562481148",
       "user": "mr_n00dl3s",
