@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-29T05:28:29.772Z",
+  "updated": "2026-10-30T02:40:31.765Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-29T05:28:22.803Z"
+      "lastFetched": "2026-10-30T02:40:24.101Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-29T05:28:23.668Z"
+      "lastFetched": "2026-10-30T02:40:24.990Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-29T05:28:24.523Z"
+      "lastFetched": "2026-10-30T02:40:25.864Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-29T05:28:25.378Z"
+      "lastFetched": "2026-10-30T02:40:26.747Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-29T05:28:26.255Z"
+      "lastFetched": "2026-10-30T02:40:28.135Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-29T05:28:27.249Z"
+      "lastFetched": "2026-10-30T02:40:29.070Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-29T05:28:28.249Z"
+      "lastFetched": "2026-10-30T02:40:30.258Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1562209209",
+      "user": "scottsak",
+      "date": "2026-10-29",
+      "title": "The Insider",
+      "year": 1999,
+      "slug": "the-insider",
+      "tmdb": "9008",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/scottsak/film/the-insider/1/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/l7/vs/7t/qj/sYQsmMl4oG56NtFaNkDxuJhhODa-0-600-0-900-crop.jpg?v=2ee2c41378",
+      "logged": "2026-10-30T00:40:00.000Z",
+      "runtime": 158
+    },
     {
       "id": "letterboxd-review-1560540985",
       "user": "mr_n00dl3s",
