@@ -1,43 +1,58 @@
 {
-  "updated": "2026-10-30T02:40:31.765Z",
+  "updated": "2026-10-30T08:58:28.312Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-30T02:40:24.101Z"
+      "lastFetched": "2026-10-30T08:58:21.041Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-30T02:40:24.990Z"
+      "lastFetched": "2026-10-30T08:58:21.911Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-30T02:40:25.864Z"
+      "lastFetched": "2026-10-30T08:58:22.784Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-30T02:40:26.747Z"
+      "lastFetched": "2026-10-30T08:58:23.659Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-30T02:40:28.135Z"
+      "lastFetched": "2026-10-30T08:58:24.542Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-30T02:40:29.070Z"
+      "lastFetched": "2026-10-30T08:58:25.468Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-30T02:40:30.258Z"
+      "lastFetched": "2026-10-30T08:58:26.521Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1562481148",
+      "user": "mr_n00dl3s",
+      "date": "2026-10-29",
+      "title": "The Servant",
+      "year": 1963,
+      "slug": "the-servant",
+      "tmdb": "42987",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/the-servant/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/2/2/1/3/5/22135-the-servant-0-600-0-900-crop.jpg?v=8a121ed37d",
+      "logged": "2026-10-30T05:05:27.000Z",
+      "runtime": 116
+    },
     {
       "id": "letterboxd-review-1562209209",
       "user": "scottsak",
@@ -52,6 +67,21 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/l7/vs/7t/qj/sYQsmMl4oG56NtFaNkDxuJhhODa-0-600-0-900-crop.jpg?v=2ee2c41378",
       "logged": "2026-10-30T00:40:00.000Z",
       "runtime": 158
+    },
+    {
+      "id": "letterboxd-review-1562571712",
+      "user": "scottsak",
+      "date": "2026-10-29",
+      "title": "Ambulance",
+      "year": 2022,
+      "slug": "ambulance-2022",
+      "tmdb": "763285",
+      "rewatch": false,
+      "rating": 2.5,
+      "link": "https://letterboxd.com/scottsak/film/ambulance-2022/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/6/8/3/2/8/5/683285-ambulance-0-600-0-900-crop.jpg?v=4c9be52b89",
+      "logged": "2026-10-30T07:33:06.000Z",
+      "runtime": 136
     },
     {
       "id": "letterboxd-review-1560540985",
