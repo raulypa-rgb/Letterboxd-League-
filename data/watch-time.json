@@ -1,43 +1,88 @@
 {
-  "updated": "2026-10-31T08:50:11.748Z",
+  "updated": "2026-11-01T06:43:41.324Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-10-31T08:50:05.147Z"
+      "lastFetched": "2026-11-01T06:43:34.562Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-10-31T08:50:06.079Z"
+      "lastFetched": "2026-11-01T06:43:35.426Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-10-31T08:50:06.988Z"
+      "lastFetched": "2026-11-01T06:43:36.284Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-10-31T08:50:07.907Z"
+      "lastFetched": "2026-11-01T06:43:37.144Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-10-31T08:50:08.830Z"
+      "lastFetched": "2026-11-01T06:43:38.024Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-10-31T08:50:09.821Z"
+      "lastFetched": "2026-11-01T06:43:38.929Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-10-31T08:50:10.938Z"
+      "lastFetched": "2026-11-01T06:43:40.071Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1566455230",
+      "user": "da_rayray",
+      "date": "2026-10-31",
+      "title": "No Other Choice",
+      "year": 2025,
+      "slug": "no-other-choice-2025",
+      "tmdb": "639988",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/da_rayray/film/no-other-choice-2025/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/6/5/9/5/2/565952-no-other-choice-2025-0-600-0-900-crop.jpg?v=87ef42b9f5",
+      "logged": "2026-11-01T01:41:52.000Z",
+      "runtime": 139
+    },
+    {
+      "id": "letterboxd-review-1566527401",
+      "user": "scottsak",
+      "date": "2026-10-31",
+      "title": "Send Help",
+      "year": 2026,
+      "slug": "send-help",
+      "tmdb": "1198994",
+      "rewatch": false,
+      "rating": 3,
+      "link": "https://letterboxd.com/scottsak/film/send-help/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/0/8/4/1/1/7/1084117-send-help-0-600-0-900-crop.jpg?v=9d8917c355",
+      "logged": "2026-11-01T02:26:11.000Z",
+      "runtime": 113
+    },
+    {
+      "id": "letterboxd-review-1566470298",
+      "user": "scottsak",
+      "date": "2026-10-31",
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "slug": "spider-man-brand-new-day",
+      "tmdb": "969681",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/spider-man-brand-new-day/4/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/7/2/8/7/1/872871-spider-man-brand-new-day-0-600-0-900-crop.jpg?v=ebe6beb4fc",
+      "logged": "2026-11-01T01:51:37.000Z",
+      "runtime": 145
+    },
     {
       "id": "letterboxd-review-1565020072",
       "user": "mr_n00dl3s",
@@ -46,7 +91,7 @@
       "year": 2023,
       "slug": "godzilla-minus-one",
       "tmdb": "940721",
-      "rewatch": false,
+      "rewatch": true,
       "rating": 5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/godzilla-minus-one/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/4/5/7/0/6/845706-godzilla-minus-one-0-600-0-900-crop.jpg?v=77a601d6de",
