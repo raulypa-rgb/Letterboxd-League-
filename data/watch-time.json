@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-01T06:43:41.324Z",
+  "updated": "2026-11-02T08:11:44.864Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-01T06:43:34.562Z"
+      "lastFetched": "2026-11-02T08:11:37.901Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-01T06:43:35.426Z"
+      "lastFetched": "2026-11-02T08:11:38.810Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-01T06:43:36.284Z"
+      "lastFetched": "2026-11-02T08:11:39.734Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-01T06:43:37.144Z"
+      "lastFetched": "2026-11-02T08:11:40.644Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-01T06:43:38.024Z"
+      "lastFetched": "2026-11-02T08:11:41.563Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-01T06:43:38.929Z"
+      "lastFetched": "2026-11-02T08:11:42.516Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-01T06:43:40.071Z"
+      "lastFetched": "2026-11-02T08:11:43.564Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1568509463",
+      "user": "raulypa",
+      "date": "2026-11-01",
+      "title": "Creed II",
+      "year": 2018,
+      "slug": "creed-ii",
+      "tmdb": "480530",
+      "rewatch": true,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/raulypa/film/creed-ii/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/1/1/4/3/9/411439-creed-ii-0-600-0-900-crop.jpg?v=24aeabbb89",
+      "logged": "2026-11-02T03:30:26.000Z",
+      "runtime": 130
+    },
+    {
+      "id": "letterboxd-review-1568508558",
+      "user": "raulypa",
+      "date": "2026-11-01",
+      "title": "All Quiet on the Western Front",
+      "year": 2022,
+      "slug": "all-quiet-on-the-western-front-2022",
+      "tmdb": "49046",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/all-quiet-on-the-western-front-2022/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/5/3/0/16530-all-quiet-on-the-western-front-0-600-0-900-crop.jpg?v=bff4d496a1",
+      "logged": "2026-11-02T03:29:50.000Z",
+      "runtime": 147
+    },
     {
       "id": "letterboxd-review-1566455230",
       "user": "da_rayray",
