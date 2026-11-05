@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-04T15:42:51.047Z",
+  "updated": "2026-11-05T08:29:58.784Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-04T15:42:43.956Z"
+      "lastFetched": "2026-11-05T08:29:51.779Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-04T15:42:44.873Z"
+      "lastFetched": "2026-11-05T08:29:52.701Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-04T15:42:45.787Z"
+      "lastFetched": "2026-11-05T08:29:53.614Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-04T15:42:46.689Z"
+      "lastFetched": "2026-11-05T08:29:54.528Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-04T15:42:47.619Z"
+      "lastFetched": "2026-11-05T08:29:55.452Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-04T15:42:48.623Z"
+      "lastFetched": "2026-11-05T08:29:56.388Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-04T15:42:49.747Z"
+      "lastFetched": "2026-11-05T08:29:57.487Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1572837132",
+      "user": "mr_n00dl3s",
+      "date": "2026-11-04",
+      "title": "Godzilla Minus Zero",
+      "year": 2026,
+      "slug": "godzilla-minus-zero",
+      "tmdb": "1381071",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/godzilla-minus-zero/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/6/6/6/8/4/1266684-godzilla-minus-zero-0-600-0-900-crop.jpg?v=38989be61d",
+      "logged": "2026-11-05T05:54:26.000Z",
+      "runtime": 135
+    },
+    {
+      "id": "letterboxd-review-1572726334",
+      "user": "tupapi_",
+      "date": "2026-11-04",
+      "title": "Rocky",
+      "year": 1976,
+      "slug": "rocky",
+      "tmdb": "1366",
+      "rewatch": true,
+      "rating": 3,
+      "link": "https://letterboxd.com/tupapi_/film/rocky/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/9/0/51090-rocky-0-600-0-900-crop.jpg?v=da48c9eb5a",
+      "logged": "2026-11-05T03:42:50.000Z",
+      "runtime": 120
+    },
     {
       "id": "letterboxd-review-1571682362",
       "user": "da_rayray",
