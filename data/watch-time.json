@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-09T01:56:51.927Z",
+  "updated": "2026-11-09T08:54:39.490Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-09T01:56:44.811Z"
+      "lastFetched": "2026-11-09T08:54:32.649Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-09T01:56:45.735Z"
+      "lastFetched": "2026-11-09T08:54:33.532Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-09T01:56:46.649Z"
+      "lastFetched": "2026-11-09T08:54:34.413Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-09T01:56:47.561Z"
+      "lastFetched": "2026-11-09T08:54:35.291Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-09T01:56:48.484Z"
+      "lastFetched": "2026-11-09T08:54:36.187Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-09T01:56:49.439Z"
+      "lastFetched": "2026-11-09T08:54:37.137Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-09T01:56:50.544Z"
+      "lastFetched": "2026-11-09T08:54:38.168Z"
     }
   ],
   "entries": [
@@ -52,6 +52,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/5/0/51450-harry-potter-and-the-goblet-of-fire-0-600-0-900-crop.jpg?v=6b5c9896c9",
       "logged": "2026-11-09T00:57:57.000Z",
       "runtime": 157
+    },
+    {
+      "id": "letterboxd-review-1578964264",
+      "user": "tupapi_",
+      "date": "2026-11-08",
+      "title": "Rocky II",
+      "year": 1979,
+      "slug": "rocky-ii",
+      "tmdb": "1367",
+      "rewatch": true,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/tupapi_/film/rocky-ii/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/0/8/9/51089-rocky-ii-0-600-0-900-crop.jpg?v=f7606f9060",
+      "logged": "2026-11-09T04:35:40.000Z",
+      "runtime": 119
     },
     {
       "id": "letterboxd-review-1575741879",
@@ -2372,7 +2387,7 @@
       "slug": "ghost-in-the-shell",
       "tmdb": "9323",
       "rewatch": true,
-      "rating": 4,
+      "rating": 4.5,
       "link": "https://letterboxd.com/mr_n00dl3s/film/ghost-in-the-shell/",
       "poster": "https://a.ltrbxd.com/resized/film-poster/4/7/2/7/0/47270-ghost-in-the-shell-0-600-0-900-crop.jpg?v=c837d80ee1",
       "runtime": 83,
