@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-08T07:40:49.052Z",
+  "updated": "2026-11-09T01:56:51.927Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-08T07:40:41.894Z"
+      "lastFetched": "2026-11-09T01:56:44.811Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-08T07:40:42.816Z"
+      "lastFetched": "2026-11-09T01:56:45.735Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-08T07:40:43.729Z"
+      "lastFetched": "2026-11-09T01:56:46.649Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-08T07:40:44.641Z"
+      "lastFetched": "2026-11-09T01:56:47.561Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-08T07:40:45.568Z"
+      "lastFetched": "2026-11-09T01:56:48.484Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-08T07:40:46.540Z"
+      "lastFetched": "2026-11-09T01:56:49.439Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-08T07:40:47.678Z"
+      "lastFetched": "2026-11-09T01:56:50.544Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1578676417",
+      "user": "raulypa",
+      "date": "2026-11-08",
+      "title": "Harry Potter and the Goblet of Fire",
+      "year": 2005,
+      "slug": "harry-potter-and-the-goblet-of-fire",
+      "tmdb": "674",
+      "rewatch": true,
+      "rating": 5,
+      "link": "https://letterboxd.com/raulypa/film/harry-potter-and-the-goblet-of-fire/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/5/0/51450-harry-potter-and-the-goblet-of-fire-0-600-0-900-crop.jpg?v=6b5c9896c9",
+      "logged": "2026-11-09T00:57:57.000Z",
+      "runtime": 157
+    },
     {
       "id": "letterboxd-review-1575741879",
       "user": "mr_n00dl3s",
