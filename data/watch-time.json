@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-13T21:07:19.911Z",
+  "updated": "2026-11-14T07:41:22.273Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-13T21:07:12.848Z"
+      "lastFetched": "2026-11-14T07:41:15.417Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-13T21:07:13.759Z"
+      "lastFetched": "2026-11-14T07:41:16.294Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-13T21:07:14.677Z"
+      "lastFetched": "2026-11-14T07:41:17.169Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-13T21:07:15.578Z"
+      "lastFetched": "2026-11-14T07:41:18.046Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-13T21:07:16.505Z"
+      "lastFetched": "2026-11-14T07:41:18.943Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-13T21:07:17.479Z"
+      "lastFetched": "2026-11-14T07:41:19.863Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-13T21:07:18.571Z"
+      "lastFetched": "2026-11-14T07:41:20.953Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1585749438",
+      "user": "scottsak",
+      "date": "2026-11-13",
+      "title": "The Boxtrolls",
+      "year": 2014,
+      "slug": "the-boxtrolls",
+      "tmdb": "170687",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/scottsak/film/the-boxtrolls/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/5/4/8/5/125485-the-boxtrolls-0-600-0-900-crop.jpg?v=ff3615d6e8",
+      "logged": "2026-11-14T05:03:33.000Z",
+      "runtime": 97
+    },
     {
       "id": "letterboxd-review-1584881867",
       "user": "scottsak",
