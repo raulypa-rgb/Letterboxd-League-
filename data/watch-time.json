@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-14T07:41:22.273Z",
+  "updated": "2026-11-14T23:10:15.397Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-14T07:41:15.417Z"
+      "lastFetched": "2026-11-14T23:10:08.019Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-14T07:41:16.294Z"
+      "lastFetched": "2026-11-14T23:10:08.930Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-14T07:41:17.169Z"
+      "lastFetched": "2026-11-14T23:10:09.810Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-14T07:41:18.046Z"
+      "lastFetched": "2026-11-14T23:10:10.694Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-14T07:41:18.943Z"
+      "lastFetched": "2026-11-14T23:10:11.630Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-14T07:41:19.863Z"
+      "lastFetched": "2026-11-14T23:10:12.596Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-14T07:41:20.953Z"
+      "lastFetched": "2026-11-14T23:10:14.063Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1586636529",
+      "user": "tupapi_",
+      "date": "2026-11-14",
+      "title": "Rocky III",
+      "year": 1982,
+      "slug": "rocky-iii",
+      "tmdb": "1371",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/tupapi_/film/rocky-iii/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/bo/kj/30/pg/eX2RbfTV5figCysWEmC6ubmXIgm-0-600-0-900-crop.jpg?v=afc0f565f7",
+      "logged": "2026-11-14T20:19:22.000Z",
+      "runtime": 99
+    },
     {
       "id": "letterboxd-review-1585749438",
       "user": "scottsak",
