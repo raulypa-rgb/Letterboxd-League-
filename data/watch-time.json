@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-14T23:10:15.397Z",
+  "updated": "2026-11-15T02:37:06.671Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-14T23:10:08.019Z"
+      "lastFetched": "2026-11-15T02:37:00.020Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-14T23:10:08.930Z"
+      "lastFetched": "2026-11-15T02:37:01.003Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-14T23:10:09.810Z"
+      "lastFetched": "2026-11-15T02:37:01.889Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-14T23:10:10.694Z"
+      "lastFetched": "2026-11-15T02:37:02.782Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-14T23:10:11.630Z"
+      "lastFetched": "2026-11-15T02:37:03.737Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-14T23:10:12.596Z"
+      "lastFetched": "2026-11-15T02:37:04.742Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-14T23:10:14.063Z"
+      "lastFetched": "2026-11-15T02:37:05.861Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1587184351",
+      "user": "mr_n00dl3s",
+      "date": "2026-11-14",
+      "title": "Dune",
+      "year": 2021,
+      "slug": "dune-2021",
+      "tmdb": "438631",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/dune-2021/1/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-600-0-900-crop.jpg?v=49eed12751",
+      "logged": "2026-11-15T01:31:01.000Z",
+      "runtime": 155
+    },
     {
       "id": "letterboxd-review-1586636529",
       "user": "tupapi_",
@@ -52,6 +67,21 @@
       "poster": "https://a.ltrbxd.com/resized/sm/upload/bo/kj/30/pg/eX2RbfTV5figCysWEmC6ubmXIgm-0-600-0-900-crop.jpg?v=afc0f565f7",
       "logged": "2026-11-14T20:19:22.000Z",
       "runtime": 99
+    },
+    {
+      "id": "letterboxd-review-1587237428",
+      "user": "tupapi_",
+      "date": "2026-11-14",
+      "title": "Dune",
+      "year": 2021,
+      "slug": "dune-2021",
+      "tmdb": "438631",
+      "rewatch": true,
+      "rating": 4,
+      "link": "https://letterboxd.com/tupapi_/film/dune-2021/1/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-600-0-900-crop.jpg?v=49eed12751",
+      "logged": "2026-11-15T02:11:20.000Z",
+      "runtime": 155
     },
     {
       "id": "letterboxd-review-1585749438",
