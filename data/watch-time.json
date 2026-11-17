@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-15T09:51:31.768Z",
+  "updated": "2026-11-17T08:44:01.035Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-15T09:51:24.554Z"
+      "lastFetched": "2026-11-17T08:43:53.934Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-15T09:51:25.425Z"
+      "lastFetched": "2026-11-17T08:43:54.831Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-15T09:51:26.290Z"
+      "lastFetched": "2026-11-17T08:43:55.723Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-15T09:51:27.158Z"
+      "lastFetched": "2026-11-17T08:43:56.625Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-15T09:51:28.029Z"
+      "lastFetched": "2026-11-17T08:43:57.559Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-15T09:51:28.951Z"
+      "lastFetched": "2026-11-17T08:43:58.557Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-15T09:51:30.051Z"
+      "lastFetched": "2026-11-17T08:43:59.633Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1590612518",
+      "user": "mr_n00dl3s",
+      "date": "2026-11-16",
+      "title": "Dune: Part Two",
+      "year": 2024,
+      "slug": "dune-part-two",
+      "tmdb": "693134",
+      "rewatch": true,
+      "rating": 5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/dune-part-two/2/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/7/4/4/3/617443-dune-part-two-0-600-0-900-crop.jpg?v=cc533700f8",
+      "logged": "2026-11-17T05:18:25.000Z",
+      "runtime": 167
+    },
+    {
+      "id": "letterboxd-review-1590385737",
+      "user": "kylie_sak",
+      "date": "2026-11-14",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "slug": "avengers-endgame",
+      "tmdb": "299534",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/kylie_sak/film/avengers-endgame/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/2/2/6/6/6/0/226660-avengers-endgame-0-600-0-900-crop.jpg?v=d4006bfd5e",
+      "logged": "2026-11-17T01:34:55.000Z",
+      "runtime": 181
+    },
     {
       "id": "letterboxd-review-1587184351",
       "user": "mr_n00dl3s",
