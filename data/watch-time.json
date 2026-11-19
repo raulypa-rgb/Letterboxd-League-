@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-18T22:58:46.560Z",
+  "updated": "2026-11-19T12:26:40.193Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-18T22:58:39.743Z"
+      "lastFetched": "2026-11-19T12:26:33.387Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-18T22:58:40.602Z"
+      "lastFetched": "2026-11-19T12:26:34.259Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-18T22:58:41.459Z"
+      "lastFetched": "2026-11-19T12:26:35.127Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-18T22:58:42.323Z"
+      "lastFetched": "2026-11-19T12:26:36.001Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-18T22:58:43.204Z"
+      "lastFetched": "2026-11-19T12:26:36.883Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-18T22:58:44.096Z"
+      "lastFetched": "2026-11-19T12:26:37.810Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-18T22:58:45.136Z"
+      "lastFetched": "2026-11-19T12:26:38.939Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1593216400",
+      "user": "scottsak",
+      "date": "2026-11-19",
+      "title": "The Deer Hunter",
+      "year": 1978,
+      "slug": "the-deer-hunter",
+      "tmdb": "11778",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/scottsak/film/the-deer-hunter/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/16/v3/46/iu/slNJESItHPqp1CENEJQUPw8d7WE-0-600-0-900-crop.jpg?v=55162bb367",
+      "logged": "2026-11-19T08:00:52.000Z",
+      "runtime": 183
+    },
+    {
+      "id": "letterboxd-review-1593177699",
+      "user": "scottsak",
+      "date": "2026-11-18",
+      "title": "You Can See Everything",
+      "year": 2026,
+      "slug": "you-can-see-everything",
+      "tmdb": "1765072",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/you-can-see-everything/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/6/2/9/4/4/3/1629443-you-can-see-everything-0-600-0-900-crop.jpg?v=84f6724d74",
+      "logged": "2026-11-19T06:46:34.000Z",
+      "runtime": 175
+    },
     {
       "id": "letterboxd-review-1592555024",
       "user": "tupapi_",
