@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-21T19:38:55.254Z",
+  "updated": "2026-11-22T03:46:47.938Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-21T19:38:48.592Z"
+      "lastFetched": "2026-11-22T03:46:41.643Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-21T19:38:49.503Z"
+      "lastFetched": "2026-11-22T03:46:42.516Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-21T19:38:50.413Z"
+      "lastFetched": "2026-11-22T03:46:43.386Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-21T19:38:51.336Z"
+      "lastFetched": "2026-11-22T03:46:44.253Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-21T19:38:52.269Z"
+      "lastFetched": "2026-11-22T03:46:45.131Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-21T19:38:53.237Z"
+      "lastFetched": "2026-11-22T03:46:46.055Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-21T19:38:54.445Z"
+      "lastFetched": "2026-11-22T03:46:47.128Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1597055697",
+      "user": "mr_n00dl3s",
+      "date": "2026-11-21",
+      "title": "The Invite",
+      "year": 2026,
+      "slug": "the-invite-2026",
+      "tmdb": "950028",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/the-invite-2026/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/3/1/854831-the-invite-2026-0-600-0-900-crop.jpg?v=ee72905e48",
+      "logged": "2026-11-22T00:25:46.000Z",
+      "runtime": 107
+    },
     {
       "id": "letterboxd-review-1596504570",
       "user": "scottsak",
