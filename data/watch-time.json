@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-23T07:38:59.741Z",
+  "updated": "2026-11-23T19:27:58.697Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-23T07:38:52.899Z"
+      "lastFetched": "2026-11-23T19:27:51.415Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-23T07:38:53.783Z"
+      "lastFetched": "2026-11-23T19:27:52.313Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-23T07:38:54.669Z"
+      "lastFetched": "2026-11-23T19:27:53.211Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-23T07:38:55.560Z"
+      "lastFetched": "2026-11-23T19:27:54.120Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-23T07:38:56.460Z"
+      "lastFetched": "2026-11-23T19:27:55.074Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-23T07:38:57.388Z"
+      "lastFetched": "2026-11-23T19:27:56.042Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-23T07:38:58.467Z"
+      "lastFetched": "2026-11-23T19:27:57.184Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1599540344",
+      "user": "kylie_sak",
+      "date": "2026-11-23",
+      "title": "Remarkably Bright Creatures",
+      "year": 2026,
+      "slug": "remarkably-bright-creatures",
+      "tmdb": "1330021",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/kylie_sak/film/remarkably-bright-creatures/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/1/5/3/7/0/1215370-remarkably-bright-creatures-0-600-0-900-crop.jpg?v=32466d1508",
+      "logged": "2026-11-23T12:20:40.000Z",
+      "runtime": 114
+    },
+    {
+      "id": "letterboxd-review-1599818614",
+      "user": "raulypa",
+      "date": "2026-11-23",
+      "title": "The Hunger Games",
+      "year": 2012,
+      "slug": "the-hunger-games",
+      "tmdb": "70160",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/raulypa/film/the-hunger-games/1/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/x3/tw/wu/z4/vAkjFEm76Lu5hSevquxPgQ91OtI-0-600-0-900-crop.jpg?v=f4bfaf16df",
+      "logged": "2026-11-23T17:57:17.000Z",
+      "runtime": 142
+    },
     {
       "id": "letterboxd-review-1599119078",
       "user": "mr_n00dl3s",
