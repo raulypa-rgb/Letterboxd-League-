@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-22T12:00:26.490Z",
+  "updated": "2026-11-23T07:38:59.741Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-22T12:00:19.103Z"
+      "lastFetched": "2026-11-23T07:38:52.899Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-22T12:00:19.977Z"
+      "lastFetched": "2026-11-23T07:38:53.783Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-22T12:00:20.844Z"
+      "lastFetched": "2026-11-23T07:38:54.669Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-22T12:00:21.712Z"
+      "lastFetched": "2026-11-23T07:38:55.560Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-22T12:00:22.609Z"
+      "lastFetched": "2026-11-23T07:38:56.460Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-22T12:00:23.543Z"
+      "lastFetched": "2026-11-23T07:38:57.388Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-22T12:00:24.613Z"
+      "lastFetched": "2026-11-23T07:38:58.467Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1599119078",
+      "user": "mr_n00dl3s",
+      "date": "2026-11-22",
+      "title": "Wild Horse Nine",
+      "year": 2026,
+      "slug": "wild-horse-nine",
+      "tmdb": "891621",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/mr_n00dl3s/film/wild-horse-nine/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/8/0/2/6/3/2/802632-wild-horse-nine-0-600-0-900-crop.jpg?v=eade7a541c",
+      "logged": "2026-11-23T03:21:32.000Z",
+      "runtime": 117
+    },
     {
       "id": "letterboxd-review-1597055697",
       "user": "mr_n00dl3s",
