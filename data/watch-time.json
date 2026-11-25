@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-24T14:59:30.969Z",
+  "updated": "2026-11-25T05:41:34.307Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-24T14:59:24.610Z"
+      "lastFetched": "2026-11-25T05:41:26.786Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-24T14:59:25.491Z"
+      "lastFetched": "2026-11-25T05:41:27.692Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-24T14:59:26.376Z"
+      "lastFetched": "2026-11-25T05:41:28.586Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-24T14:59:27.266Z"
+      "lastFetched": "2026-11-25T05:41:29.486Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-24T14:59:28.165Z"
+      "lastFetched": "2026-11-25T05:41:30.403Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-24T14:59:29.098Z"
+      "lastFetched": "2026-11-25T05:41:31.343Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-24T14:59:30.159Z"
+      "lastFetched": "2026-11-25T05:41:32.445Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1601944957",
+      "user": "scottsak",
+      "date": "2026-11-24",
+      "title": "Juno",
+      "year": 2007,
+      "slug": "juno",
+      "tmdb": "7326",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/scottsak/film/juno/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/4/8/0/5/1/48051-juno-0-600-0-900-crop.jpg?v=19ad3fb7e5",
+      "logged": "2026-11-25T05:33:42.000Z",
+      "runtime": 96
+    },
+    {
+      "id": "letterboxd-review-1601838555",
+      "user": "scottsak",
+      "date": "2026-11-24",
+      "title": "Kubo and the Two Strings",
+      "year": 2016,
+      "slug": "kubo-and-the-two-strings",
+      "tmdb": "313297",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/scottsak/film/kubo-and-the-two-strings/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/2/4/0/0/6/8/240068-kubo-and-the-two-strings-0-600-0-900-crop.jpg?v=0ff2eecb8b",
+      "logged": "2026-11-25T03:42:25.000Z",
+      "runtime": 102
+    },
     {
       "id": "letterboxd-review-1599540344",
       "user": "kylie_sak",
@@ -97,6 +127,21 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/8/0/2/6/3/2/802632-wild-horse-nine-0-600-0-900-crop.jpg?v=eade7a541c",
       "logged": "2026-11-23T03:21:32.000Z",
       "runtime": 117
+    },
+    {
+      "id": "letterboxd-review-1601669852",
+      "user": "scottsak",
+      "date": "2026-11-22",
+      "title": "The Thing",
+      "year": 1982,
+      "slug": "the-thing",
+      "tmdb": "1091",
+      "rewatch": false,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/scottsak/film/the-thing/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/t3/qn/vs/p5/s5fH3GqFcHbi2F0NSBSh4KRNTc0-0-600-0-900-crop.jpg?v=01880125bb",
+      "logged": "2026-11-25T00:56:17.000Z",
+      "runtime": 109
     },
     {
       "id": "letterboxd-review-1597055697",
