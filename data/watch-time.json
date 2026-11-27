@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-26T18:21:40.004Z",
+  "updated": "2026-11-27T10:10:10.549Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-26T18:21:32.949Z"
+      "lastFetched": "2026-11-27T10:10:03.741Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-26T18:21:33.875Z"
+      "lastFetched": "2026-11-27T10:10:04.641Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-26T18:21:34.798Z"
+      "lastFetched": "2026-11-27T10:10:05.553Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-26T18:21:35.714Z"
+      "lastFetched": "2026-11-27T10:10:06.455Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-26T18:21:36.653Z"
+      "lastFetched": "2026-11-27T10:10:07.533Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-26T18:21:37.634Z"
+      "lastFetched": "2026-11-27T10:10:08.499Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-26T18:21:38.696Z"
+      "lastFetched": "2026-11-27T10:10:09.739Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1604606179",
+      "user": "tupapi_",
+      "date": "2026-11-26",
+      "title": "The Hunger Games",
+      "year": 2012,
+      "slug": "the-hunger-games",
+      "tmdb": "70160",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/tupapi_/film/the-hunger-games/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/x3/tw/wu/z4/vAkjFEm76Lu5hSevquxPgQ91OtI-0-600-0-900-crop.jpg?v=f4bfaf16df",
+      "logged": "2026-11-27T05:52:04.000Z",
+      "runtime": 142
+    },
     {
       "id": "letterboxd-review-1603491955",
       "user": "mr_n00dl3s",
