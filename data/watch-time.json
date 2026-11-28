@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-27T10:10:10.549Z",
+  "updated": "2026-11-28T02:04:08.819Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-27T10:10:03.741Z"
+      "lastFetched": "2026-11-28T02:04:02.445Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-27T10:10:04.641Z"
+      "lastFetched": "2026-11-28T02:04:03.323Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-27T10:10:05.553Z"
+      "lastFetched": "2026-11-28T02:04:04.205Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-27T10:10:06.455Z"
+      "lastFetched": "2026-11-28T02:04:05.084Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-27T10:10:07.533Z"
+      "lastFetched": "2026-11-28T02:04:05.986Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-27T10:10:08.499Z"
+      "lastFetched": "2026-11-28T02:04:06.907Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-27T10:10:09.739Z"
+      "lastFetched": "2026-11-28T02:04:08.010Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1605725534",
+      "user": "raulypa",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "year": 2023,
+      "slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "tmdb": "695721",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/raulypa/film/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/9/5/1/0/619510-the-hunger-games-the-ballad-of-songbirds-snakes-0-600-0-900-crop.jpg?v=180f24b89f",
+      "logged": "2026-11-28T01:49:17.000Z",
+      "runtime": 157
+    },
     {
       "id": "letterboxd-review-1604606179",
       "user": "tupapi_",
