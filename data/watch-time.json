@@ -1,43 +1,73 @@
 {
-  "updated": "2026-11-28T10:11:16.628Z",
+  "updated": "2026-11-28T18:13:44.806Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-28T10:11:10.358Z"
+      "lastFetched": "2026-11-28T18:13:37.765Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-28T10:11:11.225Z"
+      "lastFetched": "2026-11-28T18:13:38.674Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-28T10:11:12.095Z"
+      "lastFetched": "2026-11-28T18:13:39.584Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-28T10:11:12.959Z"
+      "lastFetched": "2026-11-28T18:13:40.495Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-28T10:11:13.830Z"
+      "lastFetched": "2026-11-28T18:13:41.416Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-28T10:11:14.748Z"
+      "lastFetched": "2026-11-28T18:13:42.384Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-28T10:11:15.818Z"
+      "lastFetched": "2026-11-28T18:13:43.516Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1606648221",
+      "user": "raulypa",
+      "date": "2026-11-28",
+      "title": "Heat",
+      "year": 1995,
+      "slug": "heat-1995",
+      "tmdb": "949",
+      "rewatch": true,
+      "rating": 5,
+      "link": "https://letterboxd.com/raulypa/film/heat-1995/1/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/9/9/4/51994-heat-0-600-0-900-crop.jpg?v=54dce97dc6",
+      "logged": "2026-11-28T17:50:16.000Z",
+      "runtime": 170
+    },
+    {
+      "id": "letterboxd-review-1606439782",
+      "user": "skinklevro",
+      "date": "2026-11-28",
+      "title": "Focker In-Law",
+      "year": 2026,
+      "slug": "focker-in-law",
+      "tmdb": "1400336",
+      "rewatch": false,
+      "rating": 3,
+      "link": "https://letterboxd.com/skinklevro/film/focker-in-law/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/3/6/9/1/1283691-focker-in-law-0-600-0-900-crop.jpg?v=a6a9003b74",
+      "logged": "2026-11-28T14:42:27.000Z",
+      "runtime": 105
+    },
     {
       "id": "letterboxd-review-1606213077",
       "user": "kylie_sak",
