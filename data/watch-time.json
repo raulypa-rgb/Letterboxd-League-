@@ -1,43 +1,58 @@
 {
-  "updated": "2026-11-28T02:04:08.819Z",
+  "updated": "2026-11-28T10:11:16.628Z",
   "members": [
     {
       "username": "raulypa",
       "name": "raulypa",
-      "lastFetched": "2026-11-28T02:04:02.445Z"
+      "lastFetched": "2026-11-28T10:11:10.358Z"
     },
     {
       "username": "da_rayray",
       "name": "da_rayray",
-      "lastFetched": "2026-11-28T02:04:03.323Z"
+      "lastFetched": "2026-11-28T10:11:11.225Z"
     },
     {
       "username": "tupapi_",
       "name": "tupapi_",
-      "lastFetched": "2026-11-28T02:04:04.205Z"
+      "lastFetched": "2026-11-28T10:11:12.095Z"
     },
     {
       "username": "kylie_sak",
       "name": "ky",
-      "lastFetched": "2026-11-28T02:04:05.084Z"
+      "lastFetched": "2026-11-28T10:11:12.959Z"
     },
     {
       "username": "skinklevro",
       "name": "skinklevro",
-      "lastFetched": "2026-11-28T02:04:05.986Z"
+      "lastFetched": "2026-11-28T10:11:13.830Z"
     },
     {
       "username": "scottsak",
       "name": "scottsak",
-      "lastFetched": "2026-11-28T02:04:06.907Z"
+      "lastFetched": "2026-11-28T10:11:14.748Z"
     },
     {
       "username": "mr_n00dl3s",
       "name": "mr_n00dl3s",
-      "lastFetched": "2026-11-28T02:04:08.010Z"
+      "lastFetched": "2026-11-28T10:11:15.818Z"
     }
   ],
   "entries": [
+    {
+      "id": "letterboxd-review-1606213077",
+      "user": "kylie_sak",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "tmdb": "1300968",
+      "rewatch": false,
+      "rating": 3.5,
+      "link": "https://letterboxd.com/kylie_sak/film/the-hunger-games-sunrise-on-the-reaping/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/8/2/6/9/2/1182692-the-hunger-games-sunrise-on-the-reaping-0-600-0-900-crop.jpg?v=91001efc76",
+      "logged": "2026-11-28T09:48:15.000Z",
+      "runtime": 159
+    },
     {
       "id": "letterboxd-review-1605725534",
       "user": "raulypa",
@@ -52,6 +67,36 @@
       "poster": "https://a.ltrbxd.com/resized/film-poster/6/1/9/5/1/0/619510-the-hunger-games-the-ballad-of-songbirds-snakes-0-600-0-900-crop.jpg?v=180f24b89f",
       "logged": "2026-11-28T01:49:17.000Z",
       "runtime": 157
+    },
+    {
+      "id": "letterboxd-review-1605967606",
+      "user": "raulypa",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Catching Fire",
+      "year": 2013,
+      "slug": "the-hunger-games-catching-fire",
+      "tmdb": "101299",
+      "rewatch": true,
+      "rating": 4.5,
+      "link": "https://letterboxd.com/raulypa/film/the-hunger-games-catching-fire/1/",
+      "poster": "https://a.ltrbxd.com/resized/sm/upload/0a/6m/bl/rt/esWEsDI83IYqUBGSN69hb4A1Vfu-0-600-0-900-crop.jpg?v=a9ecd05d8f",
+      "logged": "2026-11-28T04:55:28.000Z",
+      "runtime": 146
+    },
+    {
+      "id": "letterboxd-review-1606152652",
+      "user": "scottsak",
+      "date": "2026-11-27",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "tmdb": "1300968",
+      "rewatch": false,
+      "rating": 4,
+      "link": "https://letterboxd.com/scottsak/film/the-hunger-games-sunrise-on-the-reaping/",
+      "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/8/2/6/9/2/1182692-the-hunger-games-sunrise-on-the-reaping-0-600-0-900-crop.jpg?v=91001efc76",
+      "logged": "2026-11-28T08:17:28.000Z",
+      "runtime": 159
     },
     {
       "id": "letterboxd-review-1604606179",
